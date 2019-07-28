@@ -1,66 +1,21 @@
 {
   "shipCode": "AL",
   "sailDate": "20190721",
-  "environment": "CLOUD_PROD",
+  "environment": "SHIP_TEST",
   "environmentType": {
     "test": {
       "appKey": "uRcH2X5cFekAbqLQvAvCmkld7DUnMQJW",
       "solrIndex": "live_collection",
       "folderPath": "test/middleware/commerce"
-    },
-    "stage": {
-      "appKey": "iIMvBmeFVyOTtakaWaVse6KQrVhg9dgp",
-      "solrIndex": "live_collection",
-      "folderPath": "stage/middleware/commerce"
-    },
-    "prod": {
-      "appKey": "cdCNc04srNq4rBvKofw1aC50dsdSaPuc",
-      "solrIndex": "live_collection",
-      "folderPath": "prod/middleware/commerce"
     }
   },
   "environments": {
-    "CLOUD_TEST": {
-      "serviceURL": "https://tst1-int.api.rccl.com/",
-      "solrHost": "tst2.mesos.rccl.com",
-      "dispatcherURL": "http://tst2.mesos.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "test",
-      "mesosMaster": "10.16.4.247"
-    },
-    "SHIP_TEST1": {
+    "SHIP_TEST": {
       "serviceURL": "https://shiptst1-int.api.rccl.com/",
       "solrHost": "shiptst1.mesos.rccl.com",
       "dispatcherURL": "http://shiptst1.mesos.rccl.com/aem-dispatcher/content/excalibur/ships",
       "environmentType": "test",
       "mesosMaster": "10.135.105.151"
-    },
-    "SHIP_TEST2": {
-      "serviceURL": "https://shiptst2-int.api.rccl.com/",
-      "solrHost": "shiptst2.mesos.rccl.com",
-      "dispatcherURL": "http://shiptst2.mesos.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "test",
-      "mesosMaster": "10.196.105.151"
-    },
-    "CLOUD_STAGE": {
-      "serviceURL": "https://stg1-int.api.rccl.com/",
-      "solrHost": "stg1.mesos.rccl.com",
-      "dispatcherURL": "http://stg1.mesos.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "stage",
-      "mesosMaster": "10.17.131.168"
-    },
-    "SHIP_STAGE": {
-      "serviceURL": "https://shipstg1-int.api.rccl.com/",
-      "solrHost": "shipstg1.mesos.rccl.com",
-      "dispatcherURL": "http://shipstg1.mesos.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "stage",
-      "mesosMaster": "10.137.105.151"
-    },
-    "CLOUD_PROD": {
-      "serviceURL": "https://prd-int.api.rccl.com/",
-      "solrHost": "prd.mesos.rccl.com",
-      "dispatcherURL": "https://rcldigital.aem.rccl.com/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.17.121.6"
     },
     "AL": {
       "serviceURL": "https://int-api.allure.sh.rccl.com/",
@@ -68,174 +23,6 @@
       "dispatcherURL": "http://mesos.allure.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
       "environmentType": "prod",
       "mesosMaster": "10.154.105.151"
-    },
-    "OA": {
-      "serviceURL": "https://int-api.oasis.sh.rccl.com/",
-      "solrHost": "mesos.oasis.sh.rccl.com",
-      "dispatcherURL": "http://mesos.oasis.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.150.105.151"
-    },
-    "EQ": {
-      "serviceURL": "https://int-api.equinox.sh.rccl.com/",
-      "solrHost": "mesos.equinox.sh.rccl.com",
-      "dispatcherURL": "http://mesos.equinox.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.149.105.151"
-    },
-    "MJ": {
-      "serviceURL": "https://int-api.majesty.sh.rccl.com/",
-      "solrHost": "mesos.majesty.sh.rccl.com",
-      "dispatcherURL": "http://mesos.majesty.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.107.105.151"
-    },
-    "BR": {
-      "serviceURL": "https://int-api.brilliance.sh.rccl.com/",
-      "solrHost": "mesos.brilliance.sh.rccl.com",
-      "dispatcherURL": "http://mesos.brilliance.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.127.105.151"
-    },
-    "SY": {
-      "serviceURL": "https://int-api.symphony.sh.rccl.com/",
-      "solrHost": "mesos.symphony.sh.rccl.com",
-      "dispatcherURL": "http://mesos.symphony.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.165.105.151"
-    },
-    "MA": {
-      "serviceURL": "https://int-api.mariner.sh.rccl.com/",
-      "solrHost": "mesos.mariner.sh.rccl.com",
-      "dispatcherURL": "http://mesos.mariner.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.132.105.151"
-    },
-    "ID": {
-      "serviceURL": "https://int-api.independence.sh.rccl.com/",
-      "solrHost": "mesos.independence.sh.rccl.com",
-      "dispatcherURL": "http://mesos.independence.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.147.105.151"
-    },
-    "SR": {
-      "serviceURL": "https://int-api.serenade.sh.rccl.com/",
-      "solrHost": "mesos.serenade.sh.rccl.com",
-      "dispatcherURL": "http://mesos.serenade.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.130.105.151"
-    },
-    "AD": {
-      "serviceURL": "https://int-api.adventure.sh.rccl.com/",
-      "solrHost": "mesos.adventure.sh.rccl.com",
-      "dispatcherURL": "http://mesos.adventure.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.126.105.151"
-    },
-    "PR": {
-      "serviceURL": "https://int-api.pursuit.sh.rccl.com/",
-      "solrHost": "mesos.pursuit.sh.rccl.com",
-      "dispatcherURL": "http://mesos.pursuit.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.157.105.151"
-    },
-    "EG": {
-      "serviceURL": "https://int-api.edge.sh.rccl.com/",
-      "solrHost": "mesos.edge.sh.rccl.com",
-      "dispatcherURL": "http://mesos.edge.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.166.105.151"
-    },
-    "LB": {
-      "serviceURL": "https://int-api.liberty.sh.rccl.com/",
-      "solrHost": "mesos.liberty.sh.rccl.com",
-      "dispatcherURL": "http://mesos.liberty.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.146.105.151"
-    },
-    "VI": {
-      "serviceURL": "https://int-api.vision.sh.rccl.com/",
-      "solrHost": "mesos.vision.sh.rccl.com",
-      "dispatcherURL": "http://mesos.vision.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.119.105.151"
-    },
-    "SM": {
-      "serviceURL": "https://int-api.summit.sh.rccl.com/",
-      "solrHost": "mesos.summit.sh.rccl.com",
-      "dispatcherURL": "http://mesos.summit.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.141.105.151"
-    },
-    "ML": {
-      "serviceURL": "https://int-api.millennium.sh.rccl.com/",
-      "solrHost": "mesos.millennium.sh.rccl.com",
-      "dispatcherURL": "http://mesos.millennium.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.139.105.151"
-    },
-    "NV": {
-      "serviceURL": "https://int-api.navigator.sh.rccl.com/",
-      "solrHost": "mesos.navigator.sh.rccl.com",
-      "dispatcherURL": "http://mesos.navigator.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.128.105.151"
-    },
-    "CS": {
-      "serviceURL": "https://int-api.constellation.sh.rccl.com/",
-      "solrHost": "mesos.constellation.sh.rccl.com",
-      "dispatcherURL": "http://mesos.constellation.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.142.105.151"
-    },
-    "RF": {
-      "serviceURL": "https://int-api.reflection.sh.rccl.com/",
-      "solrHost": "mesos.reflection.sh.rccl.com",
-      "dispatcherURL": "http://mesos.reflection.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.156.105.151"
-    },
-    "HM": {
-      "serviceURL": "https://int-api.harmony.sh.rccl.com/",
-      "solrHost": "mesos.harmony.sh.rccl.com",
-      "dispatcherURL": "http://mesos.harmony.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.164.105.151"
-    },
-    "QN": {
-      "serviceURL": "https://int-api.quantum.sh.rccl.com/",
-      "solrHost": "mesos.quantum.sh.rccl.com",
-      "dispatcherURL": "http://mesos.quantum.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.159.105.151"
-    },
-    "SC": {
-      "serviceURL": "https://int-api.spectrum.sh.rccl.com/",
-      "solrHost": "mesos.spectrum.sh.rccl.com",
-      "dispatcherURL": "http://mesos.spectrum.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.168.105.151"
-    },
-    "EN": {
-      "serviceURL": "https://int-api.enchantment.sh.rccl.com/",
-      "solrHost": "mesos.enchantment.sh.rccl.com",
-      "dispatcherURL": "http://mesos.enchantment.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.117.105.151"
-    },
-    "AN": {
-      "serviceURL": "https://int-api.anthem.sh.rccl.com/",
-      "solrHost": "mesos.anthem.sh.rccl.com",
-      "dispatcherURL": "http://mesos.anthem.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.162.105.151"
-    },
-    "OV": {
-      "serviceURL": "https://int-api.ovation.sh.rccl.com/",
-      "solrHost": "mesos.ovation.sh.rccl.com",
-      "dispatcherURL": "http://mesos.ovation.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
-      "environmentType": "prod",
-      "mesosMaster": "10.163.105.151"
     }
   }
 }
