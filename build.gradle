@@ -1,0 +1,64 @@
+import java.text.SimpleDateFormat
+
+plugins {
+    id 'java'
+    id 'io.franzbecker.gradle-lombok' version '2.1'
+}
+
+group 'WebServicesAutomation'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven { url "https://dev1.mesos.rccl.com/nexus/repository/ncp-release" }
+    maven { url "https://dev1.mesos.rccl.com/nexus/repository/maven-public" }
+    maven { url "https://dev1.mesos.rccl.com/nexus/repository/maven-central" }
+    maven { url "https://dev1.mesos.rccl.com/nexus/repository/confluent.io" }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation("org.junit.jupiter:junit-jupiter:${junit_jupiter_version}")
+    implementation("org.junit.jupiter:junit-jupiter-params:${junit_jupiter_params_version}")
+    implementation("org.junit.jupiter:junit-jupiter-api:${junit_jupiter_api_version}")
+    implementation("org.junit.jupiter:junit-jupiter-engine:${junit_jupiter_engine_version}")
+    compile "org.springframework:spring-core:${spring_core_version}"
+    compile "org.springframework:spring-context:${spring_context_version}"
+    compile "org.springframework:spring-test:${spring_test_version}"
+    compile "org.springframework.boot:spring-boot-starter-webflux:${spring_webflux_version}"
+    // Json parsing api
+    compile "com.google.code.gson:gson:${gson_version}"
+    // rest api test api
+    compile "org.apache.solr:solr-solrj:${solrj_version}"
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        showStandardStreams = true
+        events "passed", "skipped", "failed"
+    }
+    systemProperties System.getProperties()
+}
+
+
+println """
+Welcome to Gradle $gradle.gradleVersion - http://www.gradle.org
+Gradle home is set to: $gradle.gradleHomeDir
+Gradle user directory is set to: $gradle.gradleUserHomeDir
+
+Base directory: $projectDir
+Running script ${relativePath(buildFile)}
+"""
+println "has property: ${project.gradle.hasProperty('gradleVersion')}"
+
+gradle.ext.timestamp = {
+    def df = new SimpleDateFormat("yyyy-MM-dd'T' HH:mm:ss'Z'")
+    df.setTimeZone(TimeZone.getTimeZone("GMT-4"))
+    return df.format(new Date())
+}
+
+println "init.gradle --> This is executed during the initialization phase - timestamp @ ${gradle.timestamp()}"
+
