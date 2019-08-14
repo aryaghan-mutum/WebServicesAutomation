@@ -1,0 +1,28 @@
+{
+  "shipCode": "AL",
+  "sailDate": "20190721",
+  "environment": "SHIP_TEST",
+  "environmentType": {
+    "test": {
+      "appKey": "uRcH2X5cFekAbqLQvAvCmkld7DUnMQJW",
+      "solrIndex": "live_collection",
+      "folderPath": "test/middleware/commerce"
+    }
+  },
+  "environments": {
+    "SHIP_TEST": {
+      "serviceURL": "https://shiptst1-int.api.rccl.com/",
+      "solrHost": "shiptst1.mesos.rccl.com",
+      "dispatcherURL": "http://shiptst1.mesos.rccl.com/aem-dispatcher/content/excalibur/ships",
+      "environmentType": "test",
+      "mesosMaster": "10.135.105.151"
+    },
+    "AL": {
+      "serviceURL": "https://int-api.allure.sh.rccl.com/",
+      "solrHost": "mesos.allure.sh.rccl.com",
+      "dispatcherURL": "http://mesos.allure.sh.rccl.com/aem-dispatcher/content/excalibur/ships",
+      "environmentType": "prod",
+      "mesosMaster": "10.154.105.151"
+    }
+  }
+}
