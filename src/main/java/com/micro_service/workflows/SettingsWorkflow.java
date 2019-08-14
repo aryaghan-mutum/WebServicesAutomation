@@ -3,16 +3,16 @@ package com.micro_service.workflows;
 
 import java.io.InputStream;
 
-public class SettingsManager {
+public class SettingsWorkflow {
     
     private static final String JSON_PATH = "/settings.json";
     
     public static Settings loadConfig() {
-        InputStream inputStream = SettingsManager.class.getResourceAsStream(JSON_PATH);
+        InputStream inputStream = SettingsWorkflow.class.getResourceAsStream(JSON_PATH);
     //    JsonParser parser = new JsonParser();
     //    JsonElement root = parser.parse(new InputStreamReader(inputStream));
     //    JsonObject rootObj = root.getAsJsonObject();
-        Settings contour = new Settings();
+        Settings settings = new Settings();
 
      //   contour.setJson(rootObj);
 
@@ -22,6 +22,6 @@ public class SettingsManager {
 
       //  setupEnvironment(config);
 
-        return contour;
+        return settings;
     }
 }

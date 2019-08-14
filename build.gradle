@@ -30,8 +30,6 @@ dependencies {
     compile "org.springframework.boot:spring-boot-starter-webflux:${spring_webflux_version}"
     // Json parsing api
     compile "com.google.code.gson:gson:${gson_version}"
-    // rest api test api
-    compile "org.apache.solr:solr-solrj:${solrj_version}"
 }
 
 test {

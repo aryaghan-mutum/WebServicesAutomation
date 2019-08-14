@@ -1,7 +1,7 @@
 package base;
 
 import com.micro_service.workflows.Settings;
-import com.micro_service.workflows.SettingsManager;
+import com.micro_service.workflows.SettingsWorkflow;
 import com.micro_service.workflows.Util;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -14,7 +14,7 @@ public class SuperClass {
     
     @BeforeAll
     public static void beforeAllTests() {
-        contour = SettingsManager.loadConfig();
+        contour = SettingsWorkflow.loadConfig();
       
         try {
             Util.initResponsesFolder();
