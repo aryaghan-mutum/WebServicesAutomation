@@ -31,7 +31,9 @@
                "William A. Fraker"
             ],
             "distributedBy":[
-               "Paramount Pictures"
+               {
+                "distributor1": "Paramount Pictures"
+               }
             ],
             "productionCompany":[],
             "genres":[
@@ -73,7 +75,9 @@
                "The Saul Zaentz Company"
             ],
             "distributedBy":[
-               "Orion Pictures"
+              {
+               "distributor1": "Orion Pictures"
+              }
             ],
             "genres":[
                "drama and horror"
@@ -117,8 +121,10 @@
                "Mike Zoss Productions"
             ],
             "distributedBy":[
-               "Miramax Films",
-               "Paramount Vantage"
+             {
+               "distributor1": "Miramax Films",
+               "distributor2": "Paramount Vantage"
+             }
             ],
             "genres":[
                "new western crime thriller"
