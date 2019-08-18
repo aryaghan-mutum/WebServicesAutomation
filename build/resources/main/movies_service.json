@@ -1,0 +1,135 @@
+{
+   "payload":{
+      "about":{
+         "payloadDescription":"The payload contains a list of movies",
+         "totalMovies":"10"
+      },
+      "movies":[
+         {
+            "title":"Rosemary's Baby",
+            "yearReleased":1968,
+            "runningTime":136,
+            "basedOn":"Rosemary's Baby by Ira Levin",
+            "language":"english",
+            "cast":[
+               "Mia Farrow",
+               "John Cassavetes",
+               "Ruth Gordon",
+               "Sidney Blackmer",
+               "Maurice Evans",
+               "Ralph Bellamy"
+            ],
+            "director":[
+               "Roman Polanski"
+            ],
+            "producer":[
+               "William Castle"
+            ],
+            "musicDirector":[
+               "Krzysztof Komeda"
+            ],
+            "cinematography":[
+               "William A. Fraker"
+            ],
+            "distributedBy":[
+               "Paramount Pictures"
+            ],
+            "productionCompany":[
+
+            ],
+            "genres":[
+               "psychological horror"
+            ],
+            "cost":{
+               "budget":"$3.2 million",
+               "boxOffice":"$33.4 million"
+            }
+         },
+         {
+            "title":"Amadeus",
+            "yearReleased":1984,
+            "runningTime":161,
+            "basedOn":"Amadeus by Peter Shaffer",
+            "language":"english",
+            "cast":[
+               "F. Murray Abraham",
+               "Tom Hulce",
+               "Elizabeth Berridge",
+               "Simon Callow",
+               "Roy Dotrice",
+               "Christine Ebersole",
+               "Jeffrey Jones",
+               "Charles Kay"
+            ],
+            "director":[
+               "Miloš Forman"
+            ],
+            "producer":[
+               "Saul Zaentz"
+            ],
+            "musicDirector":[
+               "Wolfgang Amadeus Mozart",
+               "Antonio Salieri"
+            ],
+            "cinematography":[
+               "Miroslav Ondříček"
+            ],
+            "productionCompany":[
+               "The Saul Zaentz Company"
+            ],
+            "distributedBy":[
+               "Orion Pictures"
+            ],
+            "genres":[
+               "american period drama"
+            ],
+            "cost":{
+               "budget":null,
+               "boxOffice":"gnfj"
+            }
+         },
+         {
+            "title":"No Country for Old Men",
+            "yearReleased":2007,
+            "runningTime":122,
+            "basedOn":"No Country for Old Men by Cormac McCarthy",
+            "language":"english",
+            "cast":[
+               "Tommy Lee Jones",
+               "Javier Bardem",
+               "Josh Brolin"
+            ],
+            "director":[
+               "Joel Coen",
+               "Ethan Coen"
+            ],
+            "producer":[
+               "Scott Rudin",
+               "Ethan Coen",
+               "Joel Coen"
+            ],
+            "musicDirector":[
+               "Carter Burwell"
+            ],
+            "cinematography":[
+               "Roger Deakins"
+            ],
+            "productionCompany":[
+               "Scott Rudin Productions",
+               "Mike Zoss Productions"
+            ],
+            "distributedBy":[
+               "Miramax Films",
+               "Paramount Vantage"
+            ],
+            "genres":[
+               "new western crime thriller"
+            ],
+            "cost":{
+               "budget":"25 million",
+               "boxOffice":"171.6 million"
+            }
+         }
+      ]
+   }
+}
