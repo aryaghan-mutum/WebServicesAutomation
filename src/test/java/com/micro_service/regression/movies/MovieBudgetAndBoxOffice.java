@@ -14,7 +14,7 @@ import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveMoviesServ
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 
-public class MovieCost extends SuperClass {
+public class MovieBudgetAndBoxOffice extends SuperClass {
     
     /**
      * Test budget and boxOffice of the movies
