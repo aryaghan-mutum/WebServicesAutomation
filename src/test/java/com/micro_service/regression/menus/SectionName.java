@@ -53,7 +53,7 @@ public class SectionName extends SuperClass {
     @Test
     public void findMenuSectionNameIsNullProcedure2() throws FileNotFoundException {
         
-        AtomicBoolean bFailed = new AtomicBoolean(false);
+        AtomicBoolean isSectionNameNull = new AtomicBoolean(false);
         
         getJsonStream(retrieveMenuServiceDoc(), "payload.menus")
                 .forEach(menuID -> {
@@ -66,11 +66,11 @@ public class SectionName extends SuperClass {
                             .count();
                     
                     if (sectionNameCount > 0) {
-                        bFailed.set(true);
+                        isSectionNameNull.set(true);
                     }
                 });
         
-        if (bFailed.get()) {
+        if (isSectionNameNull.get()) {
             Assertions.fail();
         }
     }
