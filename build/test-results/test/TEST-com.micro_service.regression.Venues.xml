@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.micro_service.regression.Venues" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-08-14T01:01:36" hostname="Users-MacBook-Pro.local" time="135.463">
-  <properties/>
-  <testcase name="hello()" classname="com.micro_service.regression.Venues" time="135.463">
-    <skipped/>
-  </testcase>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

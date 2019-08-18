@@ -2,19 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonWorkflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/menu_service.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/menus/MenuName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/menus/SectionName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/SettingsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/SettingsWorkflow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/SuperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/SuperClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/Venues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.micro_service.regression.Venues.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.micro_service.regression.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/test_service.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.micro_service.regression.Venues.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonWorkflow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test_service.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/Venues.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,54 +54,80 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test_service.json">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/resources/menu_service.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="41" />
+              <folding>
+                <element signature="e#147#261#0" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/SettingsWorkflow.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonWorkflow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="825">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/fb62e18caf6a7a78547930020e6eb4315f550438/junit-platform-commons-1.4.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="630" selection-start-line="630" selection-end-line="630" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonWorkflow.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
+            <state relative-caret-position="60">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/Venues.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/menus/SectionName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="-63">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/menus/MenuName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+            <state relative-caret-position="-126">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -99,6 +144,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>junit_jupiter_version</find>
+      <find>jsonStream</find>
+      <find>menuKey</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,17 +161,24 @@
         <option value="$PROJECT_DIR$/src/test/java/base/SuperClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Settings.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/SettingsManager.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/settings.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/test_service.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/SettingsWorkflow.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/settings.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonServiceWorkflow.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/Venues.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonWorkflow.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/test_service.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/MenuName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/menu_service.json" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/menus/MenuName.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/menus/SectionName.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="130" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="115" />
     <option name="y" value="23" />
     <option name="width" value="1632" />
     <option name="height" value="1027" />
@@ -135,7 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,6 +268,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,11 +297,275 @@
               <item name="micro_service" type="462c0819:PsiDirectoryNode" />
               <item name="regression" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.8" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.8" type="70bed36:NamedLibraryElementNode" />
+              <item name="jackson-databind-2.9.8.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.8" type="70bed36:NamedLibraryElementNode" />
+              <item name="jackson-databind-2.9.8.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.8" type="70bed36:NamedLibraryElementNode" />
+              <item name="jackson-databind-2.9.8.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fasterxml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.8" type="70bed36:NamedLibraryElementNode" />
+              <item name="jackson-databind-2.9.8.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fasterxml" type="462c0819:PsiDirectoryNode" />
+              <item name="jackson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.8" type="70bed36:NamedLibraryElementNode" />
+              <item name="jackson-databind-2.9.8.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fasterxml" type="462c0819:PsiDirectoryNode" />
+              <item name="jackson" type="462c0819:PsiDirectoryNode" />
+              <item name="databind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.google.code.gson:gson:2.8.5" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.google.code.gson:gson:2.8.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="gson-2.8.5.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.google.code.gson:gson:2.8.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="gson-2.8.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.google.code.gson:gson:2.8.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="gson-2.8.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: com.google.code.gson:gson:2.8.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="gson-2.8.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="gson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.4.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-jupiter-engine-5.4.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-jupiter-engine-5.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-jupiter-engine-5.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-jupiter-engine-5.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="jupiter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-jupiter-engine-5.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="jupiter" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-jupiter-engine-5.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="jupiter" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="descriptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-webflux:5.1.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-webflux:5.1.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webflux-5.1.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-webflux:5.1.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webflux-5.1.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-webflux:5.1.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webflux-5.1.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-webflux:5.1.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webflux-5.1.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-webflux:5.1.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webflux-5.1.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="reactive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-webflux:5.1.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webflux-5.1.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="reactive" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-webflux:5.1.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webflux-5.1.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="reactive" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +601,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Venues.hello">
+  <component name="RunManager" selected="Gradle.SectionName.findMenuSectionNameIsNullProcedure1">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -288,12 +614,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Venues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MenuName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.Venues&quot; --stacktrace" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.menus.MenuName&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -308,12 +634,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Venues.hello" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MenuName.testMenuNameIsNullProcedure1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.Venues.hello&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.menus.MenuName.testMenuNameIsNullProcedure1&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -328,21 +654,64 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WebServicesAutomation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MenuName.testMenuNameIsNullProcedure2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.menus.MenuName.testMenuNameIsNullProcedure2&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
-          <list />
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SectionName.findMenuSectionNameIsNullProcedure1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.menus.SectionName.findMenuSectionNameIsNullProcedure1&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SectionName.findMenuSectionNameIsNullProcedure2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.menus.SectionName.findMenuSectionNameIsNullProcedure2&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -372,9 +741,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Venues.hello" />
-        <item itemvalue="Gradle.WebServicesAutomation" />
-        <item itemvalue="Gradle.Venues" />
+        <item itemvalue="Gradle.SectionName.findMenuSectionNameIsNullProcedure1" />
+        <item itemvalue="Gradle.SectionName.findMenuSectionNameIsNullProcedure2" />
+        <item itemvalue="Gradle.MenuName" />
+        <item itemvalue="Gradle.MenuName.testMenuNameIsNullProcedure2" />
+        <item itemvalue="Gradle.MenuName.testMenuNameIsNullProcedure1" />
       </list>
     </recent_temporary>
   </component>
@@ -403,36 +774,46 @@
       <option name="project" value="LOCAL" />
       <updated>1564275058973</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added JsonWorkflow and dependencies in gradle">
+      <created>1565745501587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565745501587</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Venues_hello - 2019.07.27 at 21h 50m 46s.xml">
-      <configuration name="Venues.hello" configurationId="GradleRunConfiguration" />
+    <history-entry file="SectionName_findMenuSectionNameIsNullProcedure1 - 2019.08.18 at 11h 34m 13s.xml">
+      <configuration name="SectionName.findMenuSectionNameIsNullProcedure1" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Venues - 2019.07.27 at 21h 50m 51s.xml">
-      <configuration name="Venues" configurationId="GradleRunConfiguration" />
+    <history-entry file="SectionName_findMenuSectionNameIsNullProcedure1 - 2019.08.18 at 11h 34m 21s.xml">
+      <configuration name="SectionName.findMenuSectionNameIsNullProcedure1" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Venues - 2019.07.27 at 21h 51m 12s.xml">
-      <configuration name="Venues" configurationId="GradleRunConfiguration" />
+    <history-entry file="SectionName_findMenuSectionNameIsNullProcedure1 - 2019.08.18 at 11h 39m 16s.xml">
+      <configuration name="SectionName.findMenuSectionNameIsNullProcedure1" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Venues - 2019.07.27 at 21h 51m 38s.xml">
-      <configuration name="Venues" configurationId="GradleRunConfiguration" />
+    <history-entry file="SectionName_findMenuSectionNameIsNullProcedure1 - 2019.08.18 at 11h 40m 42s.xml">
+      <configuration name="SectionName.findMenuSectionNameIsNullProcedure1" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Venues - 2019.07.27 at 21h 51m 51s.xml">
-      <configuration name="Venues" configurationId="GradleRunConfiguration" />
+    <history-entry file="SectionName_findMenuSectionNameIsNullProcedure1 - 2019.08.18 at 11h 41m 25s.xml">
+      <configuration name="SectionName.findMenuSectionNameIsNullProcedure1" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Venues_hello - 2019.08.13 at 21h 00m 01s.xml">
-      <configuration name="Venues.hello" configurationId="GradleRunConfiguration" />
+    <history-entry file="SectionName_findMenuSectionNameIsNullProcedure1 - 2019.08.18 at 11h 41m 35s.xml">
+      <configuration name="SectionName.findMenuSectionNameIsNullProcedure1" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Venues_hello - 2019.08.13 at 21h 00m 18s.xml">
-      <configuration name="Venues.hello" configurationId="GradleRunConfiguration" />
+    <history-entry file="SectionName_findMenuSectionNameIsNullProcedure1 - 2019.08.18 at 11h 42m 30s.xml">
+      <configuration name="SectionName.findMenuSectionNameIsNullProcedure1" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Venues_hello - 2019.08.13 at 21h 01m 24s.xml">
-      <configuration name="Venues.hello" configurationId="GradleRunConfiguration" />
+    <history-entry file="SectionName_findMenuSectionNameIsNullProcedure2 - 2019.08.18 at 11h 42m 38s.xml">
+      <configuration name="SectionName.findMenuSectionNameIsNullProcedure2" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Venues_hello - 2019.08.13 at 21h 03m 52s.xml">
-      <configuration name="Venues.hello" configurationId="GradleRunConfiguration" />
+    <history-entry file="SectionName_findMenuSectionNameIsNullProcedure1 - 2019.08.18 at 11h 42m 57s.xml">
+      <configuration name="SectionName.findMenuSectionNameIsNullProcedure1" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SectionName_findMenuSectionNameIsNullProcedure1 - 2019.08.18 at 11h 43m 26s.xml">
+      <configuration name="SectionName.findMenuSectionNameIsNullProcedure1" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -445,10 +826,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="23" width="1632" height="1027" extended-state="0" />
-    <editor active="true" />
+    <frame x="48" y="23" width="1632" height="1027" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21320754" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25283018" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -456,16 +836,17 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5219298" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.34539473" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22807017" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3256579" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27192983" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23135965" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32894737" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.29276314" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -479,35 +860,59 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes made in settings.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes made in settings.json" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/base/SuperClass.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="added JsonWorkflow and dependencies in gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="added JsonWorkflow and dependencies in gradle" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>String x = &quot;sdsfds&quot;;
-if(x == &quot;sdsfds&quot;) {
-    System.out.println(&quot;dffds&quot;);
-}</expression-string>
+        <expression-string>getJsonStream(menu, &quot;menuSections&quot;)
+        .map(menuSections -&gt; getJsonString(menuSections, &quot;sectionName&quot;))
+        .forEach(System.out::println);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>String x = &quot;sdsfds&quot;;
-if(x.equals(&quot;sdsfds&quot;)) {
-    System.out.println(&quot;dffds&quot;);
-}</expression-string>
+        <expression-string>getJsonStream(menu, &quot;menuSections&quot;)
+        .map(menuSections -&gt; getJsonString(menuSections, &quot;sectionName&quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getJsonStream(menu, &quot;menuSections&quot;)
+                    .map(menuSections -&gt; getJsonString(menuSections, &quot;sectionName&quot;)) == null;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>return getJsonStream(menu, &quot;menuSections&quot;)
+                    .map(menuSections -&gt; getJsonString(menuSections, &quot;sectionName&quot;)) == null;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getJsonStream(menuSection, &quot;menuSections&quot;)
+        .map(menuSection -&gt; getJsonString(menuSection, &quot;sectionName&quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getJsonStream(menuSection, &quot;menuSections&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getJsonString(menuSection, &quot;menuSections.sectionName&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getJsonString(menuSection, &quot;sectionName&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getJsonString(menuSection, &quot;sectionName&quot;) == null;</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -520,22 +925,8 @@ if(x.equals(&quot;sdsfds&quot;)) {
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/SuperClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/settings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -554,20 +945,6 @@ if(x.equals(&quot;sdsfds&quot;)) {
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/SettingsWorkflow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -575,20 +952,113 @@ if(x.equals(&quot;sdsfds&quot;)) {
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test_service.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/Venues.java">
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state>
+          <caret selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/SuperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.1/a40b620a07542172d2e5a4515a525d81b46a250f/junit-jupiter-engine-5.4.1-sources.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonServiceWorkflow.java" />
+    <entry file="file://$PROJECT_DIR$/test_service.json" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.8/f66792d499a6fea6c7a743558f940e0ebf775ce3/jackson-databind-2.9.8-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45945">
+          <caret line="3066" column="17" selection-start-line="3066" selection-start-column="17" selection-end-line="3066" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webflux/5.1.7.RELEASE/d2bc1518c76efb2b89eb579121726a51de4a7103/spring-webflux-5.1.7.RELEASE-sources.jar!/org/springframework/web/reactive/function/client/WebClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/JsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/fb62e18caf6a7a78547930020e6eb4315f550438/junit-platform-commons-1.4.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="630" selection-start-line="630" selection-end-line="630" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/menu_service.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="e#147#261#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/menus/MenuName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/menus/SectionName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonWorkflow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
+        <state relative-caret-position="825">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
