@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.micro_service.regression.movies.TR" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-08-18T19:36:25" hostname="Users-MacBook-Pro.local" time="190.548">
-  <properties/>
-  <testcase name="validateTicketRemarks()" classname="com.micro_service.regression.movies.TR" time="190.548">
-    <skipped/>
-  </testcase>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

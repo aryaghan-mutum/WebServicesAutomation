@@ -10,7 +10,9 @@
             "yearReleased":1968,
             "runningTime":136,
             "basedOn":"Rosemary's Baby by Ira Levin",
-            "language":"english",
+           "movieLanguage": {
+            "language":"english"
+           },
             "cast":[
              {
                "actor1": "Mia Farrow",
@@ -50,7 +52,9 @@
             "yearReleased":1984,
             "runningTime":161,
             "basedOn":"Amadeus by Peter Shaffer",
-            "language":"english",
+            "movieLanguage": {
+             "language":"english"
+            },
             "cast":[
               {
                "actor1": "F. Murray Abraham",
@@ -93,7 +97,9 @@
             "yearReleased":2007,
             "runningTime":122,
             "basedOn":"No Country for Old Men by Cormac McCarthy",
-            "language":"english",
+            "movieLanguage": {
+             "language":"english"
+            },
             "cast":[
                {
                "actor1": "Tommy Lee Jones",
