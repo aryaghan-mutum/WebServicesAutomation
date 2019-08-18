@@ -22,12 +22,12 @@ public class TestLanguageIsNullForAMovie extends SuperClass {
     @Test
     public void findLanguageIsNullProcedure1() throws FileNotFoundException {
         
-        boolean isMenuNameNullFound = getJsonStream(retrieveMoviesServiceDoc(), "payload.movies")
+        boolean isLanguageNullFound = getJsonStream(retrieveMoviesServiceDoc(), "payload.movies")
                 .filter(this::isLanguageNullForProcedure1)
                 .findAny()
                 .isPresent();
         
-        if (isMenuNameNullFound) {
+        if (isLanguageNullFound) {
             Assertions.fail();
         }
     }

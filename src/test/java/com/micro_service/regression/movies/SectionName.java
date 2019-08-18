@@ -1,14 +1,13 @@
-package com.micro_service.regression.menus;
+package com.micro_service.regression.movies;
 
 import base.SuperClass;
 import com.google.gson.JsonElement;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
 import java.io.FileNotFoundException;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveMenuServiceDoc;
+import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 import static com.micro_service.workflows.JsonWorkflow.isUndefined;
@@ -29,13 +28,13 @@ public class SectionName extends SuperClass {
     @Test
     public void findMenuSectionNameIsNullProcedure1() throws FileNotFoundException {
         
-        boolean isSectionNameNullFound = getJsonStream(retrieveMenuServiceDoc(), "payload.menus")
-                .flatMap(menuID -> getJsonStream(menuID, "menu.menuSections"))
-                .filter(this::isMenuSectionNameNull)
+        boolean areAllActorsNullFound = getJsonStream(retrieveMoviesServiceDoc(), "payload.movies")
+                .flatMap(menuID -> getJsonStream(menuID, "cast"))
+                .filter(this::areAllActorsNull)
                 .findAny()
                 .isPresent();
         
-        if (isSectionNameNullFound) {
+        if (areAllActorsNullFound) {
             Assertions.fail();
         }
     }
@@ -53,29 +52,32 @@ public class SectionName extends SuperClass {
     @Test
     public void findMenuSectionNameIsNullProcedure2() throws FileNotFoundException {
         
-        AtomicBoolean isSectionNameNull = new AtomicBoolean(false);
+        AtomicBoolean areActorsNull = new AtomicBoolean(false);
         
-        getJsonStream(retrieveMenuServiceDoc(), "payload.menus")
+        getJsonStream(retrieveMoviesServiceDoc(), "payload.movies")
                 .forEach(menuID -> {
                     
-                    long sectionNameCount = getJsonStream(menuID, "menu.menuSections")
-                            .filter(this::isMenuSectionNameNull)
-                            .peek(menuSection -> log("sectionName is: %s for menuName: %s",
-                                    getJsonString(menuSection, "sectionName"),
-                                    getJsonString(menuID, "menu.menuName")))
+                    long actorsCount = getJsonStream(menuID, "cast")
+                            .filter(this::areAllActorsNull)
+                            .peek(menuSection -> log("All actors are null for title: %s", getJsonString(menuID, "title")))
                             .count();
                     
-                    if (sectionNameCount > 0) {
-                        isSectionNameNull.set(true);
+                    if (actorsCount > 0) {
+                        areActorsNull.set(true);
                     }
                 });
         
-        if (isSectionNameNull.get()) {
+        if (areActorsNull.get()) {
             Assertions.fail();
         }
     }
     
-    private boolean isMenuSectionNameNull(JsonElement menuSection) {
-        return isUndefined(menuSection, "sectionName") || getJsonString(menuSection, "sectionName") == null;
+    private boolean areAllActorsNull(JsonElement menuSection) {
+        return isUndefined(menuSection, "actor1") ||
+                getJsonString(menuSection, "actor1") == null &&
+                        isUndefined(menuSection, "actor2") ||
+                getJsonString(menuSection, "actor2") == null &&
+                        isUndefined(menuSection, "actor3") ||
+                getJsonString(menuSection, "actor3") == null;
     }
 }
