@@ -12,12 +12,11 @@
             "basedOn":"Rosemary's Baby by Ira Levin",
             "language":"english",
             "cast":[
-               "Mia Farrow",
-               "John Cassavetes",
-               "Ruth Gordon",
-               "Sidney Blackmer",
-               "Maurice Evans",
-               "Ralph Bellamy"
+             {
+               "actor1": "Mia Farrow",
+               "actor2": "John Cassavetes",
+               "actor3": "Ruth Gordon"
+             }
             ],
             "director":[
                "Roman Polanski"
@@ -34,15 +33,14 @@
             "distributedBy":[
                "Paramount Pictures"
             ],
-            "productionCompany":[
-
-            ],
+            "productionCompany":[],
             "genres":[
                "psychological horror"
             ],
             "cost":{
                "budget":"$3.2 million",
-               "boxOffice":"$33.4 million"
+               "boxOffice":"$33.4 million",
+               "boxOfficeInUS": "12 million"
             }
          },
          {
@@ -52,14 +50,11 @@
             "basedOn":"Amadeus by Peter Shaffer",
             "language":"english",
             "cast":[
-               "F. Murray Abraham",
-               "Tom Hulce",
-               "Elizabeth Berridge",
-               "Simon Callow",
-               "Roy Dotrice",
-               "Christine Ebersole",
-               "Jeffrey Jones",
-               "Charles Kay"
+              {
+               "actor1": "F. Murray Abraham",
+               "actor2": "Tom Hulce",
+               "actor3": "Elizabeth Berridge"
+             }
             ],
             "director":[
                "Miloš Forman"
@@ -81,11 +76,12 @@
                "Orion Pictures"
             ],
             "genres":[
-               "american period drama"
+               "drama and horror"
             ],
             "cost":{
                "budget":"$18 million",
-               "boxOffice":"$52 million"
+               "boxOffice":"$52 million",
+               "boxOfficeInUS": null
             }
          },
          {
@@ -95,9 +91,11 @@
             "basedOn":"No Country for Old Men by Cormac McCarthy",
             "language":"english",
             "cast":[
-               "Tommy Lee Jones",
-               "Javier Bardem",
-               "Josh Brolin"
+               {
+               "actor1": "Tommy Lee Jones",
+               "actor2": "Javier Bardem",
+               "actor3": "Josh Brolin"
+             }
             ],
             "director":[
                "Joel Coen",
@@ -127,7 +125,8 @@
             ],
             "cost":{
                "budget":"25 million",
-               "boxOffice":"171.6 million"
+               "boxOffice":"171.6 million",
+               "boxOfficeInUS": null
             }
          }
       ]

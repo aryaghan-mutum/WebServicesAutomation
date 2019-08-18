@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/movies_service.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/MovieCost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/ML.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/micro_service/workflows/ConstantsWorkflow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/micro_service/workflows/ConstantsWorkflow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/micro_service/workflows/JsonPayloadWorkflow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/micro_service/workflows/JsonPayloadWorkflow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/menus/MenuName.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/menus/MenuName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/menus/SectionName.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/menus/SectionName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.micro_service.regression.menus.SectionName.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.micro_service.regression.menus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.micro_service.regression.menus.SectionName.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.micro_service.regression.Location.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.micro_service.regression.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.micro_service.regression.Location.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/movies_service.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/movies_service.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -72,38 +52,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonWorkflow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/MovieCost.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            <state relative-caret-position="87">
+              <caret line="13" column="20" lean-forward="true" selection-end-line="135" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/fb62e18caf6a7a78547930020e6eb4315f550438/junit-platform-commons-1.4.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/MovieBudgetAndBoxOffice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="630" selection-start-line="630" selection-end-line="630" />
+            <state relative-caret-position="49">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/ML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -124,6 +95,8 @@
       <find>menuKey</find>
       <find>Krzysztof Komeda</find>
       <find>music</find>
+      <find>primar</find>
+      <find>boxOfficeInUS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,14 +130,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/Location.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/movies_service.json" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/MovieCost.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/MovieBudgetAndBoxOffice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/ML.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/movies_service.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="100" />
-    <option name="y" value="23" />
+    <option name="x" value="200" />
+    <option name="y" value="448" />
     <option name="width" value="1632" />
     <option name="height" value="1027" />
   </component>
@@ -414,7 +389,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Location.testCostFields">
+  <component name="RunManager" selected="Gradle.ML.validateMeetingLocation">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -467,12 +442,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MenuName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ML.validateMeetingLocation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.menus.MenuName&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.ML.validateMeetingLocation&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MovieBudgetAndBoxOffice" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.MovieBudgetAndBoxOffice&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -493,26 +488,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.menus.SectionName.findMenuSectionNameIsNullProcedure1&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SectionName.findMenuSectionNameIsNullProcedure2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.menus.SectionName.findMenuSectionNameIsNullProcedure2&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -554,11 +529,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ML.validateMeetingLocation" />
+        <item itemvalue="Gradle.MovieBudgetAndBoxOffice" />
         <item itemvalue="Gradle.Location.testCostFields" />
         <item itemvalue="Gradle.Location.validateLocationFields" />
         <item itemvalue="Gradle.SectionName.findMenuSectionNameIsNullProcedure1" />
-        <item itemvalue="Gradle.SectionName.findMenuSectionNameIsNullProcedure2" />
-        <item itemvalue="Gradle.MenuName" />
       </list>
     </recent_temporary>
   </component>
@@ -605,35 +580,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Location_testCostFields - 2019.08.18 at 14h 30m 23s.xml">
-      <configuration name="Location.testCostFields" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Location_testCostFields - 2019.08.18 at 14h 30m 24s.xml">
-      <configuration name="Location.testCostFields" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Location_testCostFields - 2019.08.18 at 14h 30m 40s.xml">
-      <configuration name="Location.testCostFields" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Location_testCostFields - 2019.08.18 at 14h 30m 51s.xml">
-      <configuration name="Location.testCostFields" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Location_testCostFields - 2019.08.18 at 14h 30m 55s.xml">
-      <configuration name="Location.testCostFields" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Location_testCostFields - 2019.08.18 at 14h 31m 05s.xml">
-      <configuration name="Location.testCostFields" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Location_testCostFields - 2019.08.18 at 14h 32m 45s.xml">
-      <configuration name="Location.testCostFields" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Location_testCostFields - 2019.08.18 at 14h 33m 10s.xml">
-      <configuration name="Location.testCostFields" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="Location_testCostFields - 2019.08.18 at 14h 33m 17s.xml">
       <configuration name="Location.testCostFields" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="Location_testCostFields - 2019.08.18 at 14h 33m 21s.xml">
       <configuration name="Location.testCostFields" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ML_validateMeetingLocation - 2019.08.18 at 14h 52m 10s.xml">
+      <configuration name="ML.validateMeetingLocation" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ML_validateMeetingLocation - 2019.08.18 at 14h 52m 16s.xml">
+      <configuration name="ML.validateMeetingLocation" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ML_validateMeetingLocation - 2019.08.18 at 14h 52m 45s.xml">
+      <configuration name="ML.validateMeetingLocation" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ML_validateMeetingLocation - 2019.08.18 at 14h 53m 23s.xml">
+      <configuration name="ML.validateMeetingLocation" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="MovieBudgetAndBoxOffice - 2019.08.18 at 15h 06m 31s.xml">
+      <configuration name="MovieBudgetAndBoxOffice" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="MovieBudgetAndBoxOffice - 2019.08.18 at 15h 06m 42s.xml">
+      <configuration name="MovieBudgetAndBoxOffice" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ML_validateMeetingLocation - 2019.08.18 at 15h 07m 03s.xml">
+      <configuration name="ML.validateMeetingLocation" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ML_validateMeetingLocation - 2019.08.18 at 15h 07m 25s.xml">
+      <configuration name="ML.validateMeetingLocation" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -646,7 +621,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="100" y="23" width="1632" height="1027" extended-state="0" />
+    <frame x="200" y="448" width="1632" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25283018" />
@@ -658,12 +633,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5427632" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43530703" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27631578" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38048247" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.032894738" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.114035085" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32894737" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.29276314" />
@@ -689,16 +664,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/MovieCost.java</url>
-          <line>39</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/ML.java</url>
+          <line>32</line>
           <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/MovieCost.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="26" />
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -706,49 +675,57 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>String budget = getJsonString(movie, &quot;cost.budget&quot;);</expression-string>
+        <expression-string>getJsonStream(movie, &quot;cast&quot;)
+        .map(m -&gt; getJsonString(m, &quot;Mia Farrow&quot;))
+        .forEach(System.out::println);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>String movieTitle = getJsonString(movie, &quot;title&quot;);</expression-string>
+        <expression-string>getJsonStream(movie, &quot;cast&quot;)
+        .map(m -&gt; getJsonString(m, &quot;Mia Farrow&quot;));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), &quot;payload&quot;)
-        .map(x -&gt; getJsonString(x, &quot;movies.title&quot;));</expression-string>
+        <expression-string>getJsonStream(movie, &quot;cast.Mia Farrow&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), &quot;payload&quot;)
-        .map(x -&gt; getJsonString(x, &quot;movies&quot;));</expression-string>
+        <expression-string>getJsonStream(movie, &quot;cast&quot;);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getJsonString(retrieveMoviesServiceDoc(), &quot;payload.movies&quot;);</expression-string>
+        <expression-string>getJsonString(movie, &quot;cast&quot;);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getJsonString(retrieveMoviesServiceDoc(), &quot;payload.about.payloadDescription&quot;);</expression-string>
+        <expression-string>getJsonStream(movie, &quot;cast.Mia Farrow&quot;)
+        .map(movies -&gt; getJsonString(movies, &quot;Mia Farrow&quot;))
+        .forEach(System.out::println);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getJsonString(retrieveMoviesServiceDoc(), &quot;payload.about.totalMovies&quot;);</expression-string>
+        <expression-string>getJsonStream(movie, &quot;cast&quot;)
+        .map(movies -&gt; getJsonString(movies, &quot;Mia Farrow&quot;))
+        .forEach(System.out::println);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getJsonString(retrieveMoviesServiceDoc(), &quot;payload.totalMovies&quot;);</expression-string>
+        <expression-string>getJsonStream(movie, &quot;payload.movies&quot;)
+        .map(movies -&gt; getJsonString(movies, &quot;title&quot;))
+        .forEach(System.out::println);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getJsonString(retrieveMoviesServiceDoc(), &quot;payload.about&quot;);</expression-string>
+        <expression-string>getJsonStream(movie, &quot;payload.movies&quot;)
+        .map(movies -&gt; getJsonString(movies, &quot;title&quot;));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -895,13 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/fb62e18caf6a7a78547930020e6eb4315f550438/junit-platform-commons-1.4.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="630" selection-start-line="630" selection-end-line="630" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/menu_service.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -912,17 +882,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/fb62e18caf6a7a78547930020e6eb4315f550438/junit-platform-commons-1.4.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="37" />
+        <state relative-caret-position="190">
+          <caret line="630" selection-start-line="630" selection-end-line="630" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/MovieCost.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/MovieBudgetAndBoxOffice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        <state relative-caret-position="49">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/ML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="13" column="20" lean-forward="true" selection-end-line="135" />
         </state>
       </provider>
     </entry>
