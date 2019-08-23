@@ -1,4 +1,4 @@
-package com.micro_service.regression;
+package com.micro_service.regression.movies;
 
 import base.SuperClass;
 import com.google.gson.JsonElement;
@@ -10,6 +10,10 @@ import java.io.FileNotFoundException;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.stream.Stream;
 
+import static com.micro_service.workflows.ConstantsWorkflow.BOX_OFFICE;
+import static com.micro_service.workflows.ConstantsWorkflow.BUDGET;
+import static com.micro_service.workflows.ConstantsWorkflow.MOVIES;
+import static com.micro_service.workflows.ConstantsWorkflow.TITLE;
 import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
@@ -24,15 +28,15 @@ public class TestMovieBudgetAndBoxOffice extends SuperClass {
     @Test
     public void testBudgetAndBoxOfficeAreNullOrEmptyForMovies() throws FileNotFoundException {
         
-        Stream<JsonElement> movies = getJsonStream(retrieveMoviesServiceDoc(), "payload.movies");
+        Stream<JsonElement> movies = getJsonStream(retrieveMoviesServiceDoc(), MOVIES);
         
         AtomicBoolean isCostFieldNull = new AtomicBoolean(false);
         
         movies.forEach(movie -> {
             
-            String movieTitle = getJsonString(movie, "title");
-            String budget = getJsonString(movie, "cost.budget");
-            String boxOffice = getJsonString(movie, "cost.boxOffice");
+            String movieTitle = getJsonString(movie, TITLE);
+            String budget = getJsonString(movie, BUDGET);
+            String boxOffice = getJsonString(movie, BOX_OFFICE);
             
             if (StringUtils.isBlank(budget) || StringUtils.isBlank(boxOffice)) {
                 
@@ -55,7 +59,6 @@ public class TestMovieBudgetAndBoxOffice extends SuperClass {
         });
         
         if (isCostFieldNull.get()) {
-            log("FAILED");
             Assertions.fail();
         }
     }

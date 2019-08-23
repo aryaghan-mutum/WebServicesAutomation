@@ -7,6 +7,9 @@ import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
 
+import static com.micro_service.workflows.ConstantsWorkflow.LANGUAGE;
+import static com.micro_service.workflows.ConstantsWorkflow.MOVIES;
+import static com.micro_service.workflows.ConstantsWorkflow.TITLE;
 import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
@@ -22,12 +25,11 @@ public class TestLanguageIsNullForAMovie extends SuperClass {
     @Test
     public void findLanguageIsNullProcedure1() throws FileNotFoundException {
         
-        boolean isLanguageNullFound = getJsonStream(retrieveMoviesServiceDoc(), "payload.movies")
+        boolean isLanguageNullFound = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
                 .filter(this::isLanguageNullForProcedure1)
-                .peek(movie -> log("language is null for title: %s", getJsonString(movie, "title")))
+                .peek(movie -> log("language is null for title: %s", getJsonString(movie, TITLE)))
                 .findAny()
                 .isPresent();
-        
         
         if (isLanguageNullFound) {
             Assertions.fail();
@@ -36,7 +38,7 @@ public class TestLanguageIsNullForAMovie extends SuperClass {
     
     private boolean isLanguageNullForProcedure1(JsonElement movie) {
         try {
-            return getJsonString(movie, "movieLanguage.language") == null;
+            return getJsonString(movie, LANGUAGE) == null;
         } catch (Exception ex) {
             log("jsonString method throws exception when the tag is not present, make sure that is also treated as null");
             return true;
@@ -51,9 +53,9 @@ public class TestLanguageIsNullForAMovie extends SuperClass {
     @Test
     public void findLanguageIsNullProcedure2() throws FileNotFoundException {
         
-        long languageCount = getJsonStream(retrieveMoviesServiceDoc(), "payload.movies")
+        long languageCount = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
                 .filter(this::isLanguageNullForProcedure2)
-                .peek(movie -> log("language is null for title: %s", getJsonString(movie, "title")))
+                .peek(movie -> log("language is null for title: %s", getJsonString(movie, TITLE)))
                 .count();
         
         if (languageCount > 0) {
@@ -62,8 +64,7 @@ public class TestLanguageIsNullForAMovie extends SuperClass {
     }
     
     private boolean isLanguageNullForProcedure2(JsonElement movie) {
-        return isUndefined(movie, "movieLanguage.language") || getJsonString(movie, "movieLanguage.language") == null;
+        return isUndefined(movie, LANGUAGE) || getJsonString(movie, LANGUAGE) == null;
     }
-    
     
 }

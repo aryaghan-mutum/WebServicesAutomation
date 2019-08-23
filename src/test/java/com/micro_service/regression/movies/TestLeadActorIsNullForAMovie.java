@@ -9,6 +9,11 @@ import java.io.FileNotFoundException;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.stream.Stream;
 
+import static com.micro_service.workflows.ConstantsWorkflow.ACTOR1;
+import static com.micro_service.workflows.ConstantsWorkflow.ACTOR3;
+import static com.micro_service.workflows.ConstantsWorkflow.CAST;
+import static com.micro_service.workflows.ConstantsWorkflow.MOVIES;
+import static com.micro_service.workflows.ConstantsWorkflow.TITLE;
 import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
@@ -24,16 +29,16 @@ public class TestLeadActorIsNullForAMovie extends SuperClass {
     @Test
     public void findActor1ThatHasNull() throws FileNotFoundException {
         
-        Stream<JsonElement> movies = getJsonStream(retrieveMoviesServiceDoc(), "payload.movies");
+        Stream<JsonElement> movies = getJsonStream(retrieveMoviesServiceDoc(), MOVIES);
         
         AtomicBoolean isActorNullFound = new AtomicBoolean(false);
         
         movies.forEach(movie -> {
             
-            String movieTitle = getJsonString(movie, "title");
+            String movieTitle = getJsonString(movie, TITLE);
             
-            long actor1Count = getJsonStream(movie, "cast")
-                    .filter(cast -> isActorNull(cast, "actor1"))
+            long actor1Count = getJsonStream(movie, CAST)
+                    .filter(cast -> isActorNull(cast, ACTOR1))
                     .peek(venue -> log("actor1 is null for movieTitle: %s", movieTitle))
                     .count();
             
@@ -55,20 +60,21 @@ public class TestLeadActorIsNullForAMovie extends SuperClass {
     @Test
     public void findActor3ThatHasNotNull() throws FileNotFoundException {
         
-        Stream<JsonElement> movies = getJsonStream(retrieveMoviesServiceDoc(), "payload.movies");
+        Stream<JsonElement> movies = getJsonStream(retrieveMoviesServiceDoc(), MOVIES);
         
         AtomicBoolean isActor3NotNullFound = new AtomicBoolean(false);
         
         movies.forEach(movie -> {
             
-            String movieTitle = getJsonString(movie, "title");
+            String movieTitle = getJsonString(movie, TITLE);
             
-            String actor3 = getJsonStream(movie, "cast")
-                    .map(cast -> getJsonString(cast, "actor3"))
-                    .reduce((a, b) -> a + "," + b).get();
+            String actor3 = getJsonStream(movie, CAST)
+                    .map(cast -> getJsonString(cast, ACTOR3))
+                    .reduce((a, b) -> a + "," + b)
+                    .get();
             
-            long actor3Count = getJsonStream(movie, "cast")
-                    .filter(cast -> !isActorNull(cast, "actor3"))
+            long actor3Count = getJsonStream(movie, CAST)
+                    .filter(cast -> !isActorNull(cast, ACTOR3))
                     .peek(venue -> log("actor3 is %s for movieTitle: %s", actor3, movieTitle))
                     .count();
             
@@ -80,8 +86,6 @@ public class TestLeadActorIsNullForAMovie extends SuperClass {
         if (isActor3NotNullFound.get()) {
             Assertions.fail();
         }
-        
-        
     }
     
     private boolean isActorNull(JsonElement offering, String actor) {
