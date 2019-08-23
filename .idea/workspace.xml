@@ -2,27 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/MovieBudgetAndBoxOffice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/menus/SectionName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/movies/TestDirectorNameIsNull.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/movies/TestLeadActorIsNull.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/menu_service.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/movies_service.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/movies_service.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/movies_service.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/movies_service.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,7 +35,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1590">
@@ -65,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="64" />
+            <state relative-caret-position="325">
+              <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -147,8 +126,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="357" />
-    <option name="y" value="70" />
+    <option name="x" value="237" />
+    <option name="y" value="23" />
     <option name="width" value="1356" />
     <option name="height" value="1027" />
   </component>
@@ -504,15 +483,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLeadActorIsNullForAMovie_testLeadActorIsNull - 2019.08.22 at 20h 30m 09s.xml">
-      <configuration name="TestLeadActorIsNullForAMovie.testLeadActorIsNull" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SectionName - 2019.08.22 at 20h 30m 25s.xml">
-      <configuration name="SectionName" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SectionName - 2019.08.22 at 20h 31m 37s.xml">
-      <configuration name="SectionName" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="TestLeadActorIsNullForAMovie_testLeadActorIsNull - 2019.08.22 at 20h 31m 45s.xml">
       <configuration name="TestLeadActorIsNullForAMovie.testLeadActorIsNull" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -534,6 +504,15 @@
     <history-entry file="TestLeadActorIsNullForAMovie_findActor3ThatHasNotNull - 2019.08.22 at 20h 45m 26s.xml">
       <configuration name="TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="TestLeadActorIsNullForAMovie_findActor3ThatHasNotNull - 2019.08.22 at 20h 54m 09s.xml">
+      <configuration name="TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLeadActorIsNullForAMovie_findActor3ThatHasNotNull - 2019.08.22 at 20h 54m 31s.xml">
+      <configuration name="TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLeadActorIsNullForAMovie_findActor3ThatHasNotNull - 2019.08.22 at 20h 54m 53s.xml">
+      <configuration name="TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -545,7 +524,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="357" y="70" width="1356" height="1027" extended-state="0" />
+    <frame x="237" y="23" width="1356" height="1027" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31354642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -556,12 +535,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22039473" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38048247" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5482456" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38048247" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.11322645" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1129386" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32894737" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.29276314" />
@@ -602,12 +581,6 @@
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java</url>
-          <line>59</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -615,7 +588,8 @@
     <expressions id="evaluateCodeFragment">
       <expression>
         <expression-string>getJsonStream(movie, &quot;cast&quot;)
-        .map(cast -&gt; getJsonString(cast, &quot;actor3&quot;));</expression-string>
+        .map(cast -&gt; getJsonString(cast, &quot;actor3&quot;))
+        .reduce((t, u) -&gt; t + u).get();</expression-string>
         <language-id>JAVA</language-id>
         <custom-info>java.util.stream.Collectors</custom-info>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
@@ -623,34 +597,16 @@
       <expression>
         <expression-string>getJsonStream(movie, &quot;cast&quot;)
         .map(cast -&gt; getJsonString(cast, &quot;actor3&quot;))
-        .collect(Collectors.toList());</expression-string>
+        .reduce((t, u) -&gt; t + &quot;,&quot; + u).get();</expression-string>
         <language-id>JAVA</language-id>
         <custom-info>java.util.stream.Collectors</custom-info>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
         <expression-string>getJsonStream(movie, &quot;cast&quot;)
-       // .map(cast -&gt; getJsonString(cast, &quot;actor3&quot;))
-        .limit(1)
-        .collect(Collectors.toList());</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.stream.Collectors</custom-info>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getJsonStream(movie, &quot;cast&quot;)
-       // .map(cast -&gt; getJsonString(cast, &quot;actor3&quot;))
-        .limit(0)
-        .collect(Collectors.toList());</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.stream.Collectors</custom-info>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getJsonStream(movie, &quot;cast&quot;)
-       // .map(cast -&gt; getJsonString(cast, &quot;actor3&quot;))
-        .limit(3)
-        .collect(Collectors.toList());</expression-string>
+        .map(cast -&gt; getJsonString(cast, &quot;actor1&quot;))
+       // .map(Object::toString)
+        .reduce((t, u) -&gt; t + &quot;,&quot; + u).get();</expression-string>
         <language-id>JAVA</language-id>
         <custom-info>java.util.stream.Collectors</custom-info>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
@@ -658,8 +614,17 @@
       <expression>
         <expression-string>getJsonStream(movie, &quot;cast&quot;)
         .map(cast -&gt; getJsonString(cast, &quot;actor3&quot;))
-        .limit(1)
-        .collect(Collectors.toList());</expression-string>
+       // .map(Object::toString)
+        .reduce((t, u) -&gt; t + &quot;,&quot; + u).get();</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.stream.Collectors</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getJsonStream(movie, &quot;cast&quot;)
+        .map(cast -&gt; getJsonString(cast, &quot;actor3&quot;))
+       // .map(Object::toString)
+        .collect(Collectors.joining(&quot;,&quot;));</expression-string>
         <language-id>JAVA</language-id>
         <custom-info>java.util.stream.Collectors</custom-info>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
@@ -667,29 +632,36 @@
       <expression>
         <expression-string>getJsonStream(movie, &quot;cast&quot;)
         .map(cast -&gt; getJsonString(cast, &quot;actor1&quot;))
-        .collect(Collectors.toList());</expression-string>
+        .map(Object::toString)
+        .collect(Collectors.joining(&quot;,&quot;));</expression-string>
         <language-id>JAVA</language-id>
         <custom-info>java.util.stream.Collectors</custom-info>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
         <expression-string>getJsonStream(movie, &quot;cast&quot;)
-        .map(cast -&gt; getJsonString(cast, &quot;actor1&quot;))
-        .forEach(System.out::println);</expression-string>
+        .map(cast -&gt; getJsonString(cast, &quot;actor3&quot;))
+        .map(Object::toString)
+        .collect(Collectors.joining(&quot;,&quot;));</expression-string>
         <language-id>JAVA</language-id>
+        <custom-info>java.util.stream.Collectors</custom-info>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
         <expression-string>getJsonStream(movie, &quot;cast&quot;)
-        .map(cast -&gt; getJsonString(cast, &quot;actor1&quot;))
-        .forEach(System.out::print);</expression-string>
+        .map(cast -&gt; getJsonString(cast, &quot;actor3&quot;))
+        .map(Object::toString)
+        .collect(Collectors.joining(&quot;,&quot;))</expression-string>
         <language-id>JAVA</language-id>
+        <custom-info>java.util.stream.Collectors</custom-info>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
         <expression-string>getJsonStream(movie, &quot;cast&quot;)
-        .map(cast -&gt; getJsonString(cast, &quot;actor1&quot;));</expression-string>
+        .map(cast -&gt; getJsonString(cast, &quot;actor3&quot;))
+        .map(Object::toString)</expression-string>
         <language-id>JAVA</language-id>
+        <custom-info>java.util.stream.Collectors</custom-info>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
@@ -846,17 +818,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1590">
           <caret line="106" column="29" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
         </state>
       </provider>
     </entry>

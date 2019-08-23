@@ -65,7 +65,7 @@ public class TestLeadActorIsNullForAMovie extends SuperClass {
             
             String actor3 = getJsonStream(movie, "cast")
                     .map(cast -> getJsonString(cast, "actor3"))
-                    .reduce((t, u) -> t + u).get();
+                    .reduce((a, b) -> a + "," + b).get();
             
             long actor3Count = getJsonStream(movie, "cast")
                     .filter(cast -> !isActorNull(cast, "actor3"))
