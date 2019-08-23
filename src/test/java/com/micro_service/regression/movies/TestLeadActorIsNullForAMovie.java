@@ -22,7 +22,7 @@ public class TestLeadActorIsNullForAMovie extends SuperClass {
      * and fails the test
      */
     @Test
-    public void testLeadActorIsNull() throws FileNotFoundException {
+    public void findActor1ThatHasNull() throws FileNotFoundException {
         
         Stream<JsonElement> movies = getJsonStream(retrieveMoviesServiceDoc(), "payload.movies");
         
@@ -32,12 +32,12 @@ public class TestLeadActorIsNullForAMovie extends SuperClass {
             
             String movieTitle = getJsonString(movie, "title");
             
-            long leadActorCount = getJsonStream(movie, "cast")
-                    .filter(this::isActor1Null)
+            long actor1Count = getJsonStream(movie, "cast")
+                    .filter(cast -> isActorNull(cast, "actor1"))
                     .peek(venue -> log("actor1 is null for movieTitle: %s", movieTitle))
                     .count();
             
-            if (leadActorCount > 0) {
+            if (actor1Count > 0) {
                 isActorNullFound.set(true);
             }
         });
@@ -47,7 +47,44 @@ public class TestLeadActorIsNullForAMovie extends SuperClass {
         }
     }
     
-    private boolean isActor1Null(JsonElement offering) {
-        return isUndefined(offering, "actor1") || getJsonString(offering, "actor1") == null;
+    /**
+     * The Test case checks if each actor2 under cast is not null in movies_service.json
+     * If they are not null, the test case logs a list of actor3 associated to the movie title
+     * and fails the test
+     */
+    @Test
+    public void findActor3ThatHasNotNull() throws FileNotFoundException {
+        
+        Stream<JsonElement> movies = getJsonStream(retrieveMoviesServiceDoc(), "payload.movies");
+        
+        AtomicBoolean isActor3NotNullFound = new AtomicBoolean(false);
+        
+        movies.forEach(movie -> {
+            
+            String movieTitle = getJsonString(movie, "title");
+            
+            String actor3 = getJsonStream(movie, "cast")
+                    .map(cast -> getJsonString(cast, "actor3"))
+                    .reduce((t, u) -> t + u).get();
+            
+            long actor3Count = getJsonStream(movie, "cast")
+                    .filter(cast -> !isActorNull(cast, "actor3"))
+                    .peek(venue -> log("actor3 is %s for movieTitle: %s", actor3, movieTitle))
+                    .count();
+            
+            if (actor3Count > 0) {
+                isActor3NotNullFound.set(true);
+            }
+        });
+        
+        if (isActor3NotNullFound.get()) {
+            Assertions.fail();
+        }
+        
+        
+    }
+    
+    private boolean isActorNull(JsonElement offering, String actor) {
+        return isUndefined(offering, actor) || getJsonString(offering, actor) == null;
     }
 }
