@@ -24,8 +24,10 @@ public class TestLanguageIsNullForAMovie extends SuperClass {
         
         boolean isLanguageNullFound = getJsonStream(retrieveMoviesServiceDoc(), "payload.movies")
                 .filter(this::isLanguageNullForProcedure1)
+                .peek(movie -> log("language is null for title: %s", getJsonString(movie, "title")))
                 .findAny()
                 .isPresent();
+        
         
         if (isLanguageNullFound) {
             Assertions.fail();
@@ -34,12 +36,9 @@ public class TestLanguageIsNullForAMovie extends SuperClass {
     
     private boolean isLanguageNullForProcedure1(JsonElement movie) {
         try {
-            log("language is null for title: %s", getJsonString(movie, "title"));
-            
             return getJsonString(movie, "movieLanguage.language") == null;
         } catch (Exception ex) {
             log("jsonString method throws exception when the tag is not present, make sure that is also treated as null");
-            
             return true;
         }
     }
