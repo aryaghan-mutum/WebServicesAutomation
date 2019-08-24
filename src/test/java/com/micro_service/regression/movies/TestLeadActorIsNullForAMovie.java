@@ -68,19 +68,25 @@ public class TestLeadActorIsNullForAMovie extends SuperClass {
             
             String movieTitle = getJsonString(movie, TITLE);
             
-            String actor3 = getJsonStream(movie, CAST)
-                    .map(cast -> getJsonString(cast, ACTOR3))
-                    .reduce((a, b) -> a + "," + b)
-                    .get();
-            
-            long actor3Count = getJsonStream(movie, CAST)
-                    .filter(cast -> !isActorNull(cast, ACTOR3))
-                    .peek(venue -> log("actor3 is %s for movieTitle: %s", actor3, movieTitle))
-                    .count();
-            
-            if (actor3Count > 0) {
-                isActor3NotNullFound.set(true);
+            try {
+                String actor3 = getJsonStream(movie, CAST)
+                        .map(cast -> getJsonString(cast, ACTOR3))
+                        .reduce((a, b) -> a + "," + b)
+                        .get();
+    
+                long actor3Count = getJsonStream(movie, CAST)
+                        .filter(cast -> !isActorNull(cast, ACTOR3))
+                        .peek(venue -> log("actor3 is %s for movieTitle: %s", actor3, movieTitle))
+                        .count();
+    
+    
+                if (actor3Count > 0) {
+                    isActor3NotNullFound.set(true);
+                }
+            }catch (Exception e) {
+                log("actor3 is null for movieTitle: %s", movieTitle);
             }
+            
         });
         
         if (isActor3NotNullFound.get()) {

@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.micro_service.regression.movies.TestMoviesReleasedLessThan40Years.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.micro_service.regression.movies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/movies_service.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/movies_service.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,74 +39,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="51" column="25" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="25" />
+            <state relative-caret-position="595">
+              <caret line="232" column="48" lean-forward="true" selection-start-line="232" selection-start-column="48" selection-end-line="232" selection-end-column="48" />
               <folding>
                 <element signature="e#156#1190#0" />
+                <element signature="e#1198#2285#0" />
+                <element signature="e#2293#3518#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="68" />
+            <state relative-caret-position="613">
+              <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="74" />
+            <state relative-caret-position="383">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40Years.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/fb62e18caf6a7a78547930020e6eb4315f550438/junit-platform-commons-1.4.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="627" selection-start-line="627" selection-end-line="627" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.1/a40b620a07542172d2e5a4515a525d81b46a250f/junit-jupiter-engine-5.4.1-sources.jar!/org/junit/jupiter/engine/execution/ExecutableInvoker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="116" selection-start-line="116" selection-end-line="116" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.1/a40b620a07542172d2e5a4515a525d81b46a250f/junit-jupiter-engine-5.4.1-sources.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="179" selection-start-line="179" selection-end-line="179" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.1/f18cc5b13af39852b804c8b284baf00bd860dd60/junit-platform-engine-1.4.1-sources.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="-127">
+              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -191,17 +150,17 @@
         <option value="$PROJECT_DIR$/src/test/java/base/SuperClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMovieBudgetAndBoxOffice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Settings.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/movies_service.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestYearReleased.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40YearUntilToday.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLanguageIsNullForAMovie.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/X.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40Years.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/movies_service.json" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java" />
       </list>
     </option>
   </component>
@@ -246,40 +205,6 @@
               <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="micro_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="micro_service" type="462c0819:PsiDirectoryNode" />
-              <item name="workflows" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -700,7 +625,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestMoviesReleasedAfter1980.get">
+  <component name="RunManager" selected="Gradle.TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -713,12 +638,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMoviesReleasedAfter1980" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestMoviesReleasedAfter1980&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -739,26 +664,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestMoviesReleasedAfter1980.get&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestMoviesReleasedAfter1980.getListOfMoviesReleasedAfter1980Procedure1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestMoviesReleasedAfter1980.getListOfMoviesReleasedAfter1980Procedure1&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -813,6 +718,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Tests in 'com.micro_service.regression.movies'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.*&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -840,11 +765,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" />
+        <item itemvalue="Gradle.Tests in 'com.micro_service.regression.movies'" />
         <item itemvalue="Gradle.TestMoviesReleasedAfter1980.get" />
         <item itemvalue="Gradle.TestMoviesReleasedAfter1980.getListOfMoviesReleasedYearsAfter1980" />
         <item itemvalue="Gradle.TestMoviesReleasedAfter1980.test" />
-        <item itemvalue="Gradle.TestMoviesReleasedAfter1980.getListOfMoviesReleasedAfter1980Procedure1" />
-        <item itemvalue="Gradle.TestMoviesReleasedAfter1980" />
       </list>
     </recent_temporary>
   </component>
@@ -891,27 +816,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMoviesReleasedAfter1980 - 2019.08.24 at 17h 32m 22s.xml">
-      <configuration name="TestMoviesReleasedAfter1980" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMoviesReleasedAfter1980 - 2019.08.24 at 17h 32m 27s.xml">
-      <configuration name="TestMoviesReleasedAfter1980" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMoviesReleasedAfter1980_getListOfMoviesReleasedAfter1980Procedure1 - 2019.08.24 at 17h 33m 29s.xml">
-      <configuration name="TestMoviesReleasedAfter1980.getListOfMoviesReleasedAfter1980Procedure1" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMoviesReleasedAfter1980_test - 2019.08.24 at 17h 41m 16s.xml">
-      <configuration name="TestMoviesReleasedAfter1980.test" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMoviesReleasedAfter1980_test - 2019.08.24 at 17h 41m 29s.xml">
-      <configuration name="TestMoviesReleasedAfter1980.test" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMoviesReleasedAfter1980_getListOfMoviesReleasedYearsAfter1980 - 2019.08.24 at 17h 41m 36s.xml">
-      <configuration name="TestMoviesReleasedAfter1980.getListOfMoviesReleasedYearsAfter1980" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMoviesReleasedAfter1980_getListOfMoviesReleasedYearsAfter1980 - 2019.08.24 at 17h 42m 03s.xml">
-      <configuration name="TestMoviesReleasedAfter1980.getListOfMoviesReleasedYearsAfter1980" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="TestMoviesReleasedAfter1980_getListOfMoviesReleasedYearsAfter1980 - 2019.08.24 at 17h 43m 51s.xml">
       <configuration name="TestMoviesReleasedAfter1980.getListOfMoviesReleasedYearsAfter1980" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -920,6 +824,27 @@
     </history-entry>
     <history-entry file="TestMoviesReleasedAfter1980_getListOfMoviesReleasedYearsAfter1980 - 2019.08.24 at 17h 50m 00s.xml">
       <configuration name="TestMoviesReleasedAfter1980.getListOfMoviesReleasedYearsAfter1980" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMoviesReleasedAfter1980_get - 2019.08.24 at 17h 56m 00s.xml">
+      <configuration name="TestMoviesReleasedAfter1980.get" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMoviesReleasedAfter1980_get - 2019.08.24 at 17h 56m 03s.xml">
+      <configuration name="TestMoviesReleasedAfter1980.get" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Tests_in_'com_micro_service_regression_movies' - 2019.08.24 at 18h 06m 14s.xml">
+      <configuration name="Tests in 'com.micro_service.regression.movies'" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLeadActorIsNullForAMovie_findActor3ThatHasNotNull - 2019.08.24 at 18h 06m 55s.xml">
+      <configuration name="TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLeadActorIsNullForAMovie_findActor3ThatHasNotNull - 2019.08.24 at 18h 07m 13s.xml">
+      <configuration name="TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLeadActorIsNullForAMovie_findActor3ThatHasNotNull - 2019.08.24 at 18h 08m 42s.xml">
+      <configuration name="TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLeadActorIsNullForAMovie_findActor3ThatHasNotNull - 2019.08.24 at 18h 09m 19s.xml">
+      <configuration name="TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -934,7 +859,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32661784" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21794872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -944,7 +869,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.21630093" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3155695" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.26541275" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.23719957" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
@@ -953,6 +878,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32894737" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.29276314" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32894737" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1032,13 +958,16 @@
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java</url>
-          <line>85</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java</url>
+          <line>86</line>
           <properties />
-          <option name="timeStamp" value="79" />
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WebServicesAutomation$TestMoviesReleasedAfter1980_get.ic" NAME="TestMoviesReleasedAfter1980.get Coverage Results" MODIFIED="1566683760860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1273,13 +1202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40Years.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -1322,23 +1244,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="51" column="25" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="25" />
-          <folding>
-            <element signature="e#156#1190#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40Years.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMovieBudgetAndBoxOffice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
@@ -1362,8 +1267,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="68" />
+        <state relative-caret-position="613">
+          <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="232" column="48" lean-forward="true" selection-start-line="232" selection-start-column="48" selection-end-line="232" selection-end-column="48" />
+          <folding>
+            <element signature="e#156#1190#0" />
+            <element signature="e#1198#2285#0" />
+            <element signature="e#2293#3518#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40Years.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="68" />
         </state>
       </provider>
     </entry>

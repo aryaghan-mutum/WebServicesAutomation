@@ -193,6 +193,54 @@
           "boxOffice": "34 million",
           "boxOfficeInUS": null
         }
+      },
+      {
+        "title": "Casino",
+        "yearReleased": 1995,
+        "runningTime": 178,
+        "dateReleased": "11221995",
+        "basedOn": "Casino: Love and Honor in Las Vegas",
+        "movieLanguage": {
+          "language": "english"
+        },
+        "cast": [
+          {
+            "actor1": "Robert De Niro",
+            "actor2": "Sharon Stone",
+            "actor3": "Joe Pesci"
+          }
+        ],
+        "director": [
+          "Martin Scorsese"
+        ],
+        "producer": [
+          "Barbara De Fina"
+        ],
+        "musicDirector": [
+          "Federico Jusid",
+          "Sebastian Kauderer"
+        ],
+        "cinematography": [
+          "Robert Richardson"
+        ],
+        "productionCompany": [
+          "Syalis D.A.",
+          "Légende Entreprises",
+          "De Fina/Cappa"
+        ],
+        "distributedBy": [
+          {
+            "distributor1": "Universal Pictures"
+          }
+        ],
+        "genres": [
+          "crime drama"
+        ],
+        "cost": {
+          "budget": "45 million",
+          "boxOffice": "116.1 million",
+          "boxOfficeInUS": null
+        }
       }
     ]
   }
