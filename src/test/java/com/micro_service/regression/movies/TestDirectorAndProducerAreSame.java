@@ -8,7 +8,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -35,9 +38,9 @@ public class TestDirectorAndProducerAreSame extends SuperClass {
         return 2;
     }
     
-    public static long checkIfDirectorAndProducerAreSameForAMovieProcedure2() throws FileNotFoundException {
+    public static Set<Set<String>> checkIfDirectorAndProducerAreSameForAMovieProcedure2() throws FileNotFoundException {
         
-        final AtomicLong atomicLong = new AtomicLong();
+        Set<Set<String>> directorIsProducerForMovieSet = new HashSet<>();
         
         getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
                 .forEach(movie -> {
@@ -54,29 +57,32 @@ public class TestDirectorAndProducerAreSame extends SuperClass {
                             .map(producer -> producer.getAsString())
                             .collect(Collectors.toList());
                     
-                    directorList
-                            .stream()
-                            .filter(director -> producerList.contains(director))
-                            .peek(director -> log("Director: %s is also a Producer for a movie: %s", director, movieTitle))
-                            .count();
+                    directorIsProducerForMovieSet
+                            .add(directorList
+                                    .stream()
+                                    .filter(director -> producerList.contains(director))
+                                    .peek(director -> log("Director: %s is also a Producer for a movie: %s", director, movieTitle))
+                                    .map(mT -> movieTitle)
+                                    .collect(Collectors.toSet()));
                 });
         
-        return 3;
+        return directorIsProducerForMovieSet;
     }
     
-    public long checkIfDirectorAndProducerAreSameForAMovieProcedure3() throws FileNotFoundException {
+    public Set<Set<String>> checkIfDirectorAndProducerAreSameForAMovieProcedure3() throws FileNotFoundException {
+        
+        Set<Set<String>> directorIsProducerForMovieSet = new HashSet<>();
         
         getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .forEach(movie -> {
-                    
-                    long directorList = getJsonStream(movie, DIRECTOR)
-                            .map(producer -> producer.getAsString())
-                            .filter(director -> getListOfProducersForAMovie(movie).contains(director))
-                            .peek(director -> log("Director: %s is also a Producer for a movie: %s", director, getJsonString(movie, TITLE)))
-                            .count();
-                });
+                .forEach(movie -> directorIsProducerForMovieSet
+                        .add(getJsonStream(movie, DIRECTOR)
+                                .map(producer -> producer.getAsString())
+                                .filter(director -> getListOfProducersForAMovie(movie).contains(director))
+                                .peek(director -> log("Director: %s is also a Producer for a movie: %s", director, getJsonString(movie, TITLE)))
+                                .map(mT -> getJsonString(movie, TITLE))
+                                .collect(Collectors.toSet())));
         
-        return 3;
+        return directorIsProducerForMovieSet;
     }
     
     private List<String> getListOfProducersForAMovie(JsonElement movie) {
