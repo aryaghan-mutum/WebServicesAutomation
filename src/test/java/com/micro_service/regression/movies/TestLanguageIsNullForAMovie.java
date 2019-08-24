@@ -15,12 +15,17 @@ import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 import static com.micro_service.workflows.JsonWorkflow.isUndefined;
 
+/**
+ * Test if the language is null
+ * If the language == null, then the test FAILS
+ * If the language != null then the test PASSES
+ */
+
 public class TestLanguageIsNullForAMovie extends SuperClass {
     
     /**
-     * Procedure 1: Test if the language is null
-     * If the language == null, then the test FAILS
-     * If the language != null then the test PASSES
+     * Approach 1 using filter(), peek(), findAny() and isPresent():
+     * The Test case returns a boolean value. if the value is true then FAILS
      */
     @Test
     public void findLanguageIsNullProcedure1() throws FileNotFoundException {
@@ -46,9 +51,8 @@ public class TestLanguageIsNullForAMovie extends SuperClass {
     }
     
     /**
-     * Procedure 2: Test if the language is null
-     * If the language == null, then the test FAILS
-     * If the language != null then the test PASSES
+     * Approach 2 using filter(), peek(), and count():
+     * The Test case returns a total count. if the count > 0 then FAILS
      */
     @Test
     public void findLanguageIsNullProcedure2() throws FileNotFoundException {

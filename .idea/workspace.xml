@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestYearReleased.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.micro_service.regression.movies.TestDirectorAndProducerAreSame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.micro_service.regression.movies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -38,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="114" column="8" lean-forward="true" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="22" />
+            <state relative-caret-position="150">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="21" />
               <folding>
                 <element signature="e#156#1190#0" />
               </folding>
@@ -47,11 +55,52 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestYearReleased.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/fb62e18caf6a7a78547930020e6eb4315f550438/junit-platform-commons-1.4.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="627" selection-start-line="627" selection-end-line="627" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="510">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="36" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonWorkflow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -59,17 +108,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLanguageIsNullForAMovie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="-333">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMovieBudgetAndBoxOffice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="87" />
+            <state relative-caret-position="317">
+              <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -102,6 +151,7 @@
       <find>language&quot;:</find>
       <find>contains</find>
       <find>TITLE</find>
+      <find>cost</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -149,9 +199,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMovieBudgetAndBoxOffice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Settings.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" />
         <option value="$PROJECT_DIR$/src/main/resources/movies_service.json" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestYearReleased.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java" />
       </list>
     </option>
   </component>
@@ -174,6 +226,24 @@
             <path>
               <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -314,6 +384,23 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="time" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="time" type="462c0819:PsiDirectoryNode" />
+              <item name="format" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -386,6 +473,62 @@
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="junit" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.junit.platform:junit-platform-commons:1.4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-platform-commons-1.4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -430,7 +573,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestDirectorAndProducerAreSame">
+  <component name="RunManager" selected="Gradle.TestYearReleased.getListOfMoviesReleasedAfter1980">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -443,12 +586,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDirectorAndProducerAreSame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestYearReleased.getListOfMoviesReleasedAfter1980" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestDirectorAndProducerAreSame&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestYearReleased.getListOfMoviesReleasedAfter1980&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -463,12 +606,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestDirectorAndProducerAreSame.checkIfDirectorAndProducerAreSameForAMovie" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestYearReleased.getT" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestDirectorAndProducerAreSame.checkIfDirectorAndProducerAreSameForAMovie&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestYearReleased.getT&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -483,12 +626,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestDirectorAndProducerAreSame.checkIfDirectorAndProducerAreSameForAMovieProcedure1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestYearReleased.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestDirectorAndProducerAreSame.checkIfDirectorAndProducerAreSameForAMovieProcedure1&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestYearReleased.test&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -503,12 +646,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestDirectorAndProducerAreSame.validate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestYearReleased.testTotalCountOfMoviesReleasedLessThan40YearsFromCurrentYear" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestDirectorAndProducerAreSame.validate&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestYearReleased.testTotalCountOfMoviesReleasedLessThan40YearsFromCurrentYear&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -523,12 +666,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'com.micro_service.regression.movies'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestYearReleased.testTotalCountOfMoviesReleasedLessThan40YearsFromCurrentYearProcedure2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.*&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestYearReleased.testTotalCountOfMoviesReleasedLessThan40YearsFromCurrentYearProcedure2&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -570,11 +713,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestDirectorAndProducerAreSame" />
-        <item itemvalue="Gradle.TestDirectorAndProducerAreSame.validate" />
-        <item itemvalue="Gradle.TestDirectorAndProducerAreSame.checkIfDirectorAndProducerAreSameForAMovieProcedure1" />
-        <item itemvalue="Gradle.TestDirectorAndProducerAreSame.checkIfDirectorAndProducerAreSameForAMovie" />
-        <item itemvalue="Gradle.Tests in 'com.micro_service.regression.movies'" />
+        <item itemvalue="Gradle.TestYearReleased.getListOfMoviesReleasedAfter1980" />
+        <item itemvalue="Gradle.TestYearReleased.getT" />
+        <item itemvalue="Gradle.TestYearReleased.testTotalCountOfMoviesReleasedLessThan40YearsFromCurrentYear" />
+        <item itemvalue="Gradle.TestYearReleased.test" />
+        <item itemvalue="Gradle.TestYearReleased.testTotalCountOfMoviesReleasedLessThan40YearsFromCurrentYearProcedure2" />
       </list>
     </recent_temporary>
   </component>
@@ -621,35 +764,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 10m 29s.xml">
-      <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestYearReleased_test - 2019.08.24 at 13h 26m 53s.xml">
+      <configuration name="TestYearReleased.test" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 11m 38s.xml">
-      <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestYearReleased_getT - 2019.08.24 at 13h 54m 33s.xml">
+      <configuration name="TestYearReleased.getT" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 17m 59s.xml">
-      <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestYearReleased_getT - 2019.08.24 at 13h 54m 51s.xml">
+      <configuration name="TestYearReleased.getT" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 19m 55s.xml">
-      <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestYearReleased_getT - 2019.08.24 at 13h 54m 56s.xml">
+      <configuration name="TestYearReleased.getT" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 20m 24s.xml">
-      <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestYearReleased_testTotalCountOfMoviesReleasedLessThan40YearsFromCurrentYear - 2019.08.24 at 13h 55m 05s.xml">
+      <configuration name="TestYearReleased.testTotalCountOfMoviesReleasedLessThan40YearsFromCurrentYear" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 22m 39s.xml">
-      <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestYearReleased_getT - 2019.08.24 at 13h 55m 09s.xml">
+      <configuration name="TestYearReleased.getT" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 23m 11s.xml">
-      <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestYearReleased_getT - 2019.08.24 at 13h 55m 19s.xml">
+      <configuration name="TestYearReleased.getT" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 28m 23s.xml">
-      <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestYearReleased_getT - 2019.08.24 at 13h 57m 26s.xml">
+      <configuration name="TestYearReleased.getT" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 31m 42s.xml">
-      <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestYearReleased_getListOfMoviesReleasedAfter1980 - 2019.08.24 at 16h 44m 35s.xml">
+      <configuration name="TestYearReleased.getListOfMoviesReleasedAfter1980" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 32m 00s.xml">
-      <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestYearReleased_getListOfMoviesReleasedAfter1980 - 2019.08.24 at 16h 46m 55s.xml">
+      <configuration name="TestYearReleased.getListOfMoviesReleasedAfter1980" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -663,7 +806,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32661784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -674,8 +816,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.21630093" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21630093" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2904911" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18077324" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.24451411" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
@@ -752,9 +894,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java</url>
-          <line>52</line>
+          <line>76</line>
           <properties />
-          <option name="timeStamp" value="46" />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestYearReleased.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -762,72 +910,92 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>directorList
-         .stream()
-         .filter(director -&gt; director.equals(pr)
-         .forEach(System.out::println);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>directorList
-                            .stream()
-                            .filter(director -&gt; producerList.size() == directorList.size())
-                            .forEach(System.out::println);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>if (directorList.equals(producerList)) {
-    System.out.println(&quot;yes&quot;);
+        <expression-string>Stream&lt;JsonElement&gt; movies = getJsonStream(retrieveMoviesServiceDoc(), MOVIES);
+
+for(Stream&lt;JsonElement&gt; movie : movies) {
+    
+    String movieTitle = getJsonString(movie, TITLE);
+    
+    
 }</expression-string>
         <language-id>JAVA</language-id>
+        <custom-info>java.util.stream.Stream,com.google.gson.JsonElement</custom-info>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>if (!directorList.equals(producerList)) {
-    System.out.println(&quot;yes&quot;);
-}</expression-string>
+        <expression-string>Stream&lt;JsonElement&gt; x = getJsonStream(retrieveMoviesServiceDoc(), MOVIES);</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.stream.Stream,com.google.gson.JsonElement</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>if (directorList.size() == producerList.size()) {
-    System.out.println(&quot;yes&quot;);
-}</expression-string>
+        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
+                .map(movie -&gt; getJsonString(movie, DATE_RELEASED))
+                .map(movie -&gt; convertStringToLocalDateFormat(movie).getYear())
+                .filter(yearReleased -&gt; getCurrentYear() - 40)
+               // .peek(movie -&gt; log(&quot;movieTitle: %s was released less than %s year ago&quot;, getJsonString(movie, TITLE), yearReleased))
+                .collect(Collectors.toList());</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>directorList.size()</expression-string>
+        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
+                .map(movie -&gt; getJsonString(movie, DATE_RELEASED))
+                .map(movie -&gt; convertStringToLocalDateFormat(movie).getYear())
+                .map(yearReleased -&gt; getCurrentYear() - 40)
+               // .peek(movie -&gt; log(&quot;movieTitle: %s was released less than %s year ago&quot;, getJsonString(movie, TITLE), yearReleased))
+                .collect(Collectors.toList());</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>producerList.size()</expression-string>
+        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
+                .map(movie -&gt; getJsonString(movie, DATE_RELEASED))
+                .map(movie -&gt; convertStringToLocalDateFormat(movie).getYear())
+                //.map(yearReleased -&gt; yearReleased - 40)
+               // .peek(movie -&gt; log(&quot;movieTitle: %s was released less than %s year ago&quot;, getJsonString(movie, TITLE), yearReleased))
+                .collect(Collectors.toList());</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>directorList
-        .stream()
-        .filter(director -&gt; producerList.size() == directorList.size())
-        .forEach(System.out::println);</expression-string>
+        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
+                .map(movie -&gt; getJsonString(movie, DATE_RELEASED))
+                .map(movie -&gt; convertStringToLocalDateFormat(movie).getYear())
+                .map(yearReleased -&gt; yearReleased - 40)
+               // .peek(movie -&gt; log(&quot;movieTitle: %s was released less than %s year ago&quot;, getJsonString(movie, TITLE), yearReleased))
+                .collect(Collectors.toList());</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getJsonStream(movie, DIRECTOR)
-                            .collect(Collectors.toList());</expression-string>
+        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
+                .map(movie -&gt; getJsonString(movie, DATE_RELEASED))
+                .map(movie -&gt; convertStringToLocalDateFormat(movie).getYear())
+                .map(yearReleased -&gt; yearReleased - 50)
+               // .peek(movie -&gt; log(&quot;movieTitle: %s was released less than %s year ago&quot;, getJsonString(movie, TITLE), yearReleased))
+                .collect(Collectors.toList());</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getJsonStream(movie, &quot;cast&quot;)
-        .map(cast -&gt; getJsonString(cast, &quot;actor3&quot;))
-        .reduce((t, u) -&gt; t + u).get();</expression-string>
+        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
+                .map(movie -&gt; getJsonString(movie, DATE_RELEASED))
+                .map(movie -&gt; convertStringToLocalDateFormat(movie).getYear())
+                .collect(Collectors.toList());</expression-string>
         <language-id>JAVA</language-id>
-        <custom-info>java.util.stream.Collectors</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
+                .map(movie -&gt; getJsonString(movie, DATE_RELEASED))
+                .collect(Collectors.toList());</expression-string>
+        <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
@@ -890,13 +1058,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/fb62e18caf6a7a78547930020e6eb4315f550438/junit-platform-commons-1.4.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="630" selection-start-line="630" selection-end-line="630" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/fb62e18caf6a7a78547930020e6eb4315f550438/junit-platform-commons-1.4.1-sources.jar!/org/junit/platform/commons/util/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -925,24 +1086,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMovieBudgetAndBoxOffice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/SectionName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonWorkflow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -967,43 +1114,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java">
+    <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="256">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMovieBudgetAndBoxOffice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="1209" column="30" selection-start-line="1209" selection-start-column="30" selection-end-line="1209" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="735" column="15" selection-start-line="735" selection-start-column="15" selection-end-line="735" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/time/format/DateTimeFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="482" column="19" selection-start-line="482" selection-start-column="19" selection-end-line="482" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLanguageIsNullForAMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-333">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="114" column="8" lean-forward="true" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="22" />
+        <state relative-caret-position="150">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="21" />
           <folding>
             <element signature="e#156#1190#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLanguageIsNullForAMovie.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="87" />
+        <state relative-caret-position="120">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state relative-caret-position="510">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="36" selection-end-column="7" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonWorkflow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/fb62e18caf6a7a78547930020e6eb4315f550438/junit-platform-commons-1.4.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="627" selection-start-line="627" selection-end-line="627" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestYearReleased.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

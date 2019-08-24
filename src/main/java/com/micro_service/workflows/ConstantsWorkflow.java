@@ -6,6 +6,8 @@ public class ConstantsWorkflow {
     
     public static final String MOVIES = "payload.movies";
     public static final String TITLE = "title";
+    public static final String YEAR_RELEASED = "yearReleased";
+    public static final String DATE_RELEASED = "dateReleased";
     public static final String LANGUAGE = "movieLanguage.language";
     public static final String CAST = "cast";
     public static final String DIRECTOR = "director";

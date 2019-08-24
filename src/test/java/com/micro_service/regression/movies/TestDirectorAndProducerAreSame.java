@@ -33,7 +33,7 @@ public class TestDirectorAndProducerAreSame extends SuperClass {
     }
     
     /**
-     * Approach 1:
+     * Approach 1 using foreach():
      */
     public static Set<Set<String>> checkIfDirectorAndProducerAreSameForAMovieProcedure1() throws FileNotFoundException {
         
@@ -68,7 +68,7 @@ public class TestDirectorAndProducerAreSame extends SuperClass {
     }
     
     /**
-     * Approach 2:
+     * Approach 2 using forEach(), map(), filter() and collect():
      */
     public Set<Set<String>> checkIfDirectorAndProducerAreSameForAMovieProcedure2() throws FileNotFoundException {
         
