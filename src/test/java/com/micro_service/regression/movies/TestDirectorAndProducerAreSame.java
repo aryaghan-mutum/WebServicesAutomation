@@ -3,18 +3,13 @@ package com.micro_service.regression.movies;
 import base.SuperClass;
 import com.google.gson.JsonElement;
 import org.junit.Assert;
-import org.junit.Assume;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import static com.micro_service.workflows.ConstantsWorkflow.DIRECTOR;
 import static com.micro_service.workflows.ConstantsWorkflow.MOVIES;
@@ -26,19 +21,21 @@ import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 
 public class TestDirectorAndProducerAreSame extends SuperClass {
     
+    /**
+     * The Test case validates if a director for a movie is also a producer.
+     * 1. Gets a list of directors for each movie from movies_service.json
+     * 2. Gets a list of producers for each movie from movies_service.json
+     * 3. If yhe director for a movie is also a producer then collects them in a Set.
+     */
     @Test
-    public void validate() throws FileNotFoundException {
-        
-        // Assert.assertEquals(checkIfDirectorAndProducerAreSameForAMovieProcedure1(), checkIfDirectorAndProducerAreSameForAMovieProcedure2());
-        Assert.assertEquals(checkIfDirectorAndProducerAreSameForAMovieProcedure2(), checkIfDirectorAndProducerAreSameForAMovieProcedure3());
+    public void testDirectorAndProducerAreSameForAMovie() throws FileNotFoundException {
+        Assert.assertEquals(checkIfDirectorAndProducerAreSameForAMovieProcedure1(), checkIfDirectorAndProducerAreSameForAMovieProcedure2());
     }
     
-    public static long checkIfDirectorAndProducerAreSameForAMovieProcedure1() throws FileNotFoundException {
-        
-        return 2;
-    }
-    
-    public static Set<Set<String>> checkIfDirectorAndProducerAreSameForAMovieProcedure2() throws FileNotFoundException {
+    /**
+     * Approach 1:
+     */
+    public static Set<Set<String>> checkIfDirectorAndProducerAreSameForAMovieProcedure1() throws FileNotFoundException {
         
         Set<Set<String>> directorIsProducerForMovieSet = new HashSet<>();
         
@@ -64,12 +61,16 @@ public class TestDirectorAndProducerAreSame extends SuperClass {
                                     .peek(director -> log("Director: %s is also a Producer for a movie: %s", director, movieTitle))
                                     .map(mT -> movieTitle)
                                     .collect(Collectors.toSet()));
+                    
                 });
         
         return directorIsProducerForMovieSet;
     }
     
-    public Set<Set<String>> checkIfDirectorAndProducerAreSameForAMovieProcedure3() throws FileNotFoundException {
+    /**
+     * Approach 2:
+     */
+    public Set<Set<String>> checkIfDirectorAndProducerAreSameForAMovieProcedure2() throws FileNotFoundException {
         
         Set<Set<String>> directorIsProducerForMovieSet = new HashSet<>();
         

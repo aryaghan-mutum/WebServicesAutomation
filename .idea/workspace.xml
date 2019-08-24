@@ -38,8 +38,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="397">
+              <caret line="114" column="8" lean-forward="true" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="22" />
+              <folding>
+                <element signature="e#156#1190#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,8 +50,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="82" column="62" lean-forward="true" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
+            <state relative-caret-position="169">
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLanguageIsNullForAMovie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -137,8 +149,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMovieBudgetAndBoxOffice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Settings.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/movies_service.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/movies_service.json" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java" />
       </list>
     </option>
@@ -146,8 +158,8 @@
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="181" />
     <option name="y" value="69" />
-    <option name="width" value="1295" />
-    <option name="height" value="853" />
+    <option name="width" value="1399" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -609,34 +621,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDirectorAndProducerAreSame_validate - 2019.08.23 at 22h 52m 28s.xml">
-      <configuration name="TestDirectorAndProducerAreSame.validate" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 22h 53m 00s.xml">
+    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 10m 29s.xml">
       <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 22h 53m 59s.xml">
+    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 11m 38s.xml">
       <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 22h 54m 46s.xml">
+    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 17m 59s.xml">
       <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 22h 56m 14s.xml">
+    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 19m 55s.xml">
       <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 22h 57m 02s.xml">
+    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 20m 24s.xml">
       <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 22h 57m 45s.xml">
+    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 22m 39s.xml">
       <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 22h 58m 38s.xml">
+    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 23m 11s.xml">
       <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 01m 42s.xml">
+    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 28m 23s.xml">
       <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 03m 14s.xml">
+    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 31m 42s.xml">
+      <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDirectorAndProducerAreSame - 2019.08.23 at 23h 32m 00s.xml">
       <configuration name="TestDirectorAndProducerAreSame" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
@@ -653,7 +665,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32661784" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32661784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -662,8 +674,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.21630093" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2246604" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.18181819" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21630093" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2904911" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
@@ -737,6 +749,12 @@
           <line>37</line>
           <properties />
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -949,6 +967,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="114" column="8" lean-forward="true" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="22" />
+          <folding>
+            <element signature="e#156#1190#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLanguageIsNullForAMovie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -963,24 +998,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="82" column="62" lean-forward="true" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
+        <state relative-caret-position="169">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>
