@@ -4,6 +4,7 @@ import com.google.gson.JsonElement;
 
 import java.time.LocalDate;
 
+import static com.micro_service.workflows.ConstantsWorkflow.DENSITY;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 import static com.micro_service.workflows.JsonWorkflow.isUndefined;
 
@@ -27,8 +28,8 @@ public class Util {
                 Integer.parseInt(dateReleased.substring(4, 6)));
     }
     
-    public static boolean isHeightNull(JsonElement country) {
-        return isUndefined(country, "height") || getJsonString(country, "height") == null;
+    public static boolean isDensityNull(JsonElement country) {
+        return isUndefined(country, DENSITY) || getJsonString(country, DENSITY) == null;
     }
     
 }

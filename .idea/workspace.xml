@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/CountryByAvgMaleHeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndHeightCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightByCountries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndPopulationDensityCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestPopulationDensityPerCountry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -18,18 +17,25 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/micro_service/workflows/ConstantsWorkflow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/micro_service/workflows/ConstantsWorkflow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/micro_service/workflows/JsonPayloadWorkflow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/micro_service/workflows/JsonPayloadWorkflow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.micro_service.regression.movies.TestLeadActorIsNullForAMovie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/micro_service/workflows/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/micro_service/workflows/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/problems/CountryByAvgMaleHeight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/countries/CountryByAvgMaleHeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/countries/CountryByAvgMaleHeight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/countries/TestHeightByCountries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.micro_service.regression.countries.TestHeightByCountries.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.micro_service.regression.movies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/movies_service.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.micro_service.regression.movies.TestLeadActorIsNullForAMovie.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.micro_service.regression.countries.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.micro_service.regression.countries.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/country_by_avg_male_height.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.micro_service.regression.countries.TestHeightByCountries.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/movies_service.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/movies_service.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/country_by_avg_male_height.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/country_by_population_density.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/CountryByAvgMaleHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/CountryByAvgMaleHeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndHeightCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightPerCountry.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -62,16 +68,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data/movies_service.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestPopulationDensityPerCountry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="246" column="1" lean-forward="true" selection-start-line="246" selection-start-column="1" selection-end-line="246" selection-end-column="1" />
-              <folding>
-                <element signature="e#156#1190#0" />
-                <element signature="e#1198#2285#0" />
-                <element signature="e#2293#3518#0" />
-              </folding>
+            <state relative-caret-position="487">
+              <caret line="66" column="56" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndPopulationDensityCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data/country_by_population_density.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="808" column="21" selection-start-line="808" selection-start-column="8" selection-end-line="808" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -79,71 +107,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/CountryByAvgMaleHeight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+            <state relative-caret-position="482">
+              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndHeightCount.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="270">
+              <caret line="18" column="74" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightByCountries.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="112" column="3" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar!/oracle/jrockit/jfr/events/Bits.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/fb62e18caf6a7a78547930020e6eb4315f550438/junit-platform-commons-1.4.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="630" selection-start-line="630" selection-end-line="630" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data/country_by_avg_male_height.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="148" column="22" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40Years.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="68" />
+            <state relative-caret-position="75">
+              <caret line="5" column="60" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -178,9 +161,12 @@
       <find>TITLE</find>
       <find>cost</find>
       <find>&quot;height&quot;:</find>
-      <find>160</find>
       <find>2439</find>
       <find>isHeightNull</find>
+      <find>160</find>
+      <find>heigh</find>
+      <find>hei</find>
+      <find>&quot;density&quot;: &quot;0</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -192,10 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/contour.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Contour.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ContourManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/SettingsManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/SettingsWorkflow.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/settings.json" />
@@ -234,15 +216,19 @@
         <option value="$PROJECT_DIR$/src/main/resources/movies_service.json" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data/country-by-avg-male-height.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/data/country_by_avg_male_height.json" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/problems/CountryByAvgMaleHeight.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/problems/CountryByAvgMaleHeight.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightByCountries.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeight.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/country_by_avg_male_height.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/CountryByAvgMaleHeight.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndHeightCount.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightByCountries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndPopulationDensityCount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightPerCountry.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestPopulationDensityPerCountry.java" />
       </list>
     </option>
   </component>
@@ -276,21 +262,6 @@
               <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -840,9 +811,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestHeightByCountries">
+  <component name="RunManager" selected="Gradle.TestPopulationDensityPerCountry.testHighestPopulationDensity">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountryByAvgMaleHeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.micro_service.regression.countries.CountryByAvgMaleHeight" />
+      <module name="WebServicesAutomation.test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro_service.regression.countries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -853,12 +838,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountryByAvgMaleHeight.findAndTestAvgHeightPerCountry" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestCountryAndHeightCount" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.CountryByAvgMaleHeight.findAndTestAvgHeightPerCountry&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestCountryAndHeightCount&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -873,12 +858,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CountryByAvgMaleHeight.testLowestAndHeightHeight" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestCountryAndHeightCount.testTotalCountriesCountWithDensityANull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.CountryByAvgMaleHeight.testLowestAndHeightHeight&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestCountryAndHeightCount.testTotalCountriesCountWithDensityANull&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -893,12 +878,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestHeightByCountries" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestPopulationDensityPerCountry.testHighestPopulationDensity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestHeightByCountries&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestPopulationDensityPerCountry.testHighestPopulationDensity&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -913,32 +898,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestHeightByCountries.testLowestAndHeightHeight" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestPopulationDensityPerCountry.testLowestPopulationDensity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestHeightByCountries.testLowestAndHeightHeight&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestHeightByCountries.testLowestAndHeightHeightProcedure2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestHeightByCountries.testLowestAndHeightHeightProcedure2&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestPopulationDensityPerCountry.testLowestPopulationDensity&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -980,11 +945,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestHeightByCountries" />
-        <item itemvalue="Gradle.TestHeightByCountries.testLowestAndHeightHeightProcedure2" />
-        <item itemvalue="Gradle.TestHeightByCountries.testLowestAndHeightHeight" />
-        <item itemvalue="Gradle.CountryByAvgMaleHeight.testLowestAndHeightHeight" />
-        <item itemvalue="Gradle.CountryByAvgMaleHeight.findAndTestAvgHeightPerCountry" />
+        <item itemvalue="Gradle.TestPopulationDensityPerCountry.testHighestPopulationDensity" />
+        <item itemvalue="Gradle.TestPopulationDensityPerCountry.testLowestPopulationDensity" />
+        <item itemvalue="Gradle.TestCountryAndHeightCount" />
+        <item itemvalue="Gradle.TestCountryAndHeightCount.testTotalCountriesCountWithDensityANull" />
+        <item itemvalue="Application.CountryByAvgMaleHeight" />
       </list>
     </recent_temporary>
   </component>
@@ -1031,27 +996,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountryByAvgMaleHeight_findAndTestAvgHeightPerCountry - 2019.08.24 at 19h 50m 06s.xml">
-      <configuration name="CountryByAvgMaleHeight.findAndTestAvgHeightPerCountry" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CountryByAvgMaleHeight_testLowestAndHeightHeight - 2019.08.24 at 19h 56m 30s.xml">
-      <configuration name="CountryByAvgMaleHeight.testLowestAndHeightHeight" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestHeightByCountries_testLowestAndHeightHeight - 2019.08.24 at 20h 02m 16s.xml">
-      <configuration name="TestHeightByCountries.testLowestAndHeightHeight" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestHeightByCountries_testLowestAndHeightHeight - 2019.08.24 at 20h 02m 41s.xml">
-      <configuration name="TestHeightByCountries.testLowestAndHeightHeight" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestHeightByCountries_testLowestAndHeightHeightProcedure2 - 2019.08.24 at 20h 12m 23s.xml">
-      <configuration name="TestHeightByCountries.testLowestAndHeightHeightProcedure2" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestHeightByCountries_testLowestAndHeightHeightProcedure2 - 2019.08.24 at 20h 12m 41s.xml">
-      <configuration name="TestHeightByCountries.testLowestAndHeightHeightProcedure2" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestHeightByCountries_testLowestAndHeightHeightProcedure2 - 2019.08.24 at 20h 13m 14s.xml">
-      <configuration name="TestHeightByCountries.testLowestAndHeightHeightProcedure2" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="TestHeightByCountries_testLowestAndHeightHeightProcedure2 - 2019.08.24 at 20h 15m 21s.xml">
       <configuration name="TestHeightByCountries.testLowestAndHeightHeightProcedure2" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -1060,6 +1004,27 @@
     </history-entry>
     <history-entry file="TestHeightByCountries - 2019.08.24 at 20h 18m 05s.xml">
       <configuration name="TestHeightByCountries" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestHeightPerCountry - 2019.08.24 at 23h 19m 23s.xml">
+      <configuration name="TestHeightPerCountry" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCountryAndHeightCount - 2019.08.24 at 23h 26m 04s.xml">
+      <configuration name="TestCountryAndHeightCount" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCountryAndHeightCount - 2019.08.24 at 23h 39m 48s.xml">
+      <configuration name="TestCountryAndHeightCount" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCountryAndHeightCount - 2019.08.24 at 23h 45m 02s.xml">
+      <configuration name="TestCountryAndHeightCount" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCountryAndHeightCount_testTotalCountriesCountWithDensityANull - 2019.08.24 at 23h 46m 25s.xml">
+      <configuration name="TestCountryAndHeightCount.testTotalCountriesCountWithDensityANull" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCountryAndHeightCount - 2019.08.24 at 23h 46m 34s.xml">
+      <configuration name="TestCountryAndHeightCount" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPopulationDensityPerCountry_testLowestPopulationDensity - 2019.08.24 at 23h 48m 38s.xml">
+      <configuration name="TestPopulationDensityPerCountry.testLowestPopulationDensity" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1084,8 +1049,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.21630093" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21212122" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26959246" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2215256" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.26959246" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32810867" />
@@ -1180,16 +1145,10 @@
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightByCountries.java</url>
-          <line>95</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndPopulationDensityCount.java</url>
+          <line>25</line>
           <properties />
-          <option name="timeStamp" value="103" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightByCountries.java</url>
-          <line>108</line>
-          <properties />
-          <option name="timeStamp" value="104" />
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1254,19 +1213,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1416,13 +1362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="62" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -1434,13 +1373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="70" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -1470,13 +1402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Double.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="1051" column="25" selection-start-line="1051" selection-start-column="25" selection-end-line="1051" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/JsonElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -1488,13 +1413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/country_by_avg_male_height.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="148" column="22" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1512,9 +1430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar!/oracle/jrockit/jfr/events/Bits.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -1522,31 +1437,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/CountryByAvgMaleHeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndHeightCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightByCountries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="112" column="3" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
+        <state relative-caret-position="617">
+          <caret line="111" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="111" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="714" column="18" selection-start-line="714" selection-start-column="18" selection-end-line="714" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/stream/DoubleStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="515" column="19" selection-start-line="515" selection-start-column="19" selection-end-line="515" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2834">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="450">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/CountryByAvgMaleHeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndPopulationDensityCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/country_by_population_density.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="808" column="21" selection-start-line="808" selection-start-column="8" selection-end-line="808" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestPopulationDensityPerCountry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="66" column="56" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
         </state>
       </provider>
     </entry>

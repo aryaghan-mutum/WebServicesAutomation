@@ -1,9 +1,6 @@
 package com.micro_service.regression.countries;
 
 import base.SuperClass;
-import com.google.gson.JsonElement;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
 import java.text.DecimalFormat;
@@ -17,13 +14,15 @@ import java.util.OptionalDouble;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveCountryByAvgMaleHeightServiceDoc;
+import static com.micro_service.workflows.ConstantsWorkflow.COUNTRIES;
+import static com.micro_service.workflows.ConstantsWorkflow.COUNTRY;
+import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveCountryByPopulationDensityServiceDoc;
 import static com.micro_service.workflows.JsonWorkflow.getJsonDouble;
 import static com.micro_service.workflows.JsonWorkflow.getJsonInt;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 import static com.micro_service.workflows.JsonWorkflow.isUndefined;
-import static com.micro_service.workflows.Util.isHeightNull;
+import static com.micro_service.workflows.Util.isDensityNull;
 
 public class CountryByAvgMaleHeight extends SuperClass {
     
@@ -37,8 +36,8 @@ public class CountryByAvgMaleHeight extends SuperClass {
     }
     
     public static List<String> getCountriesList() throws FileNotFoundException {
-        return getJsonStream(retrieveCountryByAvgMaleHeightServiceDoc(), "payload.countries")
-                .map(country -> getJsonString(country, "country"))
+        return getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+                .map(country -> getJsonString(country, COUNTRY))
                 .collect(Collectors.toList());
     }
     
@@ -46,12 +45,12 @@ public class CountryByAvgMaleHeight extends SuperClass {
         
         List<String> countryNamesWithHeightNotNullList = new ArrayList<>();
         
-        getJsonStream(retrieveCountryByAvgMaleHeightServiceDoc(), "payload.countries")
+        getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
                 .forEach(country -> {
                     
-                    String countryName = getJsonString(country, "country");
+                    String countryName = getJsonString(country, COUNTRY);
                     
-                    if (!isHeightNull(country)) {
+                    if (!isDensityNull(country)) {
                         countryNamesWithHeightNotNullList.add(countryName);
                     }
                 });

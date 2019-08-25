@@ -6,7 +6,7 @@ import com.google.gson.JsonParser;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
-import static com.micro_service.workflows.ConstantsWorkflow.COUNTRY_BY_AVG_MALE_HEIGHT_PATH;
+import static com.micro_service.workflows.ConstantsWorkflow.COUNTRY_BY_POPULATION_DENSITY;
 import static com.micro_service.workflows.ConstantsWorkflow.MOVIE_SERVICE_PATH;
 
 public class JsonPayloadWorkflow {
@@ -16,8 +16,8 @@ public class JsonPayloadWorkflow {
         return retrieveServiceDocument(MOVIE_SERVICE_PATH);
     }
     
-    public static JsonElement retrieveCountryByAvgMaleHeightServiceDoc() throws FileNotFoundException {
-        return retrieveServiceDocument(COUNTRY_BY_AVG_MALE_HEIGHT_PATH);
+    public static JsonElement retrieveCountryByPopulationDensityServiceDoc() throws FileNotFoundException {
+        return retrieveServiceDocument(COUNTRY_BY_POPULATION_DENSITY);
     }
     
     private static JsonElement retrieveServiceDocument(String servicePath) throws FileNotFoundException {
