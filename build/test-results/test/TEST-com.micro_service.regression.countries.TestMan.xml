@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.micro_service.regression.countries.TestMan" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-25T14:59:50" hostname="Users-MacBook-Pro.local" time="0.026">
-  <properties/>
-  <testcase name="testCountriesTotalCountThatStartsWithLetterZ()" classname="com.micro_service.regression.countries.TestMan" time="0.026"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

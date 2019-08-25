@@ -4,6 +4,7 @@ import com.google.gson.JsonElement;
 
 import java.time.LocalDate;
 
+import static com.micro_service.workflows.ConstantsWorkflow.CONTINENT;
 import static com.micro_service.workflows.ConstantsWorkflow.DENSITY;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 import static com.micro_service.workflows.JsonWorkflow.isUndefined;
@@ -31,5 +32,10 @@ public class Util {
     public static boolean isDensityNull(JsonElement country) {
         return isUndefined(country, DENSITY) || getJsonString(country, DENSITY) == null;
     }
+    
+    public static boolean isContinentNull(JsonElement country) {
+        return isUndefined(country, CONTINENT) || getJsonString(country, CONTINENT) == null;
+    }
+    
     
 }

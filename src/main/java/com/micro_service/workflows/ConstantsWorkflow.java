@@ -4,6 +4,7 @@ public class ConstantsWorkflow {
     
     public static final String MOVIE_SERVICE_PATH = "/Users/anuragmuthyam/Documents/dev/WebServicesAutomation/src/main/resources/data/movies_service.json";
     public static final String COUNTRY_BY_POPULATION_DENSITY = "/Users/anuragmuthyam/Documents/dev/WebServicesAutomation/src/main/resources/data/country_by_population_density.json";
+    public static final String COUNTRY_BY_CONTINENT = "/Users/anuragmuthyam/Documents/dev/WebServicesAutomation/src/main/resources/data/country_by_continent.json";
     
     // MOVIES
     public static final String MOVIES = "payload.movies";
@@ -24,5 +25,6 @@ public class ConstantsWorkflow {
     public static final String COUNTRIES = "payload.countries";
     public static final String COUNTRY = "country";
     public static final String DENSITY = "density";
+    public static final String CONTINENT = "continent";
     
 }

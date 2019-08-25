@@ -1,7 +1,7 @@
 {
   "payload": {
     "about": {
-      "payloadDescription": "The payload contains a list of countries by average male heights"
+      "payloadDescription": "The payload contains a list of countries by population density"
     },
     "countries": [
       {
