@@ -2,7 +2,8 @@ package com.micro_service.workflows;
 
 public class ConstantsWorkflow {
     
-    public static final String MOVIE_SERVICE_PATH = "/Users/anuragmuthyam/Documents/dev/WebServicesAutomation/src/main/resources/movies_service.json";
+    public static final String MOVIE_SERVICE_PATH = "/Users/anuragmuthyam/Documents/dev/WebServicesAutomation/src/main/resources/data/movies_service.json";
+    public static final String COUNTRY_BY_AVG_MALE_HEIGHT_PATH = "/Users/anuragmuthyam/Documents/dev/WebServicesAutomation/src/main/resources/data/country_by_avg_male_height.json";
     
     public static final String MOVIES = "payload.movies";
     public static final String TITLE = "title";

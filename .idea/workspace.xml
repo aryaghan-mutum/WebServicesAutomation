@@ -2,8 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/movies_service.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/movies_service.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/CountryByAvgMaleHeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndHeightCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightByCountries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/micro_service/workflows/ConstantsWorkflow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/micro_service/workflows/ConstantsWorkflow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/micro_service/workflows/JsonPayloadWorkflow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/micro_service/workflows/JsonPayloadWorkflow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.micro_service.regression.movies.TestLeadActorIsNullForAMovie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.micro_service.regression.movies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/movies_service.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.micro_service.regression.movies.TestLeadActorIsNullForAMovie.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/movies_service.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/movies_service.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,10 +63,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data/movies_service.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="232" column="48" lean-forward="true" selection-start-line="232" selection-start-column="48" selection-end-line="232" selection-end-column="48" />
+            <state relative-caret-position="1650">
+              <caret line="246" column="1" lean-forward="true" selection-start-line="246" selection-start-column="1" selection-end-line="246" selection-end-column="1" />
               <folding>
                 <element signature="e#156#1190#0" />
                 <element signature="e#1198#2285#0" />
@@ -51,27 +77,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/CountryByAvgMaleHeight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+            <state relative-caret-position="322">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndHeightCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="375">
+              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightByCountries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="587">
+              <caret line="112" column="3" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar!/oracle/jrockit/jfr/events/Bits.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/fb62e18caf6a7a78547930020e6eb4315f550438/junit-platform-commons-1.4.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="630" selection-start-line="630" selection-end-line="630" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data/country_by_avg_male_height.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="148" column="22" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40Years.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
+            <state relative-caret-position="510">
               <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="68" />
             </state>
           </provider>
@@ -106,6 +177,10 @@
       <find>contains</find>
       <find>TITLE</find>
       <find>cost</find>
+      <find>&quot;height&quot;:</find>
+      <find>160</find>
+      <find>2439</find>
+      <find>isHeightNull</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -146,12 +221,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorName.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorNameIsNull.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/SectionName.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/SuperClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMovieBudgetAndBoxOffice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Settings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestYearReleased.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40YearUntilToday.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java" />
@@ -161,10 +233,20 @@
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java" />
         <option value="$PROJECT_DIR$/src/main/resources/movies_service.json" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/country-by-avg-male-height.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/country_by_avg_male_height.json" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/problems/CountryByAvgMaleHeight.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/problems/CountryByAvgMaleHeight.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/CountryByAvgMaleHeight.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndHeightCount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightByCountries.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="181" />
     <option name="y" value="69" />
     <option name="width" value="1399" />
@@ -176,7 +258,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,6 +280,21 @@
             <path>
               <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -205,6 +302,40 @@
               <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="micro_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="micro_service" type="462c0819:PsiDirectoryNode" />
+              <item name="workflows" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -212,6 +343,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -270,6 +409,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="micro_service" type="462c0819:PsiDirectoryNode" />
               <item name="regression" type="462c0819:PsiDirectoryNode" />
+              <item name="countries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="micro_service" type="462c0819:PsiDirectoryNode" />
+              <item name="regression" type="462c0819:PsiDirectoryNode" />
               <item name="movies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -285,6 +435,46 @@
               <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jfr.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jfr.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="oracle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jfr.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="oracle" type="462c0819:PsiDirectoryNode" />
+              <item name="jrockit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jfr.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="oracle" type="462c0819:PsiDirectoryNode" />
+              <item name="jrockit" type="462c0819:PsiDirectoryNode" />
+              <item name="jfr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jfr.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="oracle" type="462c0819:PsiDirectoryNode" />
+              <item name="jrockit" type="462c0819:PsiDirectoryNode" />
+              <item name="jfr" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -293,6 +483,14 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -327,6 +525,21 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -584,7 +797,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -594,23 +807,25 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/data" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/data" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.micro_service.regression.movies" />
       <recent name="com.micro_service.workflows" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/data" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -625,7 +840,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull">
+  <component name="RunManager" selected="Gradle.TestHeightByCountries">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -638,12 +853,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CountryByAvgMaleHeight.findAndTestAvgHeightPerCountry" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.CountryByAvgMaleHeight.findAndTestAvgHeightPerCountry&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -658,12 +873,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestMoviesReleasedAfter1980.get" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CountryByAvgMaleHeight.testLowestAndHeightHeight" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestMoviesReleasedAfter1980.get&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.CountryByAvgMaleHeight.testLowestAndHeightHeight&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -678,12 +893,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestMoviesReleasedAfter1980.getListOfMoviesReleasedYearsAfter1980" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestHeightByCountries" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestMoviesReleasedAfter1980.getListOfMoviesReleasedYearsAfter1980&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestHeightByCountries&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -698,12 +913,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestMoviesReleasedAfter1980.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestHeightByCountries.testLowestAndHeightHeight" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.TestMoviesReleasedAfter1980.test&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestHeightByCountries.testLowestAndHeightHeight&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -718,12 +933,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'com.micro_service.regression.movies'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestHeightByCountries.testLowestAndHeightHeightProcedure2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.*&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestHeightByCountries.testLowestAndHeightHeightProcedure2&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -765,11 +980,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" />
-        <item itemvalue="Gradle.Tests in 'com.micro_service.regression.movies'" />
-        <item itemvalue="Gradle.TestMoviesReleasedAfter1980.get" />
-        <item itemvalue="Gradle.TestMoviesReleasedAfter1980.getListOfMoviesReleasedYearsAfter1980" />
-        <item itemvalue="Gradle.TestMoviesReleasedAfter1980.test" />
+        <item itemvalue="Gradle.TestHeightByCountries" />
+        <item itemvalue="Gradle.TestHeightByCountries.testLowestAndHeightHeightProcedure2" />
+        <item itemvalue="Gradle.TestHeightByCountries.testLowestAndHeightHeight" />
+        <item itemvalue="Gradle.CountryByAvgMaleHeight.testLowestAndHeightHeight" />
+        <item itemvalue="Gradle.CountryByAvgMaleHeight.findAndTestAvgHeightPerCountry" />
       </list>
     </recent_temporary>
   </component>
@@ -816,35 +1031,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMoviesReleasedAfter1980_getListOfMoviesReleasedYearsAfter1980 - 2019.08.24 at 17h 43m 51s.xml">
-      <configuration name="TestMoviesReleasedAfter1980.getListOfMoviesReleasedYearsAfter1980" configurationId="GradleRunConfiguration" />
+    <history-entry file="CountryByAvgMaleHeight_findAndTestAvgHeightPerCountry - 2019.08.24 at 19h 50m 06s.xml">
+      <configuration name="CountryByAvgMaleHeight.findAndTestAvgHeightPerCountry" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMoviesReleasedAfter1980_getListOfMoviesReleasedYearsAfter1980 - 2019.08.24 at 17h 44m 45s.xml">
-      <configuration name="TestMoviesReleasedAfter1980.getListOfMoviesReleasedYearsAfter1980" configurationId="GradleRunConfiguration" />
+    <history-entry file="CountryByAvgMaleHeight_testLowestAndHeightHeight - 2019.08.24 at 19h 56m 30s.xml">
+      <configuration name="CountryByAvgMaleHeight.testLowestAndHeightHeight" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMoviesReleasedAfter1980_getListOfMoviesReleasedYearsAfter1980 - 2019.08.24 at 17h 50m 00s.xml">
-      <configuration name="TestMoviesReleasedAfter1980.getListOfMoviesReleasedYearsAfter1980" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestHeightByCountries_testLowestAndHeightHeight - 2019.08.24 at 20h 02m 16s.xml">
+      <configuration name="TestHeightByCountries.testLowestAndHeightHeight" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMoviesReleasedAfter1980_get - 2019.08.24 at 17h 56m 00s.xml">
-      <configuration name="TestMoviesReleasedAfter1980.get" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestHeightByCountries_testLowestAndHeightHeight - 2019.08.24 at 20h 02m 41s.xml">
+      <configuration name="TestHeightByCountries.testLowestAndHeightHeight" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMoviesReleasedAfter1980_get - 2019.08.24 at 17h 56m 03s.xml">
-      <configuration name="TestMoviesReleasedAfter1980.get" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestHeightByCountries_testLowestAndHeightHeightProcedure2 - 2019.08.24 at 20h 12m 23s.xml">
+      <configuration name="TestHeightByCountries.testLowestAndHeightHeightProcedure2" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Tests_in_'com_micro_service_regression_movies' - 2019.08.24 at 18h 06m 14s.xml">
-      <configuration name="Tests in 'com.micro_service.regression.movies'" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestHeightByCountries_testLowestAndHeightHeightProcedure2 - 2019.08.24 at 20h 12m 41s.xml">
+      <configuration name="TestHeightByCountries.testLowestAndHeightHeightProcedure2" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestLeadActorIsNullForAMovie_findActor3ThatHasNotNull - 2019.08.24 at 18h 06m 55s.xml">
-      <configuration name="TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestHeightByCountries_testLowestAndHeightHeightProcedure2 - 2019.08.24 at 20h 13m 14s.xml">
+      <configuration name="TestHeightByCountries.testLowestAndHeightHeightProcedure2" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestLeadActorIsNullForAMovie_findActor3ThatHasNotNull - 2019.08.24 at 18h 07m 13s.xml">
-      <configuration name="TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestHeightByCountries_testLowestAndHeightHeightProcedure2 - 2019.08.24 at 20h 15m 21s.xml">
+      <configuration name="TestHeightByCountries.testLowestAndHeightHeightProcedure2" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestLeadActorIsNullForAMovie_findActor3ThatHasNotNull - 2019.08.24 at 18h 08m 42s.xml">
-      <configuration name="TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestHeightByCountries - 2019.08.24 at 20h 17m 43s.xml">
+      <configuration name="TestHeightByCountries" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestLeadActorIsNullForAMovie_findActor3ThatHasNotNull - 2019.08.24 at 18h 09m 19s.xml">
-      <configuration name="TestLeadActorIsNullForAMovie.findActor3ThatHasNotNull" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestHeightByCountries - 2019.08.24 at 20h 18m 05s.xml">
+      <configuration name="TestHeightByCountries" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -858,8 +1073,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21794872" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2716728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -868,17 +1084,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.21630093" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3155695" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.23719957" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21212122" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26959246" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.15360501" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32810867" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1431557" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32894737" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32810867" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.29276314" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32894737" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -888,6 +1103,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32967034" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32661784" />
@@ -963,6 +1179,18 @@
           <properties />
           <option name="timeStamp" value="82" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightByCountries.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightByCountries.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -972,85 +1200,60 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>Map&lt;String, Integer&gt; moviesReleasedAfdter1980List3 = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .map(movie -&gt; getJsonInt(movie, YEAR_RELEASED))
-                .filter(yearReleased -&gt; yearReleased &gt; 1980)
-                .collect(Collectors.toMap((Function.identity(), Function.identity()));</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.function.Function</custom-info>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Map&lt;String, Integer&gt; moviesReleasedAfter1980List3 = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .map(movie -&gt; getJsonInt(movie, YEAR_RELEASED))
-                .filter(yearReleased -&gt; yearReleased &gt; 1980)
-                .collect(Collectors.toMap((Function.identity(), Function.identity()));</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.function.Function</custom-info>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Map&lt;String, Integer&gt; moviesReleasedAfter1980List3 = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .map(movie -&gt; getJsonInt(movie, YEAR_RELEASED))
-                .filter(yearReleased -&gt; yearReleased &gt; 1980)
-                .collect(Collectors.toMap((Function.identity(), s-&gt;s)));</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.function.Function</custom-info>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Map&lt;String, Integer&gt; moviesReleasedAfter1980List3 = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .map(movie -&gt; getJsonInt(movie, YEAR_RELEASED))
-                .filter(yearReleased -&gt; yearReleased &gt; 1980)
-                .collect(Collectors.toMap((Function.identity(), s-&gt;s));</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.function.Function</custom-info>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Map&lt;String, Integer&gt; moviesReleasedAfter1980List2 = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .map(movie -&gt; getJsonInt(movie, YEAR_RELEASED))
-                .filter(yearReleased -&gt; yearReleased &gt; 1980)
-                .collect(Collectors.toMap((Function.identity(), s-&gt;s));</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.function.Function</custom-info>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Map&lt;Integer, Integer&gt; moviesReleasedAfter1980List2 = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .map(movie -&gt; getJsonInt(movie, YEAR_RELEASED))
-                .filter(yearReleased -&gt; yearReleased &gt; 1980)
-                .collect(Collectors.toMap(movie -&gt; movie, movie -&gt; movie));</expression-string>
+        <expression-string>countries
+                .filter(country -&gt; !isHeightNull(country))
+                .map(country -&gt; country.toString())
+                .collect(Collectors.minBy(Comparator.naturalOrder()));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Map&lt;Integer, Integer&gt; moviesReleasedAfter1980List = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .map(movie -&gt; getJsonInt(movie, YEAR_RELEASED))
-                .filter(yearReleased -&gt; yearReleased &gt; 1980)
-                .collect(Collectors.toMap(movie -&gt; movie, movie -&gt; movie));</expression-string>
+        <expression-string>countries
+                .filter(country -&gt; !isHeightNull(country))
+                .map(country -&gt; country.toString())
+                .collect(Collectors.minBy(Comparator.naturalOrder()))
+                .get();</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>moviesReleasedAfter1980List.contains(&quot;Amadeus&quot;)</expression-string>
+        <expression-string>tallestHeight.</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>moviesReleasedAfter1980List</expression-string>
+        <expression-string>tallestHeight.getAsDouble()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tallestHeight.value</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tallestHeight</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>lowestHeight</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>lowestHeight.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>double height = getJsonDouble(country, &quot;height&quot;);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1105,30 +1308,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TR.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/menu_service.json" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/SuperClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/settings.json" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/SettingsWorkflow.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Settings.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/SectionName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/JsonPrimitive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
@@ -1142,16 +1324,6 @@
           <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="853" column="9" selection-start-line="853" selection-start-column="9" selection-end-line="853" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1181,38 +1353,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonWorkflow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLanguageIsNullForAMovie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-162">
           <caret line="26" column="67" lean-forward="true" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40Years.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/fb62e18caf6a7a78547930020e6eb4315f550438/junit-platform-commons-1.4.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="627" selection-start-line="627" selection-end-line="627" />
         </state>
       </provider>
     </entry>
@@ -1237,27 +1381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMovieBudgetAndBoxOffice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -1267,15 +1390,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+        <state relative-caret-position="1110">
+          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/movies_service.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40Years.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="232" column="48" lean-forward="true" selection-start-line="232" selection-start-column="48" selection-end-line="232" selection-end-column="48" />
+        <state relative-caret-position="510">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/SuperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="39" column="73" lean-forward="true" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMovieBudgetAndBoxOffice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/movies_service.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="246" column="1" lean-forward="true" selection-start-line="246" selection-start-column="1" selection-end-line="246" selection-end-column="1" />
           <folding>
             <element signature="e#156#1190#0" />
             <element signature="e#1198#2285#0" />
@@ -1284,17 +1456,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/SectionName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="237">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="99" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40Years.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="68" />
+        <state relative-caret-position="213">
+          <caret line="646" column="16" selection-start-line="646" selection-start-column="16" selection-end-line="646" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="1051" column="25" selection-start-line="1051" selection-start-column="25" selection-end-line="1051" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/JsonElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="203" column="16" selection-start-line="203" selection-start-column="16" selection-end-line="203" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonWorkflow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/country_by_avg_male_height.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="148" column="22" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/fb62e18caf6a7a78547930020e6eb4315f550438/junit-platform-commons-1.4.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="630" selection-start-line="630" selection-end-line="630" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar!/oracle/jrockit/jfr/events/Bits.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/CountryByAvgMaleHeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndHeightCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestHeightByCountries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="112" column="3" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>

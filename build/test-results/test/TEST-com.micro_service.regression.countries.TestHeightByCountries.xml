@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.micro_service.regression.countries.TestHeightByCountries" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-08-25T00:18:04" hostname="Users-MacBook-Pro.local" time="0.066">
+  <properties/>
+  <testcase name="testLowestAndHeightHeightProcedure1()" classname="com.micro_service.regression.countries.TestHeightByCountries" time="0.032"/>
+  <testcase name="testLowestAndHeightHeightProcedure2()" classname="com.micro_service.regression.countries.TestHeightByCountries" time="0.004"/>
+  <testcase name="testTotalCountriesCountWithHeightsAsNotNull()" classname="com.micro_service.regression.countries.TestHeightByCountries" time="0.004"/>
+  <testcase name="findAndTestAvgHeightPerCountry()" classname="com.micro_service.regression.countries.TestHeightByCountries" time="0.014"/>
+  <testcase name="testShortestHeightPerCountry()" classname="com.micro_service.regression.countries.TestHeightByCountries" time="0.004"/>
+  <testcase name="testTallestHeightPerCountry()" classname="com.micro_service.regression.countries.TestHeightByCountries" time="0.004"/>
+  <system-out><![CDATA[java.util.stream.ReferencePipeline$Head@5e4cfb23
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
