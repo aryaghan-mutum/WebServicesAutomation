@@ -66,6 +66,13 @@ public class TestCountriesByContinent extends SuperClass {
                     }
                 });
         
+        int totalCountries =
+                asiaCountriesList.size() + europeCountriesList.size() + oceaniaCountriesList.size() +
+                        africaCountriesList.size() + northAmericaCountriesList.size() + southAmericaCountriesList.size();
+        
+        log("Total Countries: %s ", totalCountries);
+        Assertions.assertEquals(totalCountries, 228);
+        
         Assertions.assertEquals(asiaCountriesList.size(), 48);
         Assertions.assertEquals(europeCountriesList.size(), 46);
         Assertions.assertEquals(oceaniaCountriesList.size(), 27);
@@ -73,7 +80,6 @@ public class TestCountriesByContinent extends SuperClass {
         Assertions.assertEquals(northAmericaCountriesList.size(), 35);
         Assertions.assertEquals(southAmericaCountriesList.size(), 14);
     }
-    
     
     
 }
