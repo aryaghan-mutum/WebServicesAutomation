@@ -17,7 +17,8 @@ public class TestCountryAndPopulationDensityCount extends SuperClass {
     private static final int TOTAL_COUNTRIES_WITH_POPULATION_DENSITY_AS_NOT_NULL = 175;
     
     /**
-     * Gets total count of the countries and performs assertion
+     * 1. Gets total count of the countries and performs assertion
+     * 2. Asserts the count
      */
     @Test
     public void testTotalCountriesCountWithDensityANull() throws FileNotFoundException {
@@ -27,17 +28,18 @@ public class TestCountryAndPopulationDensityCount extends SuperClass {
     }
     
     /**
-     * Gets total count of the countries with density as not null, and performs assertion
+     * 1. Gets total count of the countries with density as not null, and performs assertion
+     * 2. Asserts the count with density as not null
      */
     @Test
     public void testTotalCountriesCountWithDensityAsNotNull() throws FileNotFoundException {
         
-        int totalCountriesCountWithHeightsAsNotNull =
+        int totalCountriesCountWithDensityAsNotNull =
                 (int) getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
                         .filter(country -> !isDensityNull(country))
                         .count();
         
-        Assertions.assertEquals(totalCountriesCountWithHeightsAsNotNull, TOTAL_COUNTRIES_WITH_POPULATION_DENSITY_AS_NOT_NULL);
+        Assertions.assertEquals(totalCountriesCountWithDensityAsNotNull, TOTAL_COUNTRIES_WITH_POPULATION_DENSITY_AS_NOT_NULL);
     }
     
 }

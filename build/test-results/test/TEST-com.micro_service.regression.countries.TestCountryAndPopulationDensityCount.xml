@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.micro_service.regression.countries.TestCountryAndPopulationDensityCount" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-08-25T03:53:17" hostname="Users-MacBook-Pro.local" time="0.037">
-  <properties/>
-  <testcase name="testTotalCountriesCountWithDensityAsNotNull()" classname="com.micro_service.regression.countries.TestCountryAndPopulationDensityCount" time="0.034"/>
-  <testcase name="testTotalCountriesCountWithDensityANull()" classname="com.micro_service.regression.countries.TestCountryAndPopulationDensityCount" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

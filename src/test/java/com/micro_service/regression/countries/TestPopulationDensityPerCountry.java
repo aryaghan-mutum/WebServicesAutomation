@@ -90,6 +90,20 @@ public class TestPopulationDensityPerCountry extends SuperClass {
     }
     
     /**
+     * Test Lowest and Highest population Density from country_by_population_density.json
+     */
+    @Test
+    public void testLowestAndHighestPopulationDensity() throws FileNotFoundException {
+        
+        // Approach 1:
+        testLowestAndHighestPopulationDensityProcedure1();
+        
+        // Approach 2:
+        testLowestAndHighestPopulationDensityProcedure2();
+    }
+    
+    /**
+     * Approach 1 using List, forEach() and Map
      * 1. Gets a stream of countries and remove the ones that has density = null
      * 2. Collect a list of country Json object in a list
      * 3. Iterate the countriesList and gets countryName and density
@@ -97,8 +111,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
      * 5. Gets the shortestHeight and  tallestHeight from Collections Api
      * 6. Assert
      */
-    @Test
-    public void testLowestAndHighestPopulationDensityProcedure1() throws FileNotFoundException {
+    public static void testLowestAndHighestPopulationDensityProcedure1() throws FileNotFoundException {
         
         Stream<JsonElement> countries = getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES);
         
@@ -119,17 +132,25 @@ public class TestPopulationDensityPerCountry extends SuperClass {
         Assertions.assertEquals(highestPopulationDensity, HIGHEST_POPULATION_DENSITY);
     }
     
-    @Test
-    public void testLowestAndHighestPopulationDensityProcedure2() throws FileNotFoundException {
+    /**
+     * Approach 2 using Collectors.toMap()
+     * 1. Gets a stream of countries and remove the ones that has density = null
+     * 2. Store countryName as a Key and density as a value in a toMap()
+     * 3. Gets the shortestHeight and  tallestHeight from Collections Api
+     * 4. Assert
+     */
+    public static void testLowestAndHighestPopulationDensityProcedure2() throws FileNotFoundException {
         
-        Stream<JsonElement> countries = getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES);
+        Map<String, Double> countryNameAndDensityMap =
+                getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+                        .filter(country -> !isDensityNull(country))
+                        .collect(Collectors.toMap(
+                                country -> getJsonString(country, COUNTRY),
+                                density -> getJsonDouble(density, DENSITY)));
         
-        // using collectors
-//        countries
-//                .filter(country -> !isHeightNull(country))
-//
-//
-        System.out.println(countries);
-        
+        Assertions.assertEquals(Collections.min(countryNameAndDensityMap.values()), LOWEST_POPULATION_DENSITY);
+        Assertions.assertEquals(Collections.max(countryNameAndDensityMap.values()), HIGHEST_POPULATION_DENSITY);
     }
+    
+    
 }
