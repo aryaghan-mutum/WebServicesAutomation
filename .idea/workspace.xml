@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountriesByContinent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountriesByContinent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndPopulationDensityCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndPopulationDensityCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/toolKit/SequentialAndParallelStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/countries/TestCountriesByContinent.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/countries/TestCountriesByContinent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/countries/TestCountryAndPopulationDensityCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/countries/TestCountryAndPopulationDensityCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/countries/TestCountryNameStartsWithLetterZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/countries/TestCountryNameStartsWithLetterZ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/countries/TestNullValuesForCountryNamesAndDensity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/countries/TestNullValuesForCountryNamesAndDensity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/countries/TestPopulationDensityPerCountry.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/countries/TestPopulationDensityPerCountry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.micro_service.regression.countries.TestCountryNameStartsWithLetterZ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.micro_service.regression.countries.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.micro_service.regression.countries.TestCountryNameStartsWithLetterZ.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryNameStartsWithLetterZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryNameStartsWithLetterZ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestNullValuesForCountryNamesAndDensity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestNullValuesForCountryNamesAndDensity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestPopulationDensityPerCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestPopulationDensityPerCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,84 +71,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/resources/main/data/country_by_continent.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/resources/main/data/country_by_population_density.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountriesByContinent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-292">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="2720" column="18" selection-start-line="2720" selection-start-column="18" selection-end-line="2720" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndPopulationDensityCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryNameStartsWithLetterZ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="3" />
+            <state relative-caret-position="197">
+              <caret line="134" column="27" lean-forward="true" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestNullValuesForCountryNamesAndDensity.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Optional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestPopulationDensityPerCountry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1320">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="208">
+              <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLanguageIsNullForAMovie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+            <state relative-caret-position="-79">
+              <caret line="26" column="67" lean-forward="true" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40Years.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="772">
+              <caret line="70" column="8" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="994">
+              <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMovieBudgetAndBoxOffice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -142,13 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>primar</find>
-      <find>drama</find>
-      <find>menuName</find>
-      <find>menu</find>
-      <find>genres</find>
-      <find>initResponsesFolder</find>
-      <find>language is nu</find>
       <find>language&quot;:</find>
       <find>contains</find>
       <find>TITLE</find>
@@ -165,13 +161,20 @@
       <find>South</find>
       <find>czec</find>
       <find>.stream</find>
-      <find>.stream()</find>
       <find>startsW</find>
       <find>null</find>
       <find>Dutch</find>
       <find>United Kin</find>
       <find>LANGUAGE</find>
       <find>rever</find>
+      <find>testAveragePopulationDensityAllCountries</find>
+      <find>.stream()</find>
+      <find>range</find>
+      <find>anyM</find>
+      <find>anyMatch</find>
+      <find>startswith</find>
+      <find>average()</find>
+      <find>reduce</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -183,9 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/menus/MenuName.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/menus/SectionName.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/src/main/resources/x_service.json" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/Location.java" />
@@ -207,7 +207,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLanguageIsNullForAMovie.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/X.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40Years.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java" />
         <option value="$PROJECT_DIR$/src/main/resources/movies_service.json" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data/country-by-avg-male-height.json" />
@@ -229,11 +228,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/micro_service/workflows/ConstantsWorkflow.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestName.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryNameStartsWithLetterZ.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestNullValuesForCountryNamesAndDensity.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestPopulationDensityPerCountry.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndPopulationDensityCount.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountriesByContinent.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/miscellaneous/SequentialAndParallelStreams.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/tools/SequentialAndParallelStreams.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/toolKit/SequentialAndParallelStreams.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestPopulationDensityPerCountry.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryNameStartsWithLetterZ.java" />
       </list>
     </option>
   </component>
@@ -244,8 +247,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="146" />
-    <option name="y" value="23" />
+    <option name="x" value="1718" />
+    <option name="y" value="49" />
     <option name="width" value="1631" />
     <option name="height" value="1027" />
   </component>
@@ -255,6 +258,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -436,6 +441,17 @@
             </path>
             <path>
               <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServicesAutomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="micro_service" type="462c0819:PsiDirectoryNode" />
+              <item name="regression" type="462c0819:PsiDirectoryNode" />
+              <item name="toolKit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -464,12 +480,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebServicesAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -512,9 +534,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure3">
+  <component name="RunManager" selected="Gradle.TestCountryNameStartsWithLetterZ.test">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SequentialAndParallelStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.micro_service.regression.toolKit.SequentialAndParallelStreams" />
+      <module name="WebServicesAutomation.test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro_service.regression.toolKit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -525,12 +561,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SectionName.func" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestCountryNameStartsWithLetterZ.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.movies.SectionName.func&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestCountryNameStartsWithLetterZ.test&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -545,12 +581,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestCountryNameStartsWithLetterZ.testCountriesThatStartsWithLetterZProcedure3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure3&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestCountryNameStartsWithLetterZ.testCountriesThatStartsWithLetterZProcedure3&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -565,12 +601,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestCountryNameStartsWithLetterZ.testCountriesTotalCountThatStartsWithLetterZProcedure2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure4&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestCountryNameStartsWithLetterZ.testCountriesTotalCountThatStartsWithLetterZProcedure2&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -585,32 +621,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestName.test2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestPopulationDensityPerCountry.testLowestAndHighestPopulationDensity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestName.test2&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestName.testChar" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestName.testChar&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.micro_service.regression.countries.TestPopulationDensityPerCountry.testLowestAndHighestPopulationDensity&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -652,11 +668,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure3" />
-        <item itemvalue="Gradle.TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure4" />
-        <item itemvalue="Gradle.TestName.testChar" />
-        <item itemvalue="Gradle.TestName.test2" />
-        <item itemvalue="Gradle.SectionName.func" />
+        <item itemvalue="Gradle.TestCountryNameStartsWithLetterZ.test" />
+        <item itemvalue="Gradle.TestCountryNameStartsWithLetterZ.testCountriesThatStartsWithLetterZProcedure3" />
+        <item itemvalue="Gradle.TestCountryNameStartsWithLetterZ.testCountriesTotalCountThatStartsWithLetterZProcedure2" />
+        <item itemvalue="Application.SequentialAndParallelStreams" />
+        <item itemvalue="Gradle.TestPopulationDensityPerCountry.testLowestAndHighestPopulationDensity" />
       </list>
     </recent_temporary>
   </component>
@@ -703,35 +719,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCountryNameStartsWithLetterZ_testCountriesListThatStartsWithLetterZProcedure3 - 2019.08.25 at 21h 45m 32s.xml">
-      <configuration name="TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure3" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestCountryNameStartsWithLetterZ_test - 2019.08.26 at 14h 07m 06s.xml">
+      <configuration name="TestCountryNameStartsWithLetterZ.test" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCountryNameStartsWithLetterZ_testCountriesListThatStartsWithLetterZProcedure3 - 2019.08.25 at 21h 48m 48s.xml">
-      <configuration name="TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure3" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestCountryNameStartsWithLetterZ_test - 2019.08.26 at 14h 08m 37s.xml">
+      <configuration name="TestCountryNameStartsWithLetterZ.test" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCountryNameStartsWithLetterZ_testCountriesListThatStartsWithLetterZProcedure3 - 2019.08.25 at 21h 48m 58s.xml">
-      <configuration name="TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure3" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestCountryNameStartsWithLetterZ_test - 2019.08.26 at 14h 09m 05s.xml">
+      <configuration name="TestCountryNameStartsWithLetterZ.test" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCountryNameStartsWithLetterZ_testCountriesListThatStartsWithLetterZProcedure3 - 2019.08.25 at 21h 49m 25s.xml">
-      <configuration name="TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure3" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestCountryNameStartsWithLetterZ_test - 2019.08.26 at 14h 15m 26s.xml">
+      <configuration name="TestCountryNameStartsWithLetterZ.test" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCountryNameStartsWithLetterZ_testCountriesListThatStartsWithLetterZProcedure3 - 2019.08.25 at 21h 51m 25s.xml">
-      <configuration name="TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure3" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestCountryNameStartsWithLetterZ_test - 2019.08.26 at 14h 15m 37s.xml">
+      <configuration name="TestCountryNameStartsWithLetterZ.test" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCountryNameStartsWithLetterZ_testCountriesListThatStartsWithLetterZProcedure3 - 2019.08.25 at 21h 51m 37s.xml">
-      <configuration name="TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure3" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestCountryNameStartsWithLetterZ_test - 2019.08.26 at 14h 16m 16s.xml">
+      <configuration name="TestCountryNameStartsWithLetterZ.test" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCountryNameStartsWithLetterZ_testCountriesListThatStartsWithLetterZProcedure3 - 2019.08.25 at 21h 51m 52s.xml">
-      <configuration name="TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure3" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestCountryNameStartsWithLetterZ_test - 2019.08.26 at 14h 16m 33s.xml">
+      <configuration name="TestCountryNameStartsWithLetterZ.test" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCountryNameStartsWithLetterZ_testCountriesListThatStartsWithLetterZProcedure3 - 2019.08.25 at 21h 51m 58s.xml">
-      <configuration name="TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure3" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestCountryNameStartsWithLetterZ_test - 2019.08.26 at 14h 18m 01s.xml">
+      <configuration name="TestCountryNameStartsWithLetterZ.test" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCountryNameStartsWithLetterZ_testCountriesListThatStartsWithLetterZProcedure3 - 2019.08.25 at 21h 53m 25s.xml">
-      <configuration name="TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure3" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestCountryNameStartsWithLetterZ_test - 2019.08.26 at 14h 18m 23s.xml">
+      <configuration name="TestCountryNameStartsWithLetterZ.test" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCountryNameStartsWithLetterZ_testCountriesListThatStartsWithLetterZProcedure3 - 2019.08.25 at 21h 53m 48s.xml">
-      <configuration name="TestCountryNameStartsWithLetterZ.testCountriesListThatStartsWithLetterZProcedure3" configurationId="GradleRunConfiguration" />
+    <history-entry file="TestCountryNameStartsWithLetterZ_test - 2019.08.26 at 14h 19m 05s.xml">
+      <configuration name="TestCountryNameStartsWithLetterZ.test" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -744,9 +760,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="462" y="45" width="1631" height="1027" extended-state="0" />
+    <frame x="1718" y="49" width="1631" height="1027" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2630585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26935178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -755,12 +771,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.21600877" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51096493" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30811402" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2236842" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2883772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32810867" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.14254385" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14254385" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32810867" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.29276314" />
@@ -840,7 +856,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java</url>
-          <line>70</line>
+          <line>69</line>
           <properties />
           <option name="timeStamp" value="78" />
         </line-breakpoint>
@@ -849,12 +865,6 @@
           <line>86</line>
           <properties />
           <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndPopulationDensityCount.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestPopulationDensityPerCountry.java</url>
@@ -882,9 +892,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryNameStartsWithLetterZ.java</url>
-          <line>112</line>
+          <line>59</line>
           <properties />
-          <option name="timeStamp" value="145" />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryNameStartsWithLetterZ.java</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="154" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -899,85 +915,128 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>Pattern.compile(&quot;, &quot;)
-        .splitAsStream(countriesStartsWithLetterZ)
-        .collect(Collectors.joining(&quot;-&quot;));</expression-string>
+        <expression-string>getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+                .map(country -&gt; getJsonString(country, COUNTRY))
+                .filter(country -&gt; country.startsWith(&quot;Z&quot;))
+                .reduce((a, b) -&gt; a + &quot; and &quot; + b)
+                .get();
+.chars()
+        .distinct()
+        .mapToObj(c -&gt; String.valueOf((char) c))
+        .sorted()
+        .collect(Collectors.joining(&quot; &quot;));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>countriesStartsWithLetterZ = countriesStartsWithLetterZList
-        .stream()
-        .collect(Collectors.joining(&quot;, &quot;));
-
-Pattern.compile(&quot;- &quot;)
-        .splitAsStream(countriesStartsWithLetterZ)
-        .collect(Collectors.joining(&quot;-&quot;)</expression-string>
+        <expression-string>getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+                .map(country -&gt; getJsonString(country, COUNTRY))
+                .filter(country -&gt; country.startsWith(&quot;Z&quot;))
+                .reduce((a, b) -&gt; a + &quot; and &quot; + b)
+                .get();</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>countriesStartsWithLetterZ = countriesStartsWithLetterZList
-        .stream()
+        <expression-string>getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+                .map(country -&gt; getJsonString(country, COUNTRY))
+                .filter(country -&gt; country.startsWith(&quot;Z&quot;))
+                .reduce((a, b) -&gt; a + &quot; &quot; + b)
+                .get();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+                .map(country -&gt; getJsonString(country, COUNTRY))
+                .filter(country -&gt; country.startsWith(&quot;Z&quot;))
+                .reduce((a, b) -&gt; a + &quot; &quot; + b)
+                .get()
+                .chars()
+                .distinct()
+                .mapToObj(c -&gt; String.valueOf((char) c))
+                .sorted()
+                .collect(Collectors.joining(&quot; &quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+                .map(country -&gt; getJsonString(country, COUNTRY))
+                .filter(country -&gt; country.startsWith(&quot;Z&quot;))
+                .reduce((a, b) -&gt; a + &quot; &quot; + b)
+                .get()
+                .chars()
+                .distinct()
+                .mapToObj(c -&gt; String.valueOf((char) c))
+                .sorted()
+                .collect(Collectors.joining(&quot;, &quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+        .map(country -&gt; getJsonString(country, COUNTRY))
+        .filter(country -&gt; country.startsWith(&quot;Z&quot;))
+        .reduce((a, b) -&gt; a + &quot; &quot; + b)
+        .get()
+        .chars()
+        .distinct()
+        .mapToObj(c -&gt; String.valueOf((char) c))
+        .sorted();
+        //.collect(Collectors.joining(&quot;, &quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+        .map(country -&gt; getJsonString(country, COUNTRY))
+        .filter(country -&gt; country.startsWith(&quot;Z&quot;))
+        .reduce((a, b) -&gt; a + &quot; &quot; + b)
+        .get()
+        .chars()
+        .distinct()
+        .mapToObj(c -&gt; String.valueOf((char) c))
+        .sorted()
+        //.collect(Collectors.joining(&quot;, &quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+        .map(country -&gt; getJsonString(country, COUNTRY))
+        .filter(country -&gt; country.startsWith(&quot;Z&quot;))
+        .reduce((a, b) -&gt; a + &quot; &quot; + b)
+        .get()
+        .chars()
+        .distinct()
+        .mapToObj(c -&gt; String.valueOf((char) c))
+        .sorted()
         .collect(Collectors.joining(&quot;, &quot;));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>untriesStartsWithLetterZ = countriesStartsWithLetterZList
-        .stream()
-        .collect(Collectors.joining(&quot;, &quot;));</expression-string>
+        <expression-string>getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+                .map(country -&gt; getJsonString(country, COUNTRY))
+                .filter(country -&gt; country.startsWith(&quot;Z&quot;))
+                .reduce((a, b) -&gt; a + &quot; &quot; + b)
+                .get()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Pattern.compile(&quot;:&quot;)
-                        .splitAsStream(countriesStartsWithLetterZ)
-                        .collect(Collectors.joining(&quot;:&quot;));</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Pattern.compile(&quot;*&quot;)
-                        .splitAsStream(countriesStartsWithLetterZ)
-                        .collect(Collectors.joining(&quot;*&quot;));</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Pattern.compile(&quot;-&quot;)
-                        .splitAsStream(countriesStartsWithLetterZ)
-                        .collect(Collectors.joining(&quot;-&quot;));</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Pattern.compile(&quot;-&quot;)
-                        .splitAsStream(countriesStartsWithLetterZ)
-                        .collect(Collectors.joining(&quot;-&quot;);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Pattern.compile(&quot;-&quot;)
-                        .splitAsStream(countriesStartsWithLetterZ)
-                        .collect(Collectors.joining(&quot;-&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Pattern.compile(&quot;- &quot;)
-                        .splitAsStream(countriesStartsWithLetterZ)
-                        .collect(Collectors.joining(&quot;-&quot;);</expression-string>
+        <expression-string>getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+                .map(country -&gt; getJsonString(country, COUNTRY))
+                .filter(country -&gt; country.startsWith(&quot;Z&quot;))
+                .reduce((a, b) -&gt; a + &quot; &quot; + b).toString()
+                .get()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/settings.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/SettingsWorkflow.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/Settings.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/JsonPrimitive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
@@ -1020,13 +1079,6 @@ Pattern.compile(&quot;- &quot;)
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLanguageIsNullForAMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="26" column="67" lean-forward="true" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.1/a40b620a07542172d2e5a4515a525d81b46a250f/junit-jupiter-engine-5.4.1-sources.jar!/org/junit/jupiter/engine/execution/ExecutableInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -1059,18 +1111,6 @@ Pattern.compile(&quot;- &quot;)
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/movies_service.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="246" column="1" lean-forward="true" selection-start-line="246" selection-start-column="1" selection-end-line="246" selection-end-column="1" />
-          <folding>
-            <element signature="e#156#1190#0" />
-            <element signature="e#1198#2285#0" />
-            <element signature="e#2293#3518#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1131,20 +1171,6 @@ Pattern.compile(&quot;- &quot;)
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40Years.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1152,34 +1178,6 @@ Pattern.compile(&quot;- &quot;)
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="53" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/country_by_population_density.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14655">
-          <caret line="977" column="1" selection-start-line="977" selection-start-column="1" selection-end-line="980" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMovieBudgetAndBoxOffice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -1194,13 +1192,6 @@ Pattern.compile(&quot;- &quot;)
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/country_by_continent.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="977" selection-start-line="977" selection-end-line="981" />
         </state>
       </provider>
     </entry>
@@ -1221,17 +1212,35 @@ Pattern.compile(&quot;- &quot;)
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/country_by_languages.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestName.java" />
+    <entry file="file://$PROJECT_DIR$/build/resources/main/data/country_by_continent.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/resources/main/data/country_by_population_density.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/resources/main/data/movies_service.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountriesByContinent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40455">
+          <caret line="2720" column="18" selection-start-line="2720" selection-start-column="18" selection-end-line="2720" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/micro_service/workflows/JsonPayloadWorkflow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/country_by_languages.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="1243" column="30" selection-start-line="1243" selection-start-column="20" selection-end-line="1243" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1242,58 +1251,113 @@ Pattern.compile(&quot;- &quot;)
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/resources/main/data/country_by_continent.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="2720" column="18" selection-start-line="2720" selection-start-column="18" selection-end-line="2720" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/resources/main/data/country_by_population_density.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryNameStartsWithLetterZ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountriesByContinent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryAndPopulationDensityCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="300">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestNullValuesForCountryNamesAndDensity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/country_by_population_density.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="14655">
+          <caret line="977" column="1" selection-start-line="977" selection-start-column="1" selection-end-line="980" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/movies_service.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="246" column="1" lean-forward="true" selection-start-line="246" selection-start-column="1" selection-end-line="246" selection-end-column="1" />
+          <folding>
+            <element signature="e#156#1190#0" />
+            <element signature="e#1198#2285#0" />
+            <element signature="e#2293#3518#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/country_by_continent.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14655">
+          <caret line="977" selection-start-line="977" selection-end-line="981" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMovieBudgetAndBoxOffice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedLessThan40Years.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestMoviesReleasedAfter1980.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="70" column="8" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLeadActorIsNullForAMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="994">
+          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestLanguageIsNullForAMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="26" column="67" lean-forward="true" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/toolKit/SequentialAndParallelStreams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies/TestDirectorAndProducerAreSame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestPopulationDensityPerCountry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1320">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="-538">
+          <caret line="92" column="78" selection-start-line="92" selection-start-column="78" selection-end-line="92" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestNullValuesForCountryNamesAndDensity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/micro_service/regression/countries/TestCountryNameStartsWithLetterZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="134" column="27" lean-forward="true" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
         </state>
       </provider>
     </entry>

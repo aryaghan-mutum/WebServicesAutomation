@@ -31,7 +31,7 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
      * 3. Assert the count
      */
     @Test
-    public void testCountriesTotalCountThatStartsWithLetterZ() throws FileNotFoundException {
+    public void testCountriesTotalCountThatStartsWithLetterZUsingCount() throws FileNotFoundException {
         
         long countryNameCountThatStartsWithLetterZ =
                 getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
@@ -40,6 +40,24 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
                         .count();
         
         Assertions.assertEquals(countryNameCountThatStartsWithLetterZ, 2);
+    }
+    
+    /**
+     * Operations used: map() and anyMatch()
+     * 1. Map the country names
+     * 2. Check If the country name starts with the letter 'Z'
+     * 3. Assert the boolean
+     */
+    @Test
+    public void testCountriesThatStartsWithLetterUsingAnyMatch() throws FileNotFoundException {
+        
+        boolean isCountryNameStartsWithLetterZ =
+                getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+                        .map(country -> getJsonString(country, COUNTRY))
+                        .anyMatch(flower -> flower.startsWith("Z"));
+        
+        
+        Assertions.assertEquals(isCountryNameStartsWithLetterZ, true);
     }
     
     /**
@@ -75,7 +93,7 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
                         .map(String::toUpperCase)
                         .collect(Collectors.joining(", "));
         
-        Assert.assertEquals(countriesStartsWithLetterZ, "zambia, zimbabwe" .toUpperCase());
+        Assert.assertEquals(countriesStartsWithLetterZ, "zambia, zimbabwe".toUpperCase());
     }
     
     /**
@@ -100,18 +118,38 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
         
         String countriesStartsWithLetterZWithComma =
                 countriesStartsWithLetterZList
-                .stream()
-                .collect(Collectors.joining(", "));
-    
-        Assert.assertEquals(countriesStartsWithLetterZWithComma, "zambia, zimbabwe" .toUpperCase());
+                        .stream()
+                        .collect(Collectors.joining(", "));
+        
+        Assert.assertEquals(countriesStartsWithLetterZWithComma, "zambia, zimbabwe".toUpperCase());
         
         String countriesStartsWithLetterZWithHiphen =
                 Pattern.compile(", ")
-                .splitAsStream(countriesStartsWithLetterZWithComma)
-                .collect(Collectors.joining("-"));
+                        .splitAsStream(countriesStartsWithLetterZWithComma)
+                        .collect(Collectors.joining("-"));
         
-        Assert.assertEquals(countriesStartsWithLetterZWithHiphen, "zambia-zimbabwe" .toUpperCase());
-        
+        Assert.assertEquals(countriesStartsWithLetterZWithHiphen, "zambia-zimbabwe".toUpperCase());
     }
+    
+    /**
+     * Operations used: map(), filter(), reduce(), get(), chars(), distinct(), maoToObj(), sorted() and collect()
+     */
+    @Test
+    public void testCountriesStartWithLetterZAndDoStringManipulation() throws FileNotFoundException {
+        
+        String countriesStartsWithLetterZStr1 = getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+                .map(country -> getJsonString(country, COUNTRY))
+                .filter(country -> country.startsWith("Z"))
+                .reduce((a, b) -> a + " and " + b)
+                .get()
+                .chars()
+                .distinct()
+                .mapToObj(c -> String.valueOf((char) c))
+                .sorted()
+                .collect(Collectors.joining(" "));
+        
+        Assert.assertEquals(countriesStartsWithLetterZStr1, "  Z a b d e i m n w");
+    }
+    
     
 }

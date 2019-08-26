@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.micro_service.regression.countries.TestCountryNameStartsWithLetterZ" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-26T01:53:48" hostname="Users-MacBook-Pro.local" time="0.027">
+<testsuite name="com.micro_service.regression.countries.TestCountryNameStartsWithLetterZ" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-08-26T18:19:00" hostname="Users-MacBook-Pro.local" time="4.927">
   <properties/>
-  <testcase name="testCountriesListThatStartsWithLetterZProcedure3()" classname="com.micro_service.regression.countries.TestCountryNameStartsWithLetterZ" time="0.027"/>
+  <testcase name="test()" classname="com.micro_service.regression.countries.TestCountryNameStartsWithLetterZ" time="4.927">
+    <skipped/>
+  </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
