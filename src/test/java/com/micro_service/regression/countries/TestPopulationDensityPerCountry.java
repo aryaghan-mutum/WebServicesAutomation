@@ -24,6 +24,10 @@ import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 import static com.micro_service.workflows.Util.isDensityNull;
 
+/**
+ * @author Anurag Muthyam
+ */
+
 public class TestPopulationDensityPerCountry extends SuperClass {
     
     private static final double LOWEST_POPULATION_DENSITY = 0.0;
@@ -74,7 +78,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
      * 4. Assert
      */
     @Test
-    public void testAveragePopulationDensityAllCountries() throws FileNotFoundException {
+    public void testAveragePopulationDensityForAllCountries() throws FileNotFoundException {
         
         DecimalFormat dateFormatter = new DecimalFormat("#.###");
         
@@ -123,7 +127,9 @@ public class TestPopulationDensityPerCountry extends SuperClass {
         
         countriesList
                 .stream()
-                .forEach(country -> countryNameAndDensityMap.put(getJsonString(country, COUNTRY), getJsonDouble(country, DENSITY)));
+                .forEach(country -> countryNameAndDensityMap.put(
+                        getJsonString(country, COUNTRY),
+                        getJsonDouble(country, DENSITY)));
         
         Double lowestPopulationDensity = Collections.min(countryNameAndDensityMap.values());
         Double highestPopulationDensity = Collections.max(countryNameAndDensityMap.values());
