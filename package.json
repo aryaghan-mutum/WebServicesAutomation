@@ -1,0 +1,12 @@
+{
+  "name": "Anurag Muthyam",
+  "project_name": "Web Service Automation",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "",
+  "dependencies": {
+    "junit_jupiter_version": "",
+    "gh-spring_core_version": "",
+    "gson_version": ""
+  }
+}

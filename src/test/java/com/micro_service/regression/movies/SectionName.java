@@ -6,7 +6,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import java.io.FileNotFoundException;
 import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.stream.Collectors;
 
+import static com.micro_service.workflows.ConstantsWorkflow.MOVIES;
+import static com.micro_service.workflows.ConstantsWorkflow.TITLE;
 import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
@@ -14,6 +17,16 @@ import static com.micro_service.workflows.JsonWorkflow.isUndefined;
 
 public class SectionName extends SuperClass {
     
+    @Test
+    public void func() {
+        String string = "foobar:foo:bar"
+                .chars()
+                .distinct()
+                .mapToObj(c -> String.valueOf((char) c))
+                .sorted()
+                .collect(Collectors.joining());
+        System.out.println(string);
+    }
     /**
      * Procedure 1: Test if the sectionName is null
      * If the sectionName == null, then the test FAILS
@@ -54,12 +67,12 @@ public class SectionName extends SuperClass {
         
         AtomicBoolean areActorsNull = new AtomicBoolean(false);
         
-        getJsonStream(retrieveMoviesServiceDoc(), "payload.movies")
+        getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
                 .forEach(menuID -> {
                     
                     long actorsCount = getJsonStream(menuID, "cast")
                             .filter(this::areAllActorsNull)
-                            .peek(menuSection -> log("All actors are null for title: %s", getJsonString(menuID, "title")))
+                            .peek(menuSection -> log("All actors are null for title: %s", getJsonString(menuID, TITLE)))
                             .count();
                     
                     if (actorsCount > 0) {
