@@ -11,7 +11,7 @@
   </appender>
 
   <!-- Configure so that it outputs to both console and log file -->
-  <root level="ERROR">
+  <root level="INFO">
     <appender-ref ref="STDOUT"/>
   </root>
 </configuration>

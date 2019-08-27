@@ -1,12 +1,16 @@
 package com.micro_service.regression.countries;
 
 import base.SuperClass;
+import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static com.micro_service.workflows.ConstantsWorkflow.CONTINENT;
 import static com.micro_service.workflows.ConstantsWorkflow.COUNTRIES;
@@ -83,6 +87,35 @@ public class TestCountriesByContinent extends SuperClass {
         Assertions.assertEquals(africaCountriesList.size(), 58);
         Assertions.assertEquals(northAmericaCountriesList.size(), 35);
         Assertions.assertEquals(southAmericaCountriesList.size(), 14);
+    }
+    
+    /**
+     * Operations used: filer(), map(), distinct(), sorted() and collect()
+     * 1. Exclude a list of countries who's continent is null by using filter()
+     * 2. Get all the unique continentName and sort and store them in a list
+     * 3. Assert: If the list if empty then the test FAILS
+     * 4. Assert: Compare two lists are equal
+     */
+    @Test
+    public void getAListOfContinentsAndTestIfItIsEmpty() throws FileNotFoundException {
+        
+        List<String> expectedContinentsList = getJsonStream(retrieveCountryByContinentServiceDoc(), COUNTRIES)
+                .filter(country -> !isContinentNull(country))
+                .map(country -> getJsonString(country, CONTINENT))
+                .distinct()
+                .sorted()
+                .collect(Collectors.toList());
+        
+        if (expectedContinentsList.isEmpty()) {
+            Assert.fail();
+        }
+        
+        List<String> actualContinentsList2 =
+                Stream.of("Africa", "Asia", "Europe", "Oceania", "Antarctica", "North America", "South America")
+                        .sorted()
+                        .collect(Collectors.toList());
+        
+        Assert.assertEquals(actualContinentsList2, expectedContinentsList);
     }
     
     

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.micro_service.regression.countries.TestCountriesByContinent" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-27T01:23:14" hostname="L0T460PC0GJPNR.na.rccl.com" time="0.03">
+  <properties/>
+  <testcase name="getAListOfContinentsAndTestIfItIsEmpty()" classname="com.micro_service.regression.countries.TestCountriesByContinent" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
