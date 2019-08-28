@@ -1,72 +1,48 @@
 package com.micro_service.datastructures.sort;
 
 import base.SuperClass;
+import com.micro_service.workflows.Util;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
+import java.util.Arrays;
 import java.util.stream.IntStream;
-
-import static com.micro_service.workflows.ConstantsWorkflow.COUNTRIES;
-import static com.micro_service.workflows.ConstantsWorkflow.DENSITY;
-import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveCountryByPopulationDensityServiceDoc;
-import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
-import static com.micro_service.workflows.JsonWorkflow.getJsonString;
-import static com.micro_service.workflows.Util.isDensityNull;
 
 public class BubbleSort extends SuperClass {
     
     /**
-     * Asserts functionalBubbleSort() and imperativeBubbleSort()
+     * Asserts functionalBubbleSort() and sequentialBubbleSort()
      */
     @Test
     public void
     testBubbleSort() throws FileNotFoundException {
         
+        int[] countryDensitySequentialBubbleSortArray = sequentialBubbleSort();
         int[] countryDensityFunctionalBubbleSortArray = functionalBubbleSort();
-        int[] countryDensityImperativeBubbleSortArray = imperativeBubbleSort();
         
-        Assert.assertArrayEquals(countryDensityFunctionalBubbleSortArray, countryDensityImperativeBubbleSortArray);
+        Assert.assertArrayEquals(countryDensitySequentialBubbleSortArray, countryDensityFunctionalBubbleSortArray);
     }
     
     /**
-     * Bubble Sort in Functional Approach:
+     * Bubble Sort in Sequential Approach:
      */
     public int[]
-    functionalBubbleSort() throws FileNotFoundException {
+    sequentialBubbleSort() throws FileNotFoundException {
         
-        int[] countryDensityArray = getCountryDensityArray();
+        int[] countryDensityArray = Util.getCountryDensityArray();
         
-        int length = countryDensityArray.length;
-        IntStream.range(0, length - 1)
-                .flatMap(i -> IntStream.range(1, length - i))
-                .forEach(j -> {
-                    
-                    if (countryDensityArray[j - 1] > countryDensityArray[j]) {
-                        Integer temp = countryDensityArray[j];
-                        countryDensityArray[j] = countryDensityArray[j - 1];
-                        countryDensityArray[j - 1] = temp;
-                    }
-                    
-                });
+        int totalSize = countryDensityArray.length;
         
-        return countryDensityArray;
-    }
-    
-    /**
-     * Bubble Sort in Imperative Approach:
-     */
-    public int[]
-    imperativeBubbleSort() throws FileNotFoundException {
-        
-        int[] countryDensityArray = getCountryDensityArray();
-        
-        for (int i = 0; i < countryDensityArray.length - 1; i++) {
-            for (int j = 0; j < countryDensityArray.length - i - 1; j++) {
-                if (countryDensityArray[j] > countryDensityArray[j + 1]) {
-                    Integer temp = countryDensityArray[j];
-                    countryDensityArray[j] = countryDensityArray[j + 1];
-                    countryDensityArray[j + 1] = temp;
+        for (int i = 0; i < totalSize; i++) {
+            
+            for (int j = 1; j < totalSize - i; j++) {
+                
+                if (countryDensityArray[j - 1] > countryDensityArray[j]) {
+                    //swap
+                    int temp = countryDensityArray[j - 1];
+                    countryDensityArray[j - 1] = countryDensityArray[j];
+                    countryDensityArray[j] = temp;
                 }
             }
         }
@@ -75,18 +51,30 @@ public class BubbleSort extends SuperClass {
     }
     
     /**
-     * Operations used: filter(), map(), mapToInt()
-     * Gets aan array of densities from a json file
+     * Bubble Sort in Functional Approach:
      */
-    private int[]
-    getCountryDensityArray() throws FileNotFoundException {
-        return getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
-                .filter(country -> !isDensityNull(country))
-                .map(country -> getJsonString(country, DENSITY))
-                .map(country -> Double.valueOf(country))
-                .mapToInt(Double::intValue)
-                .toArray();
+    public int[]
+    functionalBubbleSort() throws FileNotFoundException {
         
+        int[] countryDensityArray = Util.getCountryDensityArray();
+        
+        int totalSize = countryDensityArray.length;
+        
+        IntStream.range(0, totalSize - 1)
+                .flatMap(i -> IntStream.range(1, totalSize - i))
+                .forEach(j -> {
+                    
+                    if (countryDensityArray[j - 1] > countryDensityArray[j]) {
+                        
+                        // swap
+                        int temp = countryDensityArray[j];
+                        countryDensityArray[j] = countryDensityArray[j - 1];
+                        countryDensityArray[j - 1] = temp;
+                    }
+                    
+                });
+        
+        return countryDensityArray;
     }
     
 }

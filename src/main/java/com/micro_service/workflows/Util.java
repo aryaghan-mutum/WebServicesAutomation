@@ -2,10 +2,14 @@ package com.micro_service.workflows;
 
 import com.google.gson.JsonElement;
 
+import java.io.FileNotFoundException;
 import java.time.LocalDate;
 
 import static com.micro_service.workflows.ConstantsWorkflow.CONTINENT;
+import static com.micro_service.workflows.ConstantsWorkflow.COUNTRIES;
 import static com.micro_service.workflows.ConstantsWorkflow.DENSITY;
+import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveCountryByPopulationDensityServiceDoc;
+import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 import static com.micro_service.workflows.JsonWorkflow.isUndefined;
 
@@ -37,5 +41,18 @@ public class Util {
         return isUndefined(country, CONTINENT) || getJsonString(country, CONTINENT) == null;
     }
     
+    /**
+     * Operations used: filter(), map(), mapToInt()
+     * Gets aan array of densities from a json file
+     */
+    public static int[]
+    getCountryDensityArray() throws FileNotFoundException {
+        return getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
+                .filter(country -> !isDensityNull(country))
+                .map(country -> getJsonString(country, DENSITY))
+                .map(country -> Double.valueOf(country))
+                .mapToInt(Double::intValue)
+                .toArray();
+    }
     
 }

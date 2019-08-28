@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.micro_service.datastructures.sort.SelectionSort" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-28T19:16:58" hostname="Users-MacBook-Pro.local" time="100.18">
+  <properties/>
+  <testcase name="testBubbleSort()" classname="com.micro_service.datastructures.sort.SelectionSort" time="100.18"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
