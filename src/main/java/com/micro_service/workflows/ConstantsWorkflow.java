@@ -15,6 +15,7 @@ public class ConstantsWorkflow {
     public static final String CAST = "cast";
     public static final String DIRECTOR = "director";
     public static final String PRODUCER = "producer";
+    public static final String MUSIC_DIRECTOR = "musicDirector";
     public static final String ACTOR1 = "actor1";
     public static final String ACTOR2 = "actor2";
     public static final String ACTOR3 = "actor3";

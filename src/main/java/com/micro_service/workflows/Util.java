@@ -5,6 +5,7 @@ import com.google.gson.JsonElement;
 import java.io.FileNotFoundException;
 import java.time.LocalDate;
 
+import static com.micro_service.workflows.ConstantsWorkflow.ACTOR3;
 import static com.micro_service.workflows.ConstantsWorkflow.CONTINENT;
 import static com.micro_service.workflows.ConstantsWorkflow.COUNTRIES;
 import static com.micro_service.workflows.ConstantsWorkflow.DENSITY;
@@ -39,6 +40,10 @@ public class Util {
     
     public static boolean isContinentNull(JsonElement country) {
         return isUndefined(country, CONTINENT) || getJsonString(country, CONTINENT) == null;
+    }
+    
+    public static boolean isActor3Null(JsonElement country) {
+        return isUndefined(country, ACTOR3) || getJsonString(country, ACTOR3) == null;
     }
     
     /**
