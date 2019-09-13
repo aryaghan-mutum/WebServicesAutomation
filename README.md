@@ -1,6 +1,6 @@
 ## WebServicesAutomation Project
 
-The purpose of the suite is to test the content in the REST services (JSON files).
+The purpose of the suite is to test the content in the REST services (JSON files) using Functional Programming in Java Streams and Lambda Expressions.
 
 ### Run Tests using gradle commands:
 
