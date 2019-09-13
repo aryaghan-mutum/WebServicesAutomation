@@ -1,6 +1,6 @@
 ## WebServicesAutomation Project
 
-- The purpose of the suite is to test the content in the REST services (JSON files).
+The purpose of the suite is to test the content in the REST services (JSON files).
 
 ### Run Tests using gradle commands:
 
@@ -18,4 +18,4 @@
 
 ### Notes:
 To be able to create tests cases to validate the content in the services, I created a JSON file from scratch. For example: `movies.service.json`.
-However, creating a huge payload takes time, so I have taken already existing JSON files to test from: `[samayo](https://github.com/samayo/country-json)` Thanks to him!
+However, creating a huge payload takes time, so I have taken already existing JSON files to test from: [samayo](https://github.com/samayo/country-json) Thanks to him!
