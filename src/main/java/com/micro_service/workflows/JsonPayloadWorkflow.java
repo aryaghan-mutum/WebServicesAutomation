@@ -12,7 +12,6 @@ import static com.micro_service.workflows.ConstantsWorkflow.MOVIE_SERVICE_PATH;
 
 public class JsonPayloadWorkflow {
     
-    
     public static JsonElement retrieveMoviesServiceDoc() throws FileNotFoundException {
         return retrieveServiceDocument(MOVIE_SERVICE_PATH);
     }

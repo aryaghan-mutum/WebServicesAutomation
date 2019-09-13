@@ -7,7 +7,6 @@ import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 public class JsonWorkflow {
-  
     
     public static Stream<JsonElement> getJsonStream(JsonElement e, String path) {
         return StreamSupport.stream(getJsonArray(e, path).spliterator(), false);
@@ -24,7 +23,6 @@ public class JsonWorkflow {
         
         return target.getAsJsonObject();
     }
-    
     
     public static String getJsonString(JsonElement e, String path) {
         JsonElement target = getTargetElement(e, path);

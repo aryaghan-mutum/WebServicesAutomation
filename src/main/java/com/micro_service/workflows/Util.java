@@ -48,10 +48,9 @@ public class Util {
     
     /**
      * Operations used: filter(), map(), mapToInt()
-     * Gets aan array of densities from a json file
+     * Gets an array of population densities from a json file
      */
-    public static int[]
-    getCountryDensityArray() throws FileNotFoundException {
+    public static int[] getCountryDensityArray() throws FileNotFoundException {
         return getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
                 .filter(country -> !isDensityNull(country))
                 .map(country -> getJsonString(country, DENSITY))
