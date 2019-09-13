@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.micro_service.regression.countries.TestPopulationDensityPerCountry" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-09-13T16:19:46" hostname="Users-MacBook-Pro.local" time="8.45">
+<testsuite name="com.micro_service.regression.countries.TestPopulationDensityPerCountry" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-09-13T16:53:13" hostname="Users-MacBook-Pro.local" time="0.028">
   <properties/>
-  <testcase name="testTotalCountForCountryByContinentAndCountryByDensityProcedure2()" classname="com.micro_service.regression.countries.TestPopulationDensityPerCountry" time="8.45">
-    <skipped/>
-  </testcase>
+  <testcase name="testLowestAndHighestPopulationDensity()" classname="com.micro_service.regression.countries.TestPopulationDensityPerCountry" time="0.005"/>
+  <testcase name="testLowestPopulationDensity()" classname="com.micro_service.regression.countries.TestPopulationDensityPerCountry" time="0.004"/>
+  <testcase name="func()" classname="com.micro_service.regression.countries.TestPopulationDensityPerCountry" time="0.001"/>
+  <testcase name="testAveragePopulationDensityForAllCountries()" classname="com.micro_service.regression.countries.TestPopulationDensityPerCountry" time="0.011"/>
+  <testcase name="testTotalCountForCountryByContinentAndCountryByDensityProcedure1()" classname="com.micro_service.regression.countries.TestPopulationDensityPerCountry" time="0.001"/>
+  <testcase name="testHighestPopulationDensity()" classname="com.micro_service.regression.countries.TestPopulationDensityPerCountry" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

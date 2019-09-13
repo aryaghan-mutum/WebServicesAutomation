@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.micro_service.regression.movies.MovieTitleAndActors" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-13T16:53:13" hostname="Users-MacBook-Pro.local" time="0.004">
+  <properties/>
+  <testcase name="testMovieTitleAndActors()" classname="com.micro_service.regression.movies.MovieTitleAndActors" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

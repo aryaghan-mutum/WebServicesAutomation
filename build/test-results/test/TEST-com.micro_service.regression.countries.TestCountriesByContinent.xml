@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.micro_service.regression.countries.TestCountriesByContinent" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-09-13T16:53:13" hostname="Users-MacBook-Pro.local" time="0.006">
+  <properties/>
+  <testcase name="getAListOfContinentsAndTestIfItIsEmpty()" classname="com.micro_service.regression.countries.TestCountriesByContinent" time="0.003"/>
+  <testcase name="testCountriesCountForAlContinents()" classname="com.micro_service.regression.countries.TestCountriesByContinent" time="0.003"/>
+  <system-out><![CDATA[Total Countries: 228 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

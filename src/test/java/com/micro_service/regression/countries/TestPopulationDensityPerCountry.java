@@ -182,7 +182,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
      * 3. Asserts
      */
     @Test
-    public void testTotalCountForCountryByContinentAndCountryByDensityProcedure2() throws FileNotFoundException {
+    public void func() throws FileNotFoundException {
         
         long countriesByContinentWithCount = getJsonStream(retrieveCountryByContinentServiceDoc(), COUNTRIES).count();
         long countriesByPopulationDensityCount  = getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES).count();
