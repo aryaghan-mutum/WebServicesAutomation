@@ -7,7 +7,10 @@ import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
 import java.util.Arrays;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+
+import static com.micro_service.datastructures.sort.SortHelper.isListSorted;
 
 public class BubbleSort extends SuperClass {
     
@@ -26,11 +29,20 @@ public class BubbleSort extends SuperClass {
     
     /**
      * Bubble Sort in Sequential Approach:
+     * <p>
+     * 1. Outer loop: i = 0 to totalSize
+     * 2. Inner loop: j = 1 to totalSize -1
      */
     public int[]
     sequentialBubbleSort() throws FileNotFoundException {
         
         int[] countryDensityArray = Util.getCountryDensityArray();
+        
+        // check if the list is sorted
+        isListSorted(
+                Arrays.stream(countryDensityArray)
+                        .boxed()
+                        .collect(Collectors.toList()));
         
         int totalSize = countryDensityArray.length;
         
@@ -57,6 +69,12 @@ public class BubbleSort extends SuperClass {
     functionalBubbleSort() throws FileNotFoundException {
         
         int[] countryDensityArray = Util.getCountryDensityArray();
+    
+        // check if the list is sorted
+        isListSorted(
+                Arrays.stream(countryDensityArray)
+                        .boxed()
+                        .collect(Collectors.toList()));
         
         int totalSize = countryDensityArray.length;
         

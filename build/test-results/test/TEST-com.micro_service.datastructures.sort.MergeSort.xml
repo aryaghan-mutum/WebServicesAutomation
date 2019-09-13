@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.micro_service.datastructures.sort.MergeSort" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-02T02:58:51" hostname="Users-MacBook-Pro.local" time="0.007">
+  <properties/>
+  <testcase name="test()" classname="com.micro_service.datastructures.sort.MergeSort" time="0.007"/>
+  <system-out><![CDATA[0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

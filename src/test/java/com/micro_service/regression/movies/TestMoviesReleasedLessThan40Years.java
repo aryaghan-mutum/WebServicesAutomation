@@ -66,12 +66,12 @@ public class TestMoviesReleasedLessThan40Years extends SuperClass {
      * Approach 2 using map(), filter() and count():
      */
     public int getTotalCountOfMoviesReleasedLessThan40YearsFromCurrentYearProcedure2() throws FileNotFoundException {
-        
+    
         long moviesReleasedLessThan40YearsFromTodayCount = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
                 .map(movie -> getJsonString(movie, DATE_RELEASED))
                 .map(movie -> convertStringToLocalDateFormat(movie).getYear())
                 .map(movie -> getCurrentYear() - movie)
-                .filter(year -> year < 40)
+                .filter(yearDifference -> yearDifference < 40)
                 .count();
         
         log("There are %s movies released 40 years ago", moviesReleasedLessThan40YearsFromTodayCount);

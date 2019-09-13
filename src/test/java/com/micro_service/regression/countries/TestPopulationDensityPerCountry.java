@@ -2,6 +2,7 @@ package com.micro_service.regression.countries;
 
 import base.SuperClass;
 import com.google.gson.JsonElement;
+import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -18,6 +19,7 @@ import java.util.stream.Stream;
 import static com.micro_service.workflows.ConstantsWorkflow.COUNTRIES;
 import static com.micro_service.workflows.ConstantsWorkflow.COUNTRY;
 import static com.micro_service.workflows.ConstantsWorkflow.DENSITY;
+import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveCountryByContinentServiceDoc;
 import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveCountryByPopulationDensityServiceDoc;
 import static com.micro_service.workflows.JsonWorkflow.getJsonDouble;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
@@ -156,6 +158,38 @@ public class TestPopulationDensityPerCountry extends SuperClass {
         
         Assertions.assertEquals(Collections.min(countryNameAndDensityMap.values()), LOWEST_POPULATION_DENSITY);
         Assertions.assertEquals(Collections.max(countryNameAndDensityMap.values()), HIGHEST_POPULATION_DENSITY);
+    }
+    
+    /**
+     * Approach 1:
+     * 1. Gets the count from country_by_continent.json
+     * 2. Gets the count from country_population_density.json
+     * 3. Asserts
+     */
+    @Test
+    public void testTotalCountForCountryByContinentAndCountryByDensityProcedure1() throws FileNotFoundException {
+        
+        long countriesByContinentCount = getJsonStream(retrieveCountryByContinentServiceDoc(), COUNTRIES).count();
+        long countriesByPopulationDensityCount  = getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES).count();
+        
+        Assert.assertEquals(countriesByContinentCount, countriesByPopulationDensityCount);
+    }
+    
+    /**
+     * Approach 2:
+     * 1. Gets the count from country_by_continent.json
+     * 2. Gets the count from country_population_density.json
+     * 3. Asserts
+     */
+    @Test
+    public void testTotalCountForCountryByContinentAndCountryByDensityProcedure2() throws FileNotFoundException {
+        
+        long countriesByContinentWithCount = getJsonStream(retrieveCountryByContinentServiceDoc(), COUNTRIES).count();
+        long countriesByPopulationDensityCount  = getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES).count();
+        
+        if (countriesByContinentWithCount != countriesByPopulationDensityCount) {
+            Assertions.fail();
+        }
     }
     
     
