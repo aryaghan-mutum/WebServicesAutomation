@@ -1,16 +1,16 @@
-## WebServicesAutomation Project
+### WebServicesAutomation Project
 
 The purpose of the suite is to test the content in the REST services (JSON files) using Functional Programming in Java Streams and Lambda Expressions.
 
-### Run Tests using gradle commands:
+#### Run Tests using gradle commands:
 
-#### Command to run a particular class:
+##### Command to run a particular class:
 - `gradle test --tests TestClassName`
 
-#### Command to run and write the test output into a test file:
+##### Command to run and write the test output into a test file:
 - `gradle test --tests TestClassName --info > testFile.txt`
 
-#### Command to run tests with stacktrace:
+##### Command to run tests with stacktrace:
 - `gradle test --tests TestClassName --info --stacktrace`
 
 ##### Execute all tests
