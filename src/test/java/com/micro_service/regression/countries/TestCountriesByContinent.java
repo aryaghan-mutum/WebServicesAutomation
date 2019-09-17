@@ -2,13 +2,11 @@ package com.micro_service.regression.countries;
 
 import base.SuperClass;
 import org.junit.Assert;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -19,6 +17,7 @@ import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveCountryByC
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 import static com.micro_service.workflows.Util.isContinentNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author Anurag Muthyam
@@ -79,14 +78,14 @@ public class TestCountriesByContinent extends SuperClass {
                         africaCountriesList.size() + northAmericaCountriesList.size() + southAmericaCountriesList.size();
         
         log("Total Countries: %s ", totalCountries);
-        Assertions.assertEquals(totalCountries, 228);
+        assertEquals(totalCountries, 228);
         
-        Assertions.assertEquals(asiaCountriesList.size(), 48);
-        Assertions.assertEquals(europeCountriesList.size(), 46);
-        Assertions.assertEquals(oceaniaCountriesList.size(), 27);
-        Assertions.assertEquals(africaCountriesList.size(), 58);
-        Assertions.assertEquals(northAmericaCountriesList.size(), 35);
-        Assertions.assertEquals(southAmericaCountriesList.size(), 14);
+        assertEquals(asiaCountriesList.size(), 48);
+        assertEquals(europeCountriesList.size(), 46);
+        assertEquals(oceaniaCountriesList.size(), 27);
+        assertEquals(africaCountriesList.size(), 58);
+        assertEquals(northAmericaCountriesList.size(), 35);
+        assertEquals(southAmericaCountriesList.size(), 14);
     }
     
     /**

@@ -25,6 +25,7 @@ import static com.micro_service.workflows.JsonWorkflow.getJsonDouble;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 import static com.micro_service.workflows.Util.isDensityNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author Anurag Muthyam
@@ -52,7 +53,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
                 .min()
                 .getAsDouble();
         
-        Assertions.assertEquals(lowestPopulationDensity, LOWEST_POPULATION_DENSITY);
+        assertEquals(lowestPopulationDensity, LOWEST_POPULATION_DENSITY);
     }
     
     /**
@@ -70,7 +71,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
                 .mapToDouble(Double::doubleValue)
                 .reduce((Double::max));  //can also be written as: (a, b) -> (a >= b) ? a : b
         
-        Assertions.assertEquals(highestPopulationDensity.getAsDouble(), HIGHEST_POPULATION_DENSITY);
+        assertEquals(highestPopulationDensity.getAsDouble(), HIGHEST_POPULATION_DENSITY);
     }
     
     /**
@@ -92,7 +93,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
                         .average()
                         .getAsDouble()));
         
-        Assertions.assertEquals(avgPopulationDensity, AVG_POPULATION_DENSITY);
+        assertEquals(avgPopulationDensity, AVG_POPULATION_DENSITY);
     }
     
     /**
@@ -136,8 +137,8 @@ public class TestPopulationDensityPerCountry extends SuperClass {
         Double lowestPopulationDensity = Collections.min(countryNameAndDensityMap.values());
         Double highestPopulationDensity = Collections.max(countryNameAndDensityMap.values());
         
-        Assertions.assertEquals(lowestPopulationDensity, LOWEST_POPULATION_DENSITY);
-        Assertions.assertEquals(highestPopulationDensity, HIGHEST_POPULATION_DENSITY);
+        assertEquals(lowestPopulationDensity, LOWEST_POPULATION_DENSITY);
+        assertEquals(highestPopulationDensity, HIGHEST_POPULATION_DENSITY);
     }
     
     /**
@@ -156,8 +157,8 @@ public class TestPopulationDensityPerCountry extends SuperClass {
                                 country -> getJsonString(country, COUNTRY),
                                 density -> getJsonDouble(density, DENSITY)));
         
-        Assertions.assertEquals(Collections.min(countryNameAndDensityMap.values()), LOWEST_POPULATION_DENSITY);
-        Assertions.assertEquals(Collections.max(countryNameAndDensityMap.values()), HIGHEST_POPULATION_DENSITY);
+        assertEquals(Collections.min(countryNameAndDensityMap.values()), LOWEST_POPULATION_DENSITY);
+        assertEquals(Collections.max(countryNameAndDensityMap.values()), HIGHEST_POPULATION_DENSITY);
     }
     
     /**

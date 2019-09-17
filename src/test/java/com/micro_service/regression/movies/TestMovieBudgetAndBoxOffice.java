@@ -2,7 +2,6 @@ package com.micro_service.regression.movies;
 
 import base.SuperClass;
 import com.google.gson.JsonElement;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.platform.commons.util.StringUtils;
 
@@ -17,6 +16,7 @@ import static com.micro_service.workflows.ConstantsWorkflow.TITLE;
 import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
+import static org.junit.Assert.fail;
 
 /**
  * @author Anurag Muthyam
@@ -63,7 +63,7 @@ public class TestMovieBudgetAndBoxOffice extends SuperClass {
         });
         
         if (isCostFieldNull.get()) {
-            Assertions.fail();
+            fail();
         }
     }
     

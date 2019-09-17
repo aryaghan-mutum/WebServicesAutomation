@@ -1,7 +1,6 @@
 package com.micro_service.regression.countries;
 
 import base.SuperClass;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -10,6 +9,7 @@ import static com.micro_service.workflows.ConstantsWorkflow.COUNTRIES;
 import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveCountryByPopulationDensityServiceDoc;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.Util.isDensityNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author Anurag Muthyam
@@ -28,7 +28,7 @@ public class TestCountryAndPopulationDensityCount extends SuperClass {
     public void testTotalCountriesCountWithDensityANull() throws FileNotFoundException {
         int totalCountriesCount = (int) getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES).count();
         
-        Assertions.assertEquals(totalCountriesCount, TOTAL_COUNTRIES_WITH_POPULATION_DENSITY_AS_NULL);
+        assertEquals(totalCountriesCount, TOTAL_COUNTRIES_WITH_POPULATION_DENSITY_AS_NULL);
     }
     
     /**
@@ -43,7 +43,7 @@ public class TestCountryAndPopulationDensityCount extends SuperClass {
                         .filter(country -> !isDensityNull(country))
                         .count();
         
-        Assertions.assertEquals(totalCountriesCountWithDensityAsNotNull, TOTAL_COUNTRIES_WITH_POPULATION_DENSITY_AS_NOT_NULL);
+        assertEquals(totalCountriesCountWithDensityAsNotNull, TOTAL_COUNTRIES_WITH_POPULATION_DENSITY_AS_NOT_NULL);
     }
     
 }

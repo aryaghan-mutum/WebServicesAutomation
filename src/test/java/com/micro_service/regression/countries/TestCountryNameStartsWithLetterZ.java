@@ -2,7 +2,6 @@ package com.micro_service.regression.countries;
 
 import base.SuperClass;
 import org.junit.Assert;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -17,6 +16,7 @@ import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveCountryByP
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 import static com.micro_service.workflows.Util.isContinentNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author Anurag Muthyam
@@ -39,7 +39,7 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
                         .filter(country -> country.startsWith("Z"))
                         .count();
         
-        Assertions.assertEquals(countryNameCountThatStartsWithLetterZ, 2);
+        assertEquals(countryNameCountThatStartsWithLetterZ, 2);
     }
     
     /**
@@ -57,7 +57,7 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
                         .anyMatch(flower -> flower.startsWith("Z"));
         
         
-        Assertions.assertEquals(isCountryNameStartsWithLetterZ, true);
+        assertEquals(isCountryNameStartsWithLetterZ, true);
     }
     
     /**
@@ -75,7 +75,7 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
                         .filter(country -> country.startsWith("Z"))
                         .collect(Collectors.toList());
         
-        Assertions.assertEquals(countryNameThatStartsWithLetterZList.toString(), "[Zambia, Zimbabwe]");
+        assertEquals(countryNameThatStartsWithLetterZList.toString(), "[Zambia, Zimbabwe]");
     }
     
     /**

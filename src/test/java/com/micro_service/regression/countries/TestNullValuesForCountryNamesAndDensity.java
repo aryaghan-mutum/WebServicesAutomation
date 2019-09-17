@@ -1,7 +1,6 @@
 package com.micro_service.regression.countries;
 
 import base.SuperClass;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -15,6 +14,8 @@ import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveCountryByP
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 import static com.micro_service.workflows.Util.isDensityNull;
+import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author Anurag Muthyam
@@ -37,7 +38,7 @@ public class TestNullValuesForCountryNamesAndDensity extends SuperClass {
                         .collect(Collectors.toList());
         
         if (countriesList.size() == 0 || !countriesList.contains("Cuba")) {
-            Assertions.fail();
+            fail();
         }
         
     }
@@ -61,7 +62,7 @@ public class TestNullValuesForCountryNamesAndDensity extends SuperClass {
                     }
                 });
         
-        Assertions.assertEquals(countryNamesWithHeightNotNullList.stream().count(), TOTAL_COUNTRIES_WITH_POPULATION_DENSITY_AS_NOT_NULL);
+        assertEquals(countryNamesWithHeightNotNullList.stream().count(), TOTAL_COUNTRIES_WITH_POPULATION_DENSITY_AS_NOT_NULL);
     }
     
 }

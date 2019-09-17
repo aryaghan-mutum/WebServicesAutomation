@@ -2,7 +2,6 @@ package com.micro_service.regression.movies;
 
 import base.SuperClass;
 import com.google.gson.JsonElement;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import java.io.FileNotFoundException;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -13,6 +12,7 @@ import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveMoviesServ
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 import static com.micro_service.workflows.JsonWorkflow.isUndefined;
+import static org.junit.Assert.fail;
 
 public class SectionName extends SuperClass {
     
@@ -38,7 +38,7 @@ public class SectionName extends SuperClass {
                 .isPresent();
         
         if (areAllActorsNullFound) {
-            Assertions.fail();
+            fail();
         }
     }
     
@@ -71,7 +71,7 @@ public class SectionName extends SuperClass {
                 });
         
         if (areActorsNull.get()) {
-            Assertions.fail();
+            fail();
         }
     }
     

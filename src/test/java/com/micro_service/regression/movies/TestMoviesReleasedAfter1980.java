@@ -2,7 +2,6 @@ package com.micro_service.regression.movies;
 
 import base.SuperClass;
 import org.junit.Assert;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -19,6 +18,7 @@ import static com.micro_service.workflows.JsonWorkflow.getJsonInt;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
 import static com.micro_service.workflows.Util.convertStringToLocalDateFormat;
+import static org.junit.Assert.fail;
 
 /**
  * @author Anurag Muthyam
@@ -52,7 +52,7 @@ public class TestMoviesReleasedAfter1980 extends SuperClass {
                 });
         
         if (!moviesReleasedAfter1980List.contains("Amadeus")) {
-            Assert.fail();
+            fail();
         }
     }
     
@@ -74,7 +74,7 @@ public class TestMoviesReleasedAfter1980 extends SuperClass {
         Assert.assertEquals(moviesReleasedAfter1980List.size(), 3);
         
         if (!moviesReleasedAfter1980List.contains(1984)) {
-            Assertions.fail();
+            fail();
         }
     }
     
