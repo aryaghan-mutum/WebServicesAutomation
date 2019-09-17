@@ -1,10 +1,13 @@
 package com.micro_service.datastructures.sort;
 
 import base.SuperClass;
-import com.micro_service.workflows.Util;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.List;
+
+import static com.micro_service.workflows.Util.getCountryDensityArray;
 
 public class MergeSort extends SuperClass {
     
@@ -12,20 +15,26 @@ public class MergeSort extends SuperClass {
     @Test public void
     mergeSort() throws FileNotFoundException {
     
-        int[] countryDensityArray = Util.getCountryDensityArray();
+        int[] countryDensityArray = getCountryDensityArray();
         
         int mid = countryDensityArray.length/2;
         
+        List<Integer> leftList = new ArrayList<>();
+        List<Integer> rightList = new ArrayList<>();
         
-        if (countryDensityArray.length == 1) {
-            return ;
-        }
+        sort(leftList, rightList, countryDensityArray);
         
         
-        int left = countryDensityArray[mid];
-        System.out.println("");
+        
+        //merge
         
     }
+    
+    private static void sort(List<Integer> leftList, List<Integer> rightList, int[] countryDensityArray){
+
+    }
+    
+    
     
 
 }
