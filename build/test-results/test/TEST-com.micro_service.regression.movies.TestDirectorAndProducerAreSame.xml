@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.micro_service.regression.movies.TestDirectorAndProducerAreSame" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-17T19:14:48" hostname="Users-MacBook-Pro.local" time="0.006">
+  <properties/>
+  <testcase name="testDirectorAndProducerAreSameForAMovie()" classname="com.micro_service.regression.movies.TestDirectorAndProducerAreSame" time="0.006"/>
+  <system-out><![CDATA[Director: Joel Coen is also a Producer for a movie: No Country for Old Men
+Director: Ethan Coen is also a Producer for a movie: No Country for Old Men
+Director: Juan José Campanella is also a Producer for a movie: El secreto de sus ojos
+Director: Joel Coen is also a Producer for a movie: No Country for Old Men
+Director: Ethan Coen is also a Producer for a movie: No Country for Old Men
+Director: Juan José Campanella is also a Producer for a movie: El secreto de sus ojos
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

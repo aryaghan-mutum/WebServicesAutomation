@@ -20,13 +20,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">6</div>
+<div class="counter">12</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">4</div>
 <p>failures</p>
 </div>
 </td>
@@ -38,7 +38,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.066s</div>
+<div class="counter">0.117s</div>
 <p>duration</p>
 </div>
 </td>
@@ -47,8 +47,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">66%</div>
 <p>successful</p>
 </div>
 </td>
@@ -58,13 +58,37 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Packages</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Classes</a>
+<a href="#tab1">Packages</a>
+</li>
+<li>
+<a href="#tab2">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<ul class="linkList">
+<li>
+<a href="classes/com.micro_service.regression.movies.SectionName.html">SectionName</a>.
+<a href="classes/com.micro_service.regression.movies.SectionName.html#findMenuSectionNameIsNullProcedure1()">findMenuSectionNameIsNullProcedure1()</a>
+</li>
+<li>
+<a href="classes/com.micro_service.regression.movies.SectionName.html">SectionName</a>.
+<a href="classes/com.micro_service.regression.movies.SectionName.html#findMenuSectionNameIsNullProcedure2()">findMenuSectionNameIsNullProcedure2()</a>
+</li>
+<li>
+<a href="classes/com.micro_service.regression.movies.TestLeadActorIsNullForAMovie.html">TestLeadActorIsNullForAMovie</a>.
+<a href="classes/com.micro_service.regression.movies.TestLeadActorIsNullForAMovie.html#findActor3ThatHasNotNull()">findActor3ThatHasNotNull()</a>
+</li>
+<li>
+<a href="classes/com.micro_service.regression.movies.TestMoviesReleasedAfter1980.html">TestMoviesReleasedAfter1980</a>.
+<a href="classes/com.micro_service.regression.movies.TestMoviesReleasedAfter1980.html#getListOfMoviesReleasedYearsAfter1980()">getListOfMoviesReleasedYearsAfter1980()</a>
+</li>
+</ul>
+</div>
+<div id="tab1" class="tab">
 <h2>Packages</h2>
 <table>
 <thead>
@@ -79,19 +103,19 @@
 </thead>
 <tbody>
 <tr>
-<td class="success">
-<a href="packages/com.micro_service.regression.countries.html">com.micro_service.regression.countries</a>
+<td class="failures">
+<a href="packages/com.micro_service.regression.movies.html">com.micro_service.regression.movies</a>
 </td>
-<td>6</td>
+<td>12</td>
+<td>4</td>
 <td>0</td>
-<td>0</td>
-<td>0.066s</td>
-<td class="success">100%</td>
+<td>0.117s</td>
+<td class="failures">66%</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -107,11 +131,74 @@
 <tbody>
 <tr>
 <td class="success"/>
-<a href="classes/com.micro_service.regression.countries.TestCountryNameStartsWithLetterZ.html">com.micro_service.regression.countries.TestCountryNameStartsWithLetterZ</a>
-<td>6</td>
+<a href="classes/com.micro_service.regression.movies.MovieTitleAndActors.html">com.micro_service.regression.movies.MovieTitleAndActors</a>
+<td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.066s</td>
+<td>0.005s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="failures"/>
+<a href="classes/com.micro_service.regression.movies.SectionName.html">com.micro_service.regression.movies.SectionName</a>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0.006s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="success"/>
+<a href="classes/com.micro_service.regression.movies.TestDirectorAndProducerAreSame.html">com.micro_service.regression.movies.TestDirectorAndProducerAreSame</a>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.006s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success"/>
+<a href="classes/com.micro_service.regression.movies.TestLanguageIsNullForAMovie.html">com.micro_service.regression.movies.TestLanguageIsNullForAMovie</a>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0.054s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="failures"/>
+<a href="classes/com.micro_service.regression.movies.TestLeadActorIsNullForAMovie.html">com.micro_service.regression.movies.TestLeadActorIsNullForAMovie</a>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0.010s</td>
+<td class="failures">50%</td>
+</tr>
+<tr>
+<td class="success"/>
+<a href="classes/com.micro_service.regression.movies.TestMovieBudgetAndBoxOffice.html">com.micro_service.regression.movies.TestMovieBudgetAndBoxOffice</a>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.002s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="failures"/>
+<a href="classes/com.micro_service.regression.movies.TestMoviesReleasedAfter1980.html">com.micro_service.regression.movies.TestMoviesReleasedAfter1980</a>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0.006s</td>
+<td class="failures">50%</td>
+</tr>
+<tr>
+<td class="success"/>
+<a href="classes/com.micro_service.regression.movies.TestMoviesReleasedLessThan40Years.html">com.micro_service.regression.movies.TestMoviesReleasedLessThan40Years</a>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.028s</td>
 <td class="success">100%</td>
 </tr>
 </tbody>
@@ -125,7 +212,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.10.3</a> at Sep 17, 2019 3:10:51 PM</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at Sep 17, 2019 3:14:48 PM</p>
 </div>
 </div>
 </body>

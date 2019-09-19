@@ -2,9 +2,13 @@ package com.micro_service.regression.movies;
 
 import base.SuperClass;
 import com.google.gson.JsonElement;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.junit.platform.commons.util.StringUtils;
+
 import java.io.FileNotFoundException;
 import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import static com.micro_service.workflows.ConstantsWorkflow.MOVIES;
 import static com.micro_service.workflows.ConstantsWorkflow.TITLE;
@@ -16,7 +20,7 @@ import static org.junit.Assert.fail;
 
 public class SectionName extends SuperClass {
     
-   
+    
     /**
      * Procedure 1: Test if the sectionName is null
      * If the sectionName == null, then the test FAILS
@@ -82,5 +86,46 @@ public class SectionName extends SuperClass {
                 getJsonString(menuSection, "actor2") == null &&
                         isUndefined(menuSection, "actor3") ||
                 getJsonString(menuSection, "actor3") == null;
+    }
+    
+    /**
+     * The Test case validates the 'fileReference' is null/empty in dispatcher
+     * -> If the 'media' field is missing, the test case logs for which venueCode it is missing and Fails
+     * -> If the 'fileReference' is null/empty, the test case logs for which venueCode it is missing and Fails
+     */
+    @Test
+    public void testFileReferenceIsNullOrEmptyInVenueDispatcher() throws FileNotFoundException {
+        
+        AtomicInteger invalidFileReferenceCount = new AtomicInteger();
+        
+        getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
+                .forEach(venueArray -> {
+                    
+                    String venueCode = getJsonString(venueArray, "");
+                    
+                    try {
+                        getJsonStream(venueArray, "")
+                                .forEach(media -> {
+                                    if (isFileReferenceNullInDispatcher(media)) {
+                                        log("fileReference is null/empty for venueCode: {} in dispatcher", venueCode);
+                                        invalidFileReferenceCount.incrementAndGet();
+                                    }
+                                });
+                    } catch (Exception e) {
+                        log("media field is missing for venueCode: {} in dispatcher", venueCode);
+                    }
+                });
+        
+        if (invalidFileReferenceCount.get() > 0) {
+            Assertions.fail();
+        }
+    }
+    
+    /**
+     * Returns true if the 'fileReference' is null/empty, otherwise returns false.
+     */
+    private boolean isFileReferenceNullInDispatcher(JsonElement media) {
+        return isUndefined(media, "") ||
+                StringUtils.isBlank(getJsonString(media, ""));
     }
 }
