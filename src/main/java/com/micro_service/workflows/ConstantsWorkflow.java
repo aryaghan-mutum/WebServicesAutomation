@@ -9,6 +9,7 @@ public class ConstantsWorkflow {
     
     // MOVIES
     public static final String MOVIES = "payload.movies";
+    public static final String DAYS = "movie.days";
     public static final String TITLE = "title";
     public static final String YEAR_RELEASED = "yearReleased";
     public static final String DATE_RELEASED = "dateReleased";
@@ -22,6 +23,7 @@ public class ConstantsWorkflow {
     public static final String ACTOR3 = "actor3";
     public static final String BUDGET = "cost.budget";
     public static final String BOX_OFFICE = "cost.boxOffice";
+    public static final String PRODUCTION_COMPANY = "productionCompany";
     
     // COUNTRY BY AVG MALE HEIGHT
     public static final String COUNTRIES = "payload.countries";

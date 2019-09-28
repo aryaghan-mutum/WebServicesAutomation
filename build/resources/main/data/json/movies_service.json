@@ -39,6 +39,14 @@
           }
         ],
         "productionCompany": [],
+        "movie": {
+          "days": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
         "genres": [
           "psychological horror"
         ],
@@ -179,6 +187,9 @@
           "Scott Rudin Productions",
           "Mike Zoss Productions"
         ],
+        "movie": {
+          "days": null
+        },
         "distributedBy": [
           {
             "distributor1": "Distribution Company (Argentina)",
@@ -228,6 +239,9 @@
           "Légende Entreprises",
           "De Fina/Cappa"
         ],
+        "movie": {
+          "days": []
+        },
         "distributedBy": [
           {
             "distributor1": "Universal Pictures"
