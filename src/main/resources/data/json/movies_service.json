@@ -354,7 +354,7 @@
                 },
                 {
                   "movieReleasedState": null,
-                  "moveReleasedPrice": "$1"
+                  "moveReleasedPrice": null
                 }
               ]
             },
@@ -366,8 +366,6 @@
                   "movieReleasedState": "$3"
                 },
                 {
-                  "movieReleasedState": "State of Paraná",
-                  "movieReleasedState": "$2.5"
                 }
               ]
             }

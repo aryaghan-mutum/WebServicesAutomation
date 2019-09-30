@@ -28,6 +28,7 @@ public class ConstantsWorkflow {
     public static final String COUNTRY_RELEASED = "countryReleased";
     public static final String MOVIE_ITEM = "movieItem";
     public static final String MOVIE_RELEASED_STATE = "movieReleasedState";
+    public static final String MOVIE_RELEASED_PRICE = "moveReleasedPrice";
     
     // COUNTRY BY AVG MALE HEIGHT
     public static final String COUNTRIES = "payload.countries";
