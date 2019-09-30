@@ -7,6 +7,9 @@ The purpose of the suite is to test the content in the REST services (JSON files
 ##### Command to run a particular class:
 - `gradle test --tests TestClassName`
 
+##### Command to run all classes for particular package:
+- `gradle test --tests com.microservice.regression.movies* -- info`
+
 ##### Command to run and write the test output into a test file:
 - `gradle test --tests TestClassName --info > testFile.txt`
 
@@ -15,6 +18,7 @@ The purpose of the suite is to test the content in the REST services (JSON files
 
 ##### Execute all tests
 - `./gradlew test`
+
 
 ### Notes:
 To be able to create tests cases to validate the content in the services, I created a JSON file from scratch. For example: `movies.service.json`.
