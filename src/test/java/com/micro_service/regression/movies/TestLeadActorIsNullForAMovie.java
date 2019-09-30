@@ -16,7 +16,7 @@ import static com.micro_service.workflows.ConstantsWorkflow.TITLE;
 import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
-import static com.micro_service.workflows.JsonWorkflow.isUndefined;
+import static com.micro_service.workflows.JsonWorkflow.isFieldUndefined;
 import static org.junit.Assert.fail;
 
 /**
@@ -99,6 +99,6 @@ public class TestLeadActorIsNullForAMovie extends SuperClass {
     }
     
     private boolean isActorNull(JsonElement offering, String actor) {
-        return isUndefined(offering, actor) || getJsonString(offering, actor) == null;
+        return isFieldUndefined(offering, actor) || getJsonString(offering, actor) == null;
     }
 }

@@ -15,7 +15,7 @@ import static com.micro_service.workflows.ConstantsWorkflow.TITLE;
 import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
-import static com.micro_service.workflows.JsonWorkflow.isUndefined;
+import static com.micro_service.workflows.JsonWorkflow.isFieldUndefined;
 import static org.junit.Assert.fail;
 
 public class SectionName extends SuperClass {
@@ -80,11 +80,11 @@ public class SectionName extends SuperClass {
     }
     
     private boolean areAllActorsNull(JsonElement menuSection) {
-        return isUndefined(menuSection, "actor1") ||
+        return isFieldUndefined(menuSection, "actor1") ||
                 getJsonString(menuSection, "actor1") == null &&
-                        isUndefined(menuSection, "actor2") ||
+                        isFieldUndefined(menuSection, "actor2") ||
                 getJsonString(menuSection, "actor2") == null &&
-                        isUndefined(menuSection, "actor3") ||
+                        isFieldUndefined(menuSection, "actor3") ||
                 getJsonString(menuSection, "actor3") == null;
     }
     
@@ -125,7 +125,7 @@ public class SectionName extends SuperClass {
      * Returns true if the 'fileReference' is null/empty, otherwise returns false.
      */
     private boolean isFileReferenceNullInDispatcher(JsonElement media) {
-        return isUndefined(media, "") ||
+        return isFieldUndefined(media, "") ||
                 StringUtils.isBlank(getJsonString(media, ""));
     }
 }

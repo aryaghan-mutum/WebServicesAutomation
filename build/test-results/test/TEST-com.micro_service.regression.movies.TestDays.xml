@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.micro_service.regression.movies.TestDays" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-09-28T16:45:19" hostname="l0p50c0maars.na.rccl.com" time="0.032">
+<testsuite name="com.micro_service.regression.movies.TestDays" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-09-30T01:15:19" hostname="l0p50c0maars.na.rccl.com" time="0.037">
   <properties/>
-  <testcase name="testDayIsNullOrEmptyOrMissingForMovies()" classname="com.micro_service.regression.movies.TestDays" time="0.032">
+  <testcase name="testDayIsNullOrEmptyOrMissingForMovies()" classname="com.micro_service.regression.movies.TestDays" time="0.037">
     <failure message="org.opentest4j.AssertionFailedError" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:35)
 	at org.junit.jupiter.api.Assertions.fail(Assertions.java:98)
-	at com.micro_service.regression.movies.TestDays.testDayIsNullOrEmptyOrMissingForMovies(TestDays.java:53)
+	at com.micro_service.regression.movies.TestDays.testDayIsNullOrEmptyOrMissingForMovies(TestDays.java:52)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -56,7 +56,7 @@ public class JsonWorkflow {
         return target;
     }
     
-    public static boolean isDefined(JsonElement e, String path) {
+    public static boolean isFieldDefined(JsonElement e, String path) {
         String parts[] = path.split("\\.");
         JsonElement target = e;
         
@@ -73,8 +73,8 @@ public class JsonWorkflow {
         return true;
     }
     
-    public static boolean isUndefined(JsonElement e, String path) {
-        return !isDefined(e, path);
+    public static boolean isFieldUndefined(JsonElement e, String path) {
+        return !isFieldDefined(e, path);
     }
     
     

@@ -24,6 +24,10 @@ public class ConstantsWorkflow {
     public static final String BUDGET = "cost.budget";
     public static final String BOX_OFFICE = "cost.boxOffice";
     public static final String PRODUCTION_COMPANY = "productionCompany";
+    public static final String MOVIE_RELEASE = "movie.movieRelease";
+    public static final String COUNTRY_RELEASED = "countryReleased";
+    public static final String MOVIE_ITEM = "movieItem";
+    public static final String MOVIE_RELEASED_STATE = "movieReleasedState";
     
     // COUNTRY BY AVG MALE HEIGHT
     public static final String COUNTRIES = "payload.countries";

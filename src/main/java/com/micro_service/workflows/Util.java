@@ -12,7 +12,7 @@ import static com.micro_service.workflows.ConstantsWorkflow.DENSITY;
 import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveCountryByPopulationDensityServiceDoc;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
-import static com.micro_service.workflows.JsonWorkflow.isUndefined;
+import static com.micro_service.workflows.JsonWorkflow.isFieldUndefined;
 
 public class Util {
     
@@ -35,15 +35,15 @@ public class Util {
     }
     
     public static boolean isDensityNull(JsonElement country) {
-        return isUndefined(country, DENSITY) || getJsonString(country, DENSITY) == null;
+        return isFieldUndefined(country, DENSITY) || getJsonString(country, DENSITY) == null;
     }
     
     public static boolean isContinentNull(JsonElement country) {
-        return isUndefined(country, CONTINENT) || getJsonString(country, CONTINENT) == null;
+        return isFieldUndefined(country, CONTINENT) || getJsonString(country, CONTINENT) == null;
     }
     
     public static boolean isActor3Null(JsonElement country) {
-        return isUndefined(country, ACTOR3) || getJsonString(country, ACTOR3) == null;
+        return isFieldUndefined(country, ACTOR3) || getJsonString(country, ACTOR3) == null;
     }
     
     /**

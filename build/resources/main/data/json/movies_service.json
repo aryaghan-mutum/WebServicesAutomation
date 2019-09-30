@@ -45,6 +45,30 @@
             "2",
             "3",
             "4"
+          ],
+          "movieRelease": [
+            {
+              "countryReleased": "Canada",
+              "movieItem": [
+                {
+                  "movieReleasedState": "Ontario",
+                  "moveReleasedPrice": "$5"
+                },
+                {
+                  "movieReleasedState": "Alberta",
+                  "moveReleasedPrice": "$4"
+                }
+              ]
+            },
+            {
+              "countryReleased": "France",
+              "movieItem": [
+                {
+                  "movieReleasedState": "Paris",
+                  "movieReleasedState": "$7"
+                }
+              ]
+            }
           ]
         },
         "genres": [
@@ -88,6 +112,28 @@
         "productionCompany": [
           "The Saul Zaentz Company"
         ],
+        "movie": {
+          "movieRelease": [
+            {
+              "countryReleased": "England",
+              "movieItem": [
+                {
+                  "movieReleasedState": "London",
+                  "movieReleasedPrice": "$6"
+                }
+              ]
+            },
+            {
+              "countryReleased": "Scotland",
+              "movieItem": [
+                {
+                  "movieReleasedState": null,
+                  "movieReleasedPrice": "$6.5"
+                }
+              ]
+            }
+          ]
+        },
         "distributedBy": [
           {
             "distributor1": "Orion Pictures"
@@ -137,6 +183,35 @@
           "Scott Rudin Productions",
           "Mike Zoss Productions"
         ],
+        "movie": {
+          "movieRelease": [
+            {
+              "countryReleased": "Russia",
+              "movieItem": [
+                {
+                  "moveReleasedPrice": "$2"
+                },
+                {
+                  "movieReleasedState": "Tomsk",
+                  "moveReleasedPrice": "$1"
+                }
+              ]
+            },
+            {
+              "countryReleased": "Germany",
+              "movieItem": [
+                {
+                  "movieReleasedState": "Saarland",
+                  "moveReleasedPrice": "$3"
+                },
+                {
+                  "movieReleasedState": "Bavaria",
+                  "moveReleasedPrice": "$4.5"
+                }
+              ]
+            }
+          ]
+        },
         "distributedBy": [
           {
             "distributor1": "Miramax Films",
@@ -188,7 +263,35 @@
           "Mike Zoss Productions"
         ],
         "movie": {
-          "days": null
+          "days": null,
+          "movieRelease": [
+            {
+              "countryReleased": "Mexcio",
+              "movieItem": [
+                {
+                  "movieReleasedState": "Michoacán",
+                  "moveReleasedPrice": "$2.4"
+                },
+                {
+                  "movieReleasedState": "Yucatán",
+                  "moveReleasedPrice": "$1"
+                }
+              ]
+            },
+            {
+              "countryReleased": "Germany",
+              "movieItem": [
+                {
+                  "movieReleasedState": "Saxony",
+                  "movieReleasedState": "$3"
+                },
+                {
+                  "movieReleasedState": "Thuringia",
+                  "movieReleasedState": "$3.5"
+                }
+              ]
+            }
+          ]
         },
         "distributedBy": [
           {
@@ -240,7 +343,35 @@
           "De Fina/Cappa"
         ],
         "movie": {
-          "days": []
+          "days": [],
+          "movieRelease": [
+            {
+              "countryReleased": "Argentina",
+              "movieItem": [
+                {
+                  "movieReleasedState": "Córdoba",
+                  "moveReleasedPrice": "$1.4"
+                },
+                {
+                  "movieReleasedState": null,
+                  "moveReleasedPrice": "$1"
+                }
+              ]
+            },
+            {
+              "countryReleased": "Germany",
+              "movieItem": [
+                {
+                  "movieReleasedState": "State of Pará",
+                  "movieReleasedState": "$3"
+                },
+                {
+                  "movieReleasedState": "State of Paraná",
+                  "movieReleasedState": "$2.5"
+                }
+              ]
+            }
+          ]
         },
         "distributedBy": [
           {

@@ -12,7 +12,7 @@ import static com.micro_service.workflows.ConstantsWorkflow.TITLE;
 import static com.micro_service.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.micro_service.workflows.JsonWorkflow.getJsonStream;
 import static com.micro_service.workflows.JsonWorkflow.getJsonString;
-import static com.micro_service.workflows.JsonWorkflow.isUndefined;
+import static com.micro_service.workflows.JsonWorkflow.isFieldUndefined;
 import static org.junit.jupiter.api.Assertions.fail;
 
 /**
@@ -33,7 +33,7 @@ public class TestDays extends SuperClass {
                 .forEach(movie -> {
                     
                     String movieTitle = getJsonString(movie, TITLE);
-                    boolean isDayFieldMissing = isUndefined(movie, DAYS);
+                    boolean isDayFieldMissing = isFieldUndefined(movie, DAYS);
                     
                     try {
                         if (!isDayFieldMissing && getJsonStream(movie, DAYS).count() == 0) {
