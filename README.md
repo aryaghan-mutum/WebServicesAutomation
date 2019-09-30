@@ -8,7 +8,7 @@ The purpose of the suite is to test the content in the REST services (JSON files
 - `gradle test --tests TestClassName`
 
 ##### Command to run all classes for particular package:
-- `gradle test --tests com.microservice.regression.movies* -- info`
+- `gradle test --tests com.microservice.regression.packageName* -- info`
 
 ##### Command to run and write the test output into a test file:
 - `gradle test --tests TestClassName --info > testFile.txt`

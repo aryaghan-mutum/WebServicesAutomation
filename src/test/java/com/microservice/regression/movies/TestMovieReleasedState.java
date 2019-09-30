@@ -26,7 +26,7 @@ import static org.junit.platform.commons.util.StringUtils.isBlank;
 public class TestMovieReleasedState extends SuperClass {
     
     /**
-     * Procedure 1:
+     * Procedure 1 using isFieldUndefined():
      * The Test case validates 'movieReleasedState' is null/empty/missing for each 'movieTitle'
      */
     @Test
@@ -77,7 +77,7 @@ public class TestMovieReleasedState extends SuperClass {
     }
     
     /**
-     * Procedure 2:
+     * Procedure 2 using try and catch block:
      * The Test case validates 'movieReleasedState' is null/missing for each 'movieTitle'
      */
     @Test
