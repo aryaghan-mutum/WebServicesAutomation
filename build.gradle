@@ -28,8 +28,8 @@ dependencies {
     compile "org.springframework:spring-context:${spring_context_version}"
     compile "org.springframework:spring-test:${spring_test_version}"
     compile "org.springframework.boot:spring-boot-starter-webflux:${spring_webflux_version}"
-    // Json parsing api
-    compile "com.google.code.gson:gson:${gson_version}"
+    compile "com.google.code.gson:gson:${gson_version}"  // Json parsing api
+    compile group: 'org.slf4j', name:'slf4j-api', version: '1.7.2'
 }
 
 test {

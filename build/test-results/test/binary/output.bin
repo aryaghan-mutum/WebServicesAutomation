@@ -1,36 +1,108 @@
-3WARN: day field is missing for movieTitle: Amadeus
-BWARN: day field is missing for movieTitle: No Country for Old Men
-:ERROR: day is null for movieTitle: El secreto de sus ojos
-+ERROR: day is empty for movieTitle: Casino
--movieTitle: Amadeus was released 35 year ago
-<movieTitle: No Country for Old Men was released 14 year ago
-<movieTitle: El secreto de sus ojos was released 10 year ago
-,movieTitle: Casino was released 24 year ago
-)There are 4 movies released 40 years ago
-	ZERROR: movieReleasedState is null under countryReleased: Scotland for movieTitle: Amadeus
-	oWARN: movieReleasedState field is missing under countryReleased: Russia for movieTitle: No Country for Old Men
-	ZERROR: movieReleasedState is null under countryReleased: Argentina for movieTitle: Casino
-	`WARN: movieReleasedState field is missing under countryReleased: Germany for movieTitle: Casino
-	
-`ERROR: movieReleasedState is null/empty under countryReleased: Scotland for movieTitle: Amadeus
-	
-oWARN: movieReleasedState field is missing under countryReleased: Russia for movieTitle: No Country for Old Men
-	
-`ERROR: movieReleasedState is null/empty under countryReleased: Argentina for movieTitle: Casino
-	
-`WARN: movieReleasedState field is missing under countryReleased: Germany for movieTitle: Casino
-KDirector: Joel Coen is also a Producer for a movie: No Country for Old Men
-LDirector: Ethan Coen is also a Producer for a movie: No Country for Old Men
-WDirector: Juan JosÃ© Campanella is also a Producer for a movie: El secreto de sus ojos
-KDirector: Joel Coen is also a Producer for a movie: No Country for Old Men
-LDirector: Ethan Coen is also a Producer for a movie: No Country for Old Men
-WDirector: Juan JosÃ© Campanella is also a Producer for a movie: El secreto de sus ojos
-6All actors are null for title: No Country for Old Men
-6All actors are null for title: El secreto de sus ojos
-zERROR: movieReleasedState & moveReleasedPrice are both null/empty under countryReleased: Argentina for movieTitle: Casino
-zWARN: movieReleasedState & moveReleasedPrice field are both missing under countryReleased: Germany for movieTitle: Casino
-6actor3 is Ruth Gordon for movieTitle: Rosemary's Baby
-5actor3 is Elizabeth Berridge for movieTitle: Amadeus
-6actor3 is null for movieTitle: No Country for Old Men
-6actor3 is null for movieTitle: El secreto de sus ojos
-+actor3 is Joe Pesci for movieTitle: Casino
+-- listing properties --
+java.vendor=Oracle Corporation
+,com.apple.mrj.application.live-resize=false
+sun.java.launcher=SUN_STANDARD
+idea.executable=idea
+8sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+!idea.paths.selector=IdeaIC2019.1
+:jnidispatch.path=/Users/anuragmuthyam/Library/Caches/I...
+os.name=Mac OS X
+=sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk...
+0java.vm.specification.vendor=Oracle Corporation
+#java.runtime.version=1.8.0_211-b12
+jna.loaded=true
+:jb.vmOptionsFile=/Applications/IntelliJ IDEA CE.app/Co...
+$io.netty.serviceThreadPrefix=Netty 
+user.name=anuragmuthyam
+!java.rmi.server.disableHttp=true
+8idea.home.path=/Applications/IntelliJ IDEA CE.app/Co...
+idea.active=true
+user.language=en
+idea.version=2019.1.3
+?sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk...
+'idea.fatal.error.notification=disabled
+jna.nosys=true
+java.version=1.8.0_211
+CVS_PASSFILE=~/.cvspass
+swing.bufferPerWindow=true
+user.timezone=America/New_York
+java.net.preferIPv4Stack=true
+jbre.popupwindow.settype=true
+sun.arch.data.model=64
+`java.util.concurrent.ForkJoinPool.common.threadFactory=com.intellij.concurrency.IdeaForkJoin...
+4jna.tmpdir=/Users/anuragmuthyam/Library/Caches/I...
+9http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+<java.endorsed.dirs=/Applications/IntelliJ IDEA CE.app/Co...
+sun.cpu.isalist=
+sun.jnu.encoding=UTF-8
+file.encoding.pkg=sun.io
+file.separator=/
+8java.specification.name=Java Platform API Specification
+java.class.version=52.0
+user.country=US
+3java.home=/Library/Java/JavaVirtualMachines/jdk...
+java.vm.info=mixed mode
+os.version=10.14.6
++jdk.http.auth.tunneling.disabledSchemes=""
+path.separator=:
+java.vm.version=25.211-b12
+idea.smooth.progress=false
+idea.no.launcher=false
+user.variant=
+(com.jetbrains.suppressWindowRaise=false
+%idea.max.content.load.filesize=20000
+1java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+"javax.swing.rebaseCssSizeMap=true
+#sun.io.unicode.encoding=UnicodeBig
+(awt.toolkit=sun.lwawt.macosx.LWCToolkit
+idea.cycle.buffer.size=1024
+9socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+8ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+log4j.defaultInitOverride=true
+io.netty.processId=39297
+idea.platform.prefix=Idea
+user.home=/Users/anuragmuthyam
+idea.dynamic.classpath=false
+__idea.mac.env.lock=unlocked
+-java.specification.vendor=Oracle Corporation
+ apple.laf.useScreenMenuBar=true
+jna.encoding=UTF8
+org.gradle.test.worker=1
+(java.vendor.url=http://java.oracle.com/
+<library.jansi.path=/Users/anuragmuthyam/.gradle/native/j...
+;java.library.path=/Users/anuragmuthyam/Library/Java/Ext...
+gopherProxySet=false
+"java.vm.vendor=Oracle Corporation
+2java.runtime.name=Java(TM) SE Runtime Environment
+9java.class.path=/Users/anuragmuthyam/Documents/dev/We...
+:sun.java.command=worker.org.gradle.process.internal.wo...
++io.netty.machineId=28:f0:76:ff:fe:16:65:0e
+org.gradle.native=false
+>java.vm.specification.name=Java Virtual Machine Specification
+idea.xdebug.key=-Xdebug
+idea.popup.weight=heavy
+"java.vm.specification.version=1.8
+sun.os.patch.level=unknown
+sun.cpu.endian=little
+8java.io.tmpdir=/var/folders/qz/6z3n1mq545vf0dj4tdhtq...
+3java.vendor.url.bug=https://youtrack.jetbrains.com
+#java.rmi.server.hostname=127.0.0.1
+,jna.platform.library.path=/usr/lib:/usr/lib
+2java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+os.arch=x86_64
+$idea.max.intellisense.filesize=2500
+7java.ext.dirs=/Users/anuragmuthyam/Library/Java/Ext...
+2user.dir=/Users/anuragmuthyam/Documents/dev/We...
+idea.jre.check=true
+line.separator=
+
+/java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+)java.util.Arrays.useLegacyMergeSort=true
+6pty4j.tmpdir=/Users/anuragmuthyam/Library/Caches/I...
+file.encoding=UTF-8
+Gpty4j.preferred.native.folder=/Applications/IntelliJ IDEA CE.app/Co...
+java.specification.version=1.8
+E/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+—/Users/anuragmuthyam/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+â/Users/anuragmuthyam/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+ÊW/Users/anuragmuthyam/Documents/dev/WebServicesAutomation/build/classes/java/test:/Users/anuragmuthyam/Documents/dev/WebServicesAutomation/build/resources/test:/Users/anuragmuthyam/Documents/dev/WebServicesAutomation/build/classes/java/main:/Users/anuragmuthyam/Documents/dev/WebServicesAutomation/build/resources/main:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.1.6.RELEASE/3f419c32390d4adabe431d726996479d799cec0e/spring-test-5.1.6.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-webflux/2.1.5.RELEASE/571451bab6f5dca851b441cb5d7d7ffe886ad26/spring-boot-starter-webflux-2.1.5.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.1.5.RELEASE/cf880b4a4713b2a1aea21f929df718a0260aa29/spring-boot-starter-json-2.1.5.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.1.5.RELEASE/74952d169c2da56f7794b3a88508e52005bb8f36/spring-boot-starter-2.1.5.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webflux/5.1.7.RELEASE/fa59fe8d7a3cfc7c20bfc0c916a5ae4755af3c6/spring-webflux-5.1.7.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.7.RELEASE/595dd528ec66eccc6cf4375ea3b56f3605fa1d1f/spring-web-5.1.7.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.5.RELEASE/69ae2819b295603563b95f79abae53f2631c5b94/spring-boot-autoconfigure-2.1.5.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.1.5.RELEASE/939061a385b4e30e115978d78a7412fb984674df/spring-boot-2.1.5.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.7.RELEASE/b4154d41a70c56eeca42974825fe64a8576642dd/spring-context-5.1.7.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.1.7.RELEASE/8138b5e3dd01d514741de35d7f5050599c617509/spring-aop-5.1.7.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.7.RELEASE/14cd651e4aa3514e75710c9450c7a0c89413e63f/spring-beans-5.1.7.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.1.7.RELEASE/7b47446553c83a5a7323d647f5c1793106b2948c/spring-expression-5.1.7.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.7.RELEASE/280f821b9ed4dad9993f1d551d6e86557092ae58/spring-core-5.1.7.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.synchronoss.cloud/nio-multipart-parser/1.1.0/c6c417fec6612584b1c34d4dd98c5a4e47e8c754/nio-multipart-parser-1.1.0.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.synchronoss.cloud/nio-stream-storage/1.1.3/986dba5f6e5eed20f0dba6ddc8e8a64a9ebdc2f3/nio-stream-storage-1.1.3.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.1.5.RELEASE/b4fe11fb0e606b67b9fb2bd9ae4fe65b484445dd/spring-boot-starter-logging-2.1.5.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.11.2/6d37bf7b046c0ce2669f26b99365a2cfa45c4c18/log4j-to-slf4j-2.11.2.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.26/8031352b2bb0a49e67818bf04c027aa92e645d5c/jul-to-slf4j-1.7.26.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.26/77100a62c2e6f04b53977b9f541044d7d722693d/slf4j-api-1.7.26.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.4.1/82b563ce8e051fdba4e404889044642597962df2/junit-jupiter-5.4.1.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.4.1/9116b4195a17415044f81c0faa99ff3d94c188fd/junit-jupiter-params-5.4.1.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.1/a3a64c9c0f9657b554d78d2a9ad536595fcc8ab1/junit-jupiter-engine-5.4.1.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.4.1/3eab6007a6c1099f596ac7dee4bb738105988b8f/junit-jupiter-api-5.4.1.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.7.RELEASE/6b14bfb9ae41ca1bc604fe2e78f4a6efa3d67002/spring-jcl-5.1.7.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-reactor-netty/2.1.5.RELEASE/897791dbebe6175fcae61b54ba70de26953a2926/spring-boot-starter-reactor-netty-2.1.5.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator/6.0.16.Final/ad9557c558972093c0567a2a1f224f318c00f650/hibernate-validator-6.0.16.Final.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.1/3af088020922beb18e51cec0693fe959796dffad/junit-platform-engine-1.4.1.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.1/45eb68b27ebf61f923a2aa180add7fb68b09b1b1/junit-platform-commons-1.4.1.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.0.0/3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d/apiguardian-api-1.0.0.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.1.1/efd9f971e91074491ea55b19f67b13470cf4fcdd/opentest4j-1.1.1.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.23/ec62d74fe50689c28c0ff5b35d3aebcaa8b5be68/snakeyaml-1.23.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.9.8/bcd02aa9195390e23747ed40bf76be869ad3a2fb/jackson-datatype-jdk8-2.9.8.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.8/28ad1bced632ba338e51c825a652f6e11a8e6eac/jackson-datatype-jsr310-2.9.8.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.9.8/c4eef0e6e20d60fb27af4bc4770dba7bcc3f6de6/jackson-module-parameter-names-2.9.8.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.8/11283f21cc480aa86c4df7a0a3243ec508372ed2/jackson-databind-2.9.8.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/io.projectreactor.netty/reactor-netty/0.8.8.RELEASE/4343cf2fe902bb35e5bc6784024e3e254c8af8c1/reactor-netty-0.8.8.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.el/3.0.0/dd532526e7c8de48e40419e6af1183658a973379/javax.el-3.0.0.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.1.Final/cb855558e6271b1b32e716d24cb85c7f583ce09e/validation-api-2.0.1.Final.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/3789d00e859632e6c6206adc0c71625559e6e3b0/jboss-logging-3.3.2.Final.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.4/3d5f48f10bbe4eb7bd862f10c0583be2e0053c6/classmate-1.3.4.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.2.9.RELEASE/a4c759ef932c530eaaad73e2544739bee9530903/reactor-core-3.2.9.RELEASE.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.8/f5a654e4675769c716e5b387830d19b501ca191/jackson-core-2.9.8.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.36.Final/ed198d8a5283910b0c062a50dd28ef4688dcb2a5/netty-codec-http2-4.1.36.Final.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.36.Final/f313f45db4417cd8a87c49b8cb01faf19f6abdec/netty-handler-proxy-4.1.36.Final.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.36.Final/62b73d439dbddf3c0dde092b048580139695ab46/netty-codec-http-4.1.36.Final.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.36.Final/1c38a5920a10c01b1cce4cdc964447ec76abf1b5/netty-handler-4.1.36.Final.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.36.Final/8ec8e248ef34b86cc7fae023fb40b9ffa8f5614f/netty-transport-native-epoll-4.1.36.Final-linux-x86_64.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.11.2/f5e9a2ffca496057d6891a3de65128efc636e26e/log4j-api-2.11.2.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.36.Final/54bedfd0bec809898d5b8ff9cb9f3f9e427e967/netty-codec-socks-4.1.36.Final.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.36.Final/8462116d327bb3d1ec24258071f2e7345a73dbfc/netty-codec-4.1.36.Final.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.36.Final/d95d7033f400f9472db9da7834c443b96cd4bab0/netty-transport-native-unix-common-4.1.36.Final.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.36.Final/8546e6be47be587acab86bbd106ca023678f07d9/netty-transport-4.1.36.Final.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.36.Final/7f2db0921dd57df4db076229830ab09bba713aeb/netty-buffer-4.1.36.Final.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.36.Final/e4d243fbf4e6837fa294f892bf97149e18129100/netty-resolver-4.1.36.Final.jar:/Users/anuragmuthyam/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.36.Final/f6f38fde652a70ea579897edc80e52353e487ae6/netty-common-4.1.36.Final.jar

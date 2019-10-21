@@ -19,6 +19,7 @@ import static com.microservice.workflows.ConstantsWorkflow.TITLE;
 import static com.microservice.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author Anurag Muthyam
@@ -33,7 +34,7 @@ public class MovieTitleAndActors extends SuperClass {
      */
     @Test
     public void testMovieTitleAndActors() throws FileNotFoundException {
-    
+
         Map<String, List<String>> movieMap = new HashMap<>();
         
         getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
@@ -58,7 +59,7 @@ public class MovieTitleAndActors extends SuperClass {
                     movieMap.put(movieTitle, actors);
                 });
     
-        Assert.assertEquals(movieMap.keySet().size(), 5);
+        assertEquals(movieMap.keySet().size(), 5);
         
         movieMap.keySet().stream().anyMatch(movieName -> movieName.equalsIgnoreCase("casino"));
         movieMap.keySet().stream().anyMatch(movieName -> movieName.equalsIgnoreCase("amadeus"));
