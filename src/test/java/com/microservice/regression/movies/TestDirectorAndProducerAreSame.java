@@ -2,7 +2,9 @@ package com.microservice.regression.movies;
 
 import base.SuperClass;
 import com.google.gson.JsonElement;
+import io.qameta.allure.Step;
 import org.junit.Assert;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -32,13 +34,12 @@ public class TestDirectorAndProducerAreSame extends SuperClass {
      * 3. If yhe director for a movie is also a producer then collects them in a Set.
      */
     @Test
+    @DisplayName("Test Director And Producer Are Same For A Movie")
     public void testDirectorAndProducerAreSameForAMovie() throws FileNotFoundException {
         Assert.assertEquals(checkIfDirectorAndProducerAreSameForAMovieProcedure1(), checkIfDirectorAndProducerAreSameForAMovieProcedure2());
     }
     
-    /**
-     * Approach 1 using foreach():
-     */
+    @Step("Approach 1 using foreach():")
     public static Set<Set<String>> checkIfDirectorAndProducerAreSameForAMovieProcedure1() throws FileNotFoundException {
         
         Set<Set<String>> directorIsProducerForMovieSet = new HashSet<>();
@@ -70,10 +71,8 @@ public class TestDirectorAndProducerAreSame extends SuperClass {
         
         return directorIsProducerForMovieSet;
     }
-    
-    /**
-     * Approach 2 using forEach(), map(), filter() and collect():
-     */
+  
+    @Step("Approach 2 using forEach(), map(), filter() and collect()")
     public Set<Set<String>> checkIfDirectorAndProducerAreSameForAMovieProcedure2() throws FileNotFoundException {
         
         Set<Set<String>> directorIsProducerForMovieSet = new HashSet<>();
@@ -90,6 +89,7 @@ public class TestDirectorAndProducerAreSame extends SuperClass {
         return directorIsProducerForMovieSet;
     }
     
+    @Step("Get a list of producers for a movie")
     private List<String> getListOfProducersForAMovie(JsonElement movie) {
         return getJsonStream(movie, PRODUCER)
                 .map(producer -> producer.getAsString())

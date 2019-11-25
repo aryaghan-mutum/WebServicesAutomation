@@ -1,6 +1,7 @@
 package com.microservice.regression.countries;
 
 import base.SuperClass;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -30,6 +31,7 @@ public class TestNullValuesForCountryNamesAndDensity extends SuperClass {
      * 2. if size of the countriesList = 0 OR countriesList doesn't contain "Cube" then FAIL
      */
     @Test
+    @DisplayName("Test Countries List")
     public void testCountriesList() throws FileNotFoundException {
         
         List<String> countriesList =
@@ -48,6 +50,7 @@ public class TestNullValuesForCountryNamesAndDensity extends SuperClass {
      * 2. Asserts the count with density as not null
      */
     @Test
+    @DisplayName("Test Country Names With Population Density As Not Null")
     public void testCountryNamesWithPopulationDensityAsNotNull() throws FileNotFoundException {
         
         List<String> countryNamesWithHeightNotNullList = new ArrayList<>();

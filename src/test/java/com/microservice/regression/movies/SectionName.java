@@ -2,7 +2,9 @@ package com.microservice.regression.movies;
 
 import base.SuperClass;
 import com.google.gson.JsonElement;
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.platform.commons.util.StringUtils;
 
@@ -33,6 +35,7 @@ public class SectionName extends SuperClass {
      * -> And finally returns the boolean value true or false by the terminal operator: isPresent();
      */
     @Test
+    @DisplayName("Find Menu SectionName Is Null Procedure 1")
     public void findMenuSectionNameIsNullProcedure1() throws FileNotFoundException {
         
         boolean areAllActorsNullFound = getJsonStream(retrieveMoviesServiceDoc(), "payload.movies")
@@ -57,6 +60,7 @@ public class SectionName extends SuperClass {
      * -> Then we are using the terminal operator: count() to get total count of menuSections which are null
      */
     @Test
+    @DisplayName("Find Menu SectionName Is Null Procedure 2")
     public void findMenuSectionNameIsNullProcedure2() throws FileNotFoundException {
         
         AtomicBoolean areActorsNull = new AtomicBoolean(false);
@@ -79,6 +83,7 @@ public class SectionName extends SuperClass {
         }
     }
     
+    @Step("check all actors are null and return a boolean expression")
     private boolean areAllActorsNull(JsonElement menuSection) {
         return isFieldUndefined(menuSection, "actor1") ||
                 getJsonString(menuSection, "actor1") == null &&
@@ -94,7 +99,8 @@ public class SectionName extends SuperClass {
      * -> If the 'fileReference' is null/empty, the test case logs for which venueCode it is missing and Fails
      */
     @Test
-    public void testFileReferenceIsNullOrEmptyInVenueDispatcher() throws FileNotFoundException {
+    @DisplayName("Test FileReference Is Null Or Empty")
+    public void testFileReferenceIsNullOrEmpty() throws FileNotFoundException {
         
         AtomicInteger invalidFileReferenceCount = new AtomicInteger();
         
@@ -121,9 +127,7 @@ public class SectionName extends SuperClass {
         }
     }
     
-    /**
-     * Returns true if the 'fileReference' is null/empty, otherwise returns false.
-     */
+    @Step("Returns true if the 'fileReference' is null/empty, otherwise returns false.")
     private boolean isFileReferenceNullInDispatcher(JsonElement media) {
         return isFieldUndefined(media, "") ||
                 StringUtils.isBlank(getJsonString(media, ""));

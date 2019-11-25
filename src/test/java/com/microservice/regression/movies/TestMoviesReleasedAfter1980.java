@@ -2,6 +2,7 @@ package com.microservice.regression.movies;
 
 import base.SuperClass;
 import org.junit.Assert;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -34,6 +35,7 @@ public class TestMoviesReleasedAfter1980 extends SuperClass {
      * 4. If movieTitle doesn't contain "Amadeus" then FAIL
      */
     @Test
+    @DisplayName("Get List Of Movies Released After 1980")
     public void getListOfMoviesReleasedAfter1980() throws FileNotFoundException {
         
         List<String> moviesReleasedAfter1980List = new ArrayList<>();
@@ -64,6 +66,7 @@ public class TestMoviesReleasedAfter1980 extends SuperClass {
      * 5. If yearReleased != 1984 then FAIL
      */
     @Test
+    @DisplayName("Get List Of Movies Released Years After 1980")
     public void getListOfMoviesReleasedYearsAfter1980() throws FileNotFoundException {
         
         List<Integer> moviesReleasedAfter1980List = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)

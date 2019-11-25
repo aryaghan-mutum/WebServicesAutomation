@@ -2,6 +2,8 @@ package com.microservice.regression.movies;
 
 import base.SuperClass;
 import com.google.gson.JsonElement;
+import io.qameta.allure.Step;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -31,6 +33,7 @@ public class TestLeadActorIsNullForAMovie extends SuperClass {
      * and fails the test
      */
     @Test
+    @DisplayName("Find Actor1 That Has Null")
     public void findActor1ThatHasNull() throws FileNotFoundException {
         
         Stream<JsonElement> movies = getJsonStream(retrieveMoviesServiceDoc(), MOVIES);
@@ -62,6 +65,7 @@ public class TestLeadActorIsNullForAMovie extends SuperClass {
      * and fails the test
      */
     @Test
+    @DisplayName("Find Actor3 That Has Null")
     public void findActor3ThatHasNotNull() throws FileNotFoundException {
         
         Stream<JsonElement> movies = getJsonStream(retrieveMoviesServiceDoc(), MOVIES);
@@ -98,6 +102,7 @@ public class TestLeadActorIsNullForAMovie extends SuperClass {
         }
     }
     
+    @Step("check if actor is null")
     private boolean isActorNull(JsonElement offering, String actor) {
         return isFieldUndefined(offering, actor) || getJsonString(offering, actor) == null;
     }

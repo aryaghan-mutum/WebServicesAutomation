@@ -2,6 +2,7 @@ package com.microservice.regression.movies;
 
 import base.SuperClass;
 import com.google.gson.JsonElement;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.platform.commons.util.StringUtils;
 
@@ -30,6 +31,7 @@ public class TestMovieBudgetAndBoxOffice extends SuperClass {
      * -> If budget or boxOffice is null or empty, the test case FAILS
      */
     @Test
+    @DisplayName("Test Budget And BoxOffice Are Null Or Empty For Movies")
     public void testBudgetAndBoxOfficeAreNullOrEmptyForMovies() throws FileNotFoundException {
         
         Stream<JsonElement> movies = getJsonStream(retrieveMoviesServiceDoc(), MOVIES);

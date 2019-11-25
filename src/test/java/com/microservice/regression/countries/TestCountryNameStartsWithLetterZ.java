@@ -2,6 +2,7 @@ package com.microservice.regression.countries;
 
 import base.SuperClass;
 import org.junit.Assert;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -31,6 +32,7 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
      * 3. Assert the count
      */
     @Test
+    @DisplayName("Test Countries Total Count That Starts With Letter Z Using Count")
     public void testCountriesTotalCountThatStartsWithLetterZUsingCount() throws FileNotFoundException {
         
         long countryNameCountThatStartsWithLetterZ =
@@ -49,6 +51,7 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
      * 3. Assert the boolean
      */
     @Test
+    @DisplayName("Test Countries That Starts With Letter Using AnyMatch")
     public void testCountriesThatStartsWithLetterUsingAnyMatch() throws FileNotFoundException {
         
         boolean isCountryNameStartsWithLetterZ =
@@ -67,6 +70,7 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
      * 3. Assert the List which has countryName that starts with letter 'Z'
      */
     @Test
+    @DisplayName("Test Countries List That Starts With Letter Z Procedure 1")
     public void testCountriesListThatStartsWithLetterZProcedure1() throws FileNotFoundException {
         
         List<String> countryNameThatStartsWithLetterZList =
@@ -83,6 +87,7 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
      * Operations used: filter(), map(), filter(), map() and collect()
      */
     @Test
+    @DisplayName("Test Countries List That Starts With Letter Z Procedure 2")
     public void testCountriesListThatStartsWithLetterZProcedure2() throws FileNotFoundException {
         
         String countriesStartsWithLetterZ =
@@ -106,6 +111,7 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
      * 6. Assert the Countries as type String
      */
     @Test
+    @DisplayName("Test Countries List That Starts With Letter Z Procedure 3")
     public void testCountriesListThatStartsWithLetterZProcedure3() throws FileNotFoundException {
         
         List<String> countriesStartsWithLetterZList =
@@ -135,6 +141,7 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
      * Operations used: map(), filter(), reduce(), get(), chars(), distinct(), maoToObj(), sorted() and collect()
      */
     @Test
+    @DisplayName("Test Countries Start With Letter Z And Do String Manipulation")
     public void testCountriesStartWithLetterZAndDoStringManipulation() throws FileNotFoundException {
         
         String countriesStartsWithLetterZStr1 = getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)

@@ -1,6 +1,7 @@
 package com.microservice.regression.movies;
 
 import base.SuperClass;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -30,6 +31,7 @@ public class TestMovieReleasedState extends SuperClass {
      * The Test case validates 'movieReleasedState' is null/empty/missing for each 'movieTitle'
      */
     @Test
+    @DisplayName("Test Movie ReleasedState is Null Or Missing Procedure 1")
     public void testMovieReleasedStateNullOrMissingProcedure1() throws FileNotFoundException {
         
         AtomicBoolean isMoveReleasedStateNullOrMissing = new AtomicBoolean(false);
@@ -81,6 +83,7 @@ public class TestMovieReleasedState extends SuperClass {
      * The Test case validates 'movieReleasedState' is null/missing for each 'movieTitle'
      */
     @Test
+    @DisplayName("Test Movie ReleasedState is Null Or Missing Procedure 2")
     public void testMovieReleasedStateNullOrMissingProcedure2() throws FileNotFoundException {
         
         AtomicBoolean isMoveReleasedStateNullOrMissing = new AtomicBoolean(false);

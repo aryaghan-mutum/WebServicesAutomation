@@ -2,8 +2,10 @@ package com.microservice.regression.countries;
 
 import base.SuperClass;
 import com.google.gson.JsonElement;
+import io.qameta.allure.Step;
 import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -44,6 +46,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
      * 4. Assert
      */
     @Test
+    @DisplayName("Test Lowest Population Density")
     public void testLowestPopulationDensity() throws FileNotFoundException {
         
         double lowestPopulationDensity = getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
@@ -63,6 +66,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
      * 4. Assert
      */
     @Test
+    @DisplayName("Test Highest Population Density")
     public void testHighestPopulationDensity() throws FileNotFoundException {
         
         OptionalDouble highestPopulationDensity = getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
@@ -81,6 +85,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
      * 4. Assert
      */
     @Test
+    @DisplayName("Test Average Population Density For All Countries")
     public void testAveragePopulationDensityForAllCountries() throws FileNotFoundException {
         
         DecimalFormat dateFormatter = new DecimalFormat("#.###");
@@ -100,6 +105,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
      * Test Lowest and Highest population Density from country_by_population_density.json
      */
     @Test
+    @DisplayName("Test Lowest And Highest Population Density")
     public void testLowestAndHighestPopulationDensity() throws FileNotFoundException {
         
         // Approach 1:
@@ -118,6 +124,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
      * 5. Gets the shortestHeight and  tallestHeight from Collections Api
      * 6. Assert
      */
+    @Step("Test Lowest And Highest Population Density Procedure 1")
     public static void testLowestAndHighestPopulationDensityProcedure1() throws FileNotFoundException {
         
         Stream<JsonElement> countries = getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES);
@@ -148,6 +155,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
      * 3. Gets the shortestHeight and  tallestHeight from Collections Api
      * 4. Assert
      */
+    @Step("Test Lowest And Highest Population Density Procedure 2")
     public static void testLowestAndHighestPopulationDensityProcedure2() throws FileNotFoundException {
         
         Map<String, Double> countryNameAndDensityMap =
@@ -168,6 +176,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
      * 3. Asserts
      */
     @Test
+    @DisplayName("Test Total Count For Country By Continent And Country By Density Procedure 1")
     public void testTotalCountForCountryByContinentAndCountryByDensityProcedure1() throws FileNotFoundException {
         
         long countriesByContinentCount = getJsonStream(retrieveCountryByContinentServiceDoc(), COUNTRIES).count();
@@ -183,6 +192,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
      * 3. Asserts
      */
     @Test
+    @DisplayName("func")
     public void func() throws FileNotFoundException {
         
         long countriesByContinentWithCount = getJsonStream(retrieveCountryByContinentServiceDoc(), COUNTRIES).count();

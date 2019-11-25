@@ -1,7 +1,9 @@
 package com.microservice.regression.countries;
 
 import base.SuperClass;
+import io.qameta.allure.Step;
 import org.junit.Assert;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -32,6 +34,7 @@ public class TestCountriesByContinent extends SuperClass {
      * 4. Assert the total count of countries for each continent
      */
     @Test
+    @DisplayName("Test Countries Count For Al Continents")
     public void testCountriesCountForAlContinents() throws FileNotFoundException {
         
         List<String> asiaCountriesList = new ArrayList<>();
@@ -96,6 +99,7 @@ public class TestCountriesByContinent extends SuperClass {
      * 4. Assert: Compare two lists are equal
      */
     @Test
+    @Step("Get A List Of Continents And Test If It Is Empty")
     public void getAListOfContinentsAndTestIfItIsEmpty() throws FileNotFoundException {
         
         List<String> expectedContinentsList = getJsonStream(retrieveCountryByContinentServiceDoc(), COUNTRIES)

@@ -1,6 +1,7 @@
 package com.microservice.regression.movies;
 
 import base.SuperClass;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -25,6 +26,7 @@ public class TestDays extends SuperClass {
      * The Test case checks if each 'day' is null empty or missing to its associated 'menuTitle'
      */
     @Test
+    @DisplayName("Test Day Is Null Or Empty Or Missing For Movies")
     public void testDayIsNullOrEmptyOrMissingForMovies() throws FileNotFoundException {
         
         AtomicInteger invalidDayCount = new AtomicInteger();

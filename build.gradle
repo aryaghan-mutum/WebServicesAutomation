@@ -2,6 +2,7 @@ import java.text.SimpleDateFormat
 
 plugins {
     id 'java'
+    id 'io.qameta.allure' version '2.7.0'
     id 'io.franzbecker.gradle-lombok' version '2.1'
 }
 
@@ -24,6 +25,8 @@ dependencies {
     implementation("org.junit.jupiter:junit-jupiter-params:${junit_jupiter_params_version}")
     implementation("org.junit.jupiter:junit-jupiter-api:${junit_jupiter_api_version}")
     implementation("org.junit.jupiter:junit-jupiter-engine:${junit_jupiter_engine_version}")
+    implementation "io.qameta.allure:allure-selenide:${allure_selenide_version}"
+    implementation "io.qameta.allure:allure-junit5:${allure_junit_version}"
     compile "org.springframework:spring-core:${spring_core_version}"
     compile "org.springframework:spring-context:${spring_context_version}"
     compile "org.springframework:spring-test:${spring_test_version}"

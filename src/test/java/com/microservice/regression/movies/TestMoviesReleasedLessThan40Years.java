@@ -1,7 +1,9 @@
 package com.microservice.regression.movies;
 
 import base.SuperClass;
+import io.qameta.allure.Step;
 import org.junit.Assert;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -31,6 +33,7 @@ public class TestMoviesReleasedLessThan40Years extends SuperClass {
      * 4. If yearReleased < 40 then adds the movieTitle to the list
      */
     @Test
+    @DisplayName("Test Total Count Of Movies Released Less Than 40 Years From Current Year")
     public void testTotalCountOfMoviesReleasedLessThan40YearsFromCurrentYear() throws FileNotFoundException {
         
         int countForProcedure1 = getTotalCountOfMoviesReleasedLessThan40YearsFromCurrentYearProcedure1();
@@ -40,9 +43,7 @@ public class TestMoviesReleasedLessThan40Years extends SuperClass {
         
     }
     
-    /**
-     * Approach 1 using forEach():
-     */
+    @Step("Approach 1 using forEach(): Get Total Count Of Movies Released Less Than 40 Years From Current Year Procedure 1")
     public int getTotalCountOfMoviesReleasedLessThan40YearsFromCurrentYearProcedure1() throws FileNotFoundException {
         
         List<String> moviesReleasedLessThan40YearsFromTodayList = new ArrayList<>();
@@ -66,9 +67,7 @@ public class TestMoviesReleasedLessThan40Years extends SuperClass {
         return moviesReleasedLessThan40YearsFromTodayList.size();
     }
     
-    /**
-     * Approach 2 using map(), filter() and count():
-     */
+    @Step("Approach 2 using map(), filter() and count(): Get Total Count Of Movies Released Less Than 40 Years From Current Year Procedure 1")
     public int getTotalCountOfMoviesReleasedLessThan40YearsFromCurrentYearProcedure2() throws FileNotFoundException {
     
         long moviesReleasedLessThan40YearsFromTodayCount = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)

@@ -2,6 +2,8 @@ package com.microservice.regression.movies;
 
 import base.SuperClass;
 import com.google.gson.JsonElement;
+import io.qameta.allure.Step;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -32,6 +34,7 @@ public class TestLanguageIsNullForAMovie extends SuperClass {
      * The Test case returns a boolean value. if the value is true then FAILS
      */
     @Test
+    @DisplayName("Find language is null Procedure 1")
     public void findLanguageIsNullProcedure1() throws FileNotFoundException {
         
         boolean isLanguageNullFound = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
@@ -45,6 +48,7 @@ public class TestLanguageIsNullForAMovie extends SuperClass {
         }
     }
     
+    @Step("check language is null for procedure 1")
     private boolean isLanguageNullForProcedure1(JsonElement movie) {
         try {
             return getJsonString(movie, LANGUAGE) == null;
@@ -59,6 +63,7 @@ public class TestLanguageIsNullForAMovie extends SuperClass {
      * The Test case returns a total count. if the count > 0 then FAILS
      */
     @Test
+    @DisplayName("Find language is null Procedure 2")
     public void findLanguageIsNullProcedure2() throws FileNotFoundException {
         
         long languageCount = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
@@ -71,6 +76,7 @@ public class TestLanguageIsNullForAMovie extends SuperClass {
         }
     }
     
+    @Step("check language is null for procedure 2")
     private boolean isLanguageNullForProcedure2(JsonElement movie) {
         return isFieldUndefined(movie, LANGUAGE) || getJsonString(movie, LANGUAGE) == null;
     }

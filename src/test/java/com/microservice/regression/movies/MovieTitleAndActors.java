@@ -1,7 +1,7 @@
 package com.microservice.regression.movies;
 
 import base.SuperClass;
-import org.junit.Assert;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -33,6 +33,7 @@ public class MovieTitleAndActors extends SuperClass {
      * 3. Assert
      */
     @Test
+    @DisplayName("Test Movie Title And Actors")
     public void testMovieTitleAndActors() throws FileNotFoundException {
 
         Map<String, List<String>> movieMap = new HashMap<>();
@@ -63,7 +64,6 @@ public class MovieTitleAndActors extends SuperClass {
         
         movieMap.keySet().stream().anyMatch(movieName -> movieName.equalsIgnoreCase("casino"));
         movieMap.keySet().stream().anyMatch(movieName -> movieName.equalsIgnoreCase("amadeus"));
-        
         
         movieMap.entrySet().stream().collect(Collectors.toList());
     }

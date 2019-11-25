@@ -1,6 +1,7 @@
 package com.microservice.regression.countries;
 
 import base.SuperClass;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -25,7 +26,8 @@ public class TestCountryAndPopulationDensityCount extends SuperClass {
      * 2. Asserts the count
      */
     @Test
-    public void testTotalCountriesCountWithDensityANull() throws FileNotFoundException {
+    @DisplayName("Test Total Countries Count With Density As Null")
+    public void testTotalCountriesCountWithDensityAsNull() throws FileNotFoundException {
         int totalCountriesCount = (int) getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES).count();
         
         assertEquals(totalCountriesCount, TOTAL_COUNTRIES_WITH_POPULATION_DENSITY_AS_NULL);
@@ -36,6 +38,7 @@ public class TestCountryAndPopulationDensityCount extends SuperClass {
      * 2. Asserts the count with density as not null
      */
     @Test
+    @DisplayName("Test Total Countries Count With Density As Not Null")
     public void testTotalCountriesCountWithDensityAsNotNull() throws FileNotFoundException {
         
         int totalCountriesCountWithDensityAsNotNull =

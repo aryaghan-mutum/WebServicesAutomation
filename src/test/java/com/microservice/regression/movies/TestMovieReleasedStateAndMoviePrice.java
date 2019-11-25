@@ -1,6 +1,7 @@
 package com.microservice.regression.movies;
 
 import base.SuperClass;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
@@ -32,6 +33,7 @@ public class TestMovieReleasedStateAndMoviePrice extends SuperClass {
      * If both 'movieReleasedState' & 'moveReleasedPrice' are null/empty, then the test fails
      */
     @Test
+    @DisplayName("Test MovieReleasedState And MoveReleasedPrice Null Or Missing")
     public void testMovieReleasedStateAndMoveReleasedPriceNullOrMissing() throws FileNotFoundException {
         
         AtomicBoolean isMovieReleasedStateAndMoveReleasedPriceNullOrMissing = new AtomicBoolean(false);
