@@ -1,8 +1,10 @@
 package com.microservice.workflows;
 
 import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
 
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.time.LocalDate;
 
 import static com.microservice.workflows.ConstantsWorkflow.ACTOR3;
@@ -57,6 +59,14 @@ public class Util {
                 .map(country -> Double.valueOf(country))
                 .mapToInt(Double::intValue)
                 .toArray();
+    }
+    
+    /**
+     * Read Json file from the project structure.
+     */
+    public static JsonElement parseJsonFileFromProjectStructure() throws FileNotFoundException {
+        return new JsonParser().parse(new FileReader(
+                "/Users/yourUserName/Documents/dev/content-services-automated-validation/search_shorex.json"));
     }
     
 }
