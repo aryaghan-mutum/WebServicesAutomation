@@ -56,7 +56,7 @@ public class Util {
         return getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
                 .filter(country -> !isDensityNull(country))
                 .map(country -> getJsonString(country, DENSITY))
-                .map(country -> Double.valueOf(country))
+                .map(Double::valueOf)
                 .mapToInt(Double::intValue)
                 .toArray();
     }
