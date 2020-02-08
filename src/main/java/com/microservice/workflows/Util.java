@@ -66,7 +66,7 @@ public class Util {
      */
     public static JsonElement parseJsonFileFromProjectStructure() throws FileNotFoundException {
         return new JsonParser().parse(new FileReader(
-                "/Users/yourUserName/Documents/dev/content-services-automated-validation/search_shorex.json"));
+                "/Users/yourUserName/Documents/dev/yourProjectName/search_shorex.json"));
     }
     
 }
