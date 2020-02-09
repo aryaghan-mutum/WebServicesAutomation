@@ -2,6 +2,7 @@ package com.microservice.regression.movies;
 
 import base.SuperClass;
 import com.google.gson.JsonElement;
+import io.netty.util.internal.StringUtil;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -18,7 +19,13 @@ import static com.microservice.workflows.JsonPayloadWorkflow.retrieveMoviesServi
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.JsonWorkflow.isFieldUndefined;
+import static io.netty.util.internal.StringUtil.EMPTY_STRING;
+import static org.jsoup.helper.StringUtil.isBlank;
 import static org.junit.Assert.fail;
+
+/**
+ * @author Anurag Muthyam
+ */
 
 public class SectionName extends SuperClass {
     
@@ -107,10 +114,10 @@ public class SectionName extends SuperClass {
         getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
                 .forEach(venueArray -> {
                     
-                    String venueCode = getJsonString(venueArray, "");
+                    String venueCode = getJsonString(venueArray, EMPTY_STRING);
                     
                     try {
-                        getJsonStream(venueArray, "")
+                        getJsonStream(venueArray, EMPTY_STRING)
                                 .forEach(media -> {
                                     if (isFileReferenceNullInDispatcher(media)) {
                                         log("fileReference is null/empty for venueCode: {} in dispatcher", venueCode);
@@ -118,6 +125,7 @@ public class SectionName extends SuperClass {
                                     }
                                 });
                     } catch (Exception e) {
+                        log("Exception: %s" + e);
                         log("media field is missing for venueCode: {} in dispatcher", venueCode);
                     }
                 });
@@ -129,7 +137,7 @@ public class SectionName extends SuperClass {
     
     @Step("Returns true if the 'fileReference' is null/empty, otherwise returns false.")
     private boolean isFileReferenceNullInDispatcher(JsonElement media) {
-        return isFieldUndefined(media, "") ||
-                StringUtils.isBlank(getJsonString(media, ""));
+        return isFieldUndefined(media, EMPTY_STRING) ||
+                isBlank(getJsonString(media, EMPTY_STRING));
     }
 }

@@ -53,6 +53,7 @@ public class TestLanguageIsNullForAMovie extends SuperClass {
         try {
             return getJsonString(movie, LANGUAGE) == null;
         } catch (Exception ex) {
+            log("Exception: %s" + ex.getMessage());
             log("jsonString method throws exception when the tag is not present, make sure that is also treated as null");
             return true;
         }

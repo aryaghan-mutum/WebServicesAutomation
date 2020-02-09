@@ -17,13 +17,11 @@ public class ConstantsWorkflow {
     public static final String CAST = "cast";
     public static final String DIRECTOR = "director";
     public static final String PRODUCER = "producer";
-    public static final String MUSIC_DIRECTOR = "musicDirector";
     public static final String ACTOR1 = "actor1";
     public static final String ACTOR2 = "actor2";
     public static final String ACTOR3 = "actor3";
     public static final String BUDGET = "cost.budget";
     public static final String BOX_OFFICE = "cost.boxOffice";
-    public static final String PRODUCTION_COMPANY = "productionCompany";
     public static final String MOVIE_RELEASE = "movie.movieRelease";
     public static final String COUNTRY_RELEASED = "countryReleased";
     public static final String MOVIE_ITEM = "movieItem";

@@ -17,6 +17,8 @@ import static com.microservice.workflows.JsonPayloadWorkflow.retrieveCountryByPo
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.Util.isContinentNull;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
@@ -77,7 +79,7 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
                 getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
                         .map(country -> getJsonString(country, COUNTRY))
                         .filter(country -> country.startsWith("Z"))
-                        .collect(Collectors.toList());
+                        .collect(toList());
         
         assertEquals(countryNameThatStartsWithLetterZList.toString(), "[Zambia, Zimbabwe]");
     }
@@ -96,7 +98,7 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
                         .map(country -> getJsonString(country, COUNTRY))
                         .filter(country -> country.startsWith("Z"))
                         .map(String::toUpperCase)
-                        .collect(Collectors.joining(", "));
+                        .collect(joining(", "));
         
         Assert.assertEquals(countriesStartsWithLetterZ, "zambia, zimbabwe".toUpperCase());
     }
@@ -120,19 +122,19 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
                         .map(country -> getJsonString(country, COUNTRY))
                         .map(String::toUpperCase)
                         .filter(country -> country.startsWith("Z"))
-                        .collect(Collectors.toList());
+                        .collect(toList());
         
         String countriesStartsWithLetterZWithComma =
                 countriesStartsWithLetterZList
                         .stream()
-                        .collect(Collectors.joining(", "));
+                        .collect(joining(", "));
         
         Assert.assertEquals(countriesStartsWithLetterZWithComma, "zambia, zimbabwe".toUpperCase());
         
         String countriesStartsWithLetterZWithHiphen =
                 Pattern.compile(", ")
                         .splitAsStream(countriesStartsWithLetterZWithComma)
-                        .collect(Collectors.joining("-"));
+                        .collect(joining("-"));
         
         Assert.assertEquals(countriesStartsWithLetterZWithHiphen, "zambia-zimbabwe".toUpperCase());
     }
@@ -153,7 +155,7 @@ public class TestCountryNameStartsWithLetterZ extends SuperClass {
                 .distinct()
                 .mapToObj(c -> String.valueOf((char) c))
                 .sorted()
-                .collect(Collectors.joining(" "));
+                .collect(joining(" "));
         
         Assert.assertEquals(countriesStartsWithLetterZStr1, "  Z a b d e i m n w");
     }

@@ -19,6 +19,7 @@ import static com.microservice.workflows.JsonWorkflow.getJsonInt;
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.Util.convertStringToLocalDateFormat;
+import static java.util.stream.Collectors.toList;
 import static org.junit.Assert.fail;
 
 /**
@@ -72,7 +73,7 @@ public class TestMoviesReleasedAfter1980 extends SuperClass {
         List<Integer> moviesReleasedAfter1980List = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
                 .map(movie -> getJsonInt(movie, YEAR_RELEASED))
                 .filter(yearReleased -> yearReleased > 1980)
-                .collect(Collectors.toList());
+                .collect(toList());
         
         Assert.assertEquals(moviesReleasedAfter1980List.size(), 3);
         

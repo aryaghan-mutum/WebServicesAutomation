@@ -27,6 +27,10 @@ import static com.microservice.workflows.JsonWorkflow.getJsonDouble;
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.Util.isDensityNull;
+import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.toMap;
+import static jdk.nashorn.internal.objects.NativeMath.max;
+import static jdk.nashorn.internal.objects.NativeMath.min;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
@@ -131,7 +135,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
         
         List<JsonElement> countriesList = countries
                 .filter(country -> !isDensityNull(country))
-                .collect(Collectors.toList());
+                .collect(toList());
         
         Map<String, Double> countryNameAndDensityMap = new HashMap<>();
         
@@ -161,12 +165,12 @@ public class TestPopulationDensityPerCountry extends SuperClass {
         Map<String, Double> countryNameAndDensityMap =
                 getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES)
                         .filter(country -> !isDensityNull(country))
-                        .collect(Collectors.toMap(
+                        .collect(toMap(
                                 country -> getJsonString(country, COUNTRY),
                                 density -> getJsonDouble(density, DENSITY)));
         
-        assertEquals(Collections.min(countryNameAndDensityMap.values()), LOWEST_POPULATION_DENSITY);
-        assertEquals(Collections.max(countryNameAndDensityMap.values()), HIGHEST_POPULATION_DENSITY);
+        assertEquals(min(countryNameAndDensityMap.values()), LOWEST_POPULATION_DENSITY);
+        assertEquals(max(countryNameAndDensityMap.values()), HIGHEST_POPULATION_DENSITY);
     }
     
     /**

@@ -47,6 +47,7 @@ public class TestDays extends SuperClass {
                     } catch (Exception e) {
                         invalidDayCount.incrementAndGet();
                         log("ERROR: day is null for movieTitle: %s", movieTitle);
+                        log("Exception: %s", e);
                     }
                 });
         

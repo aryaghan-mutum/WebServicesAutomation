@@ -17,6 +17,7 @@ import static com.microservice.workflows.ConstantsWorkflow.TITLE;
 import static com.microservice.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
+import static org.jsoup.helper.StringUtil.isBlank;
 import static org.junit.Assert.fail;
 
 /**
@@ -44,19 +45,19 @@ public class TestMovieBudgetAndBoxOffice extends SuperClass {
             String budget = getJsonString(movie, BUDGET);
             String boxOffice = getJsonString(movie, BOX_OFFICE);
             
-            if (StringUtils.isBlank(budget) || StringUtils.isBlank(boxOffice)) {
+            if (isBlank(budget) || isBlank(boxOffice)) {
                 
                 // if budget and boxOffice are all null, then skip.
-                if (StringUtils.isBlank(budget) && StringUtils.isBlank(boxOffice)) {
+                if (isBlank(budget) && isBlank(boxOffice)) {
                     isCostFieldNull.set(false);
                 }
                 // if budget or boxOffice is null or empty, the test case fails.
                 else {
-                    if (StringUtils.isBlank(budget)) {
+                    if (isBlank(budget)) {
                         isCostFieldNull.set(true);
                         log("budget: is null or empty for movieTitle: %s ", movieTitle);
                     }
-                    if (StringUtils.isBlank(boxOffice)) {
+                    if (isBlank(boxOffice)) {
                         isCostFieldNull.set(true);
                         log("boxOffice: is null or empty for movieTitle: %s", movieTitle);
                     }

@@ -54,7 +54,6 @@ public class TestMoviesReleasedLessThan40Years extends SuperClass {
                     String movieTitle = getJsonString(movie, TITLE);
                     
                     int yearReleased = convertStringToLocalDateFormat(getJsonString(movie, DATE_RELEASED)).getYear();
-                    
                     int yearDifference = getCurrentYear() - yearReleased;
                     
                     if (yearDifference < 40) {

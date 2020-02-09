@@ -20,6 +20,8 @@ import static com.microservice.workflows.ConstantsWorkflow.TITLE;
 import static com.microservice.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
+import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.toSet;
 
 /**
  * @author Anurag Muthyam
@@ -51,13 +53,13 @@ public class TestDirectorAndProducerAreSame extends SuperClass {
                     
                     // get a list of directors for a  movie
                     List<String> directorList = getJsonStream(movie, DIRECTOR)
-                            .map(producer -> producer.getAsString())
-                            .collect(Collectors.toList());
+                            .map(JsonElement::getAsString)
+                            .collect(toList());
                     
                     // get a list of producers for a  movie
                     List<String> producerList = getJsonStream(movie, PRODUCER)
-                            .map(producer -> producer.getAsString())
-                            .collect(Collectors.toList());
+                            .map(JsonElement::getAsString)
+                            .collect(toList());
                     
                     directorIsProducerForMovieSet
                             .add(directorList
@@ -65,7 +67,7 @@ public class TestDirectorAndProducerAreSame extends SuperClass {
                                     .filter(director -> producerList.contains(director))
                                     .peek(director -> log("Director: %s is also a Producer for a movie: %s", director, movieTitle))
                                     .map(mT -> movieTitle)
-                                    .collect(Collectors.toSet()));
+                                    .collect(toSet()));
                     
                 });
         
@@ -80,11 +82,11 @@ public class TestDirectorAndProducerAreSame extends SuperClass {
         getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
                 .forEach(movie -> directorIsProducerForMovieSet
                         .add(getJsonStream(movie, DIRECTOR)
-                                .map(producer -> producer.getAsString())
+                                .map(JsonElement::getAsString)
                                 .filter(director -> getListOfProducersForAMovie(movie).contains(director))
                                 .peek(director -> log("Director: %s is also a Producer for a movie: %s", director, getJsonString(movie, TITLE)))
                                 .map(mT -> getJsonString(movie, TITLE))
-                                .collect(Collectors.toSet())));
+                                .collect(toSet())));
         
         return directorIsProducerForMovieSet;
     }
@@ -92,7 +94,7 @@ public class TestDirectorAndProducerAreSame extends SuperClass {
     @Step("Get a list of producers for a movie")
     private List<String> getListOfProducersForAMovie(JsonElement movie) {
         return getJsonStream(movie, PRODUCER)
-                .map(producer -> producer.getAsString())
-                .collect(Collectors.toList());
+                .map(JsonElement::getAsString)
+                .collect(toList());
     }
 }

@@ -9,7 +9,6 @@ import org.junit.jupiter.api.Test;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static com.microservice.workflows.ConstantsWorkflow.CONTINENT;
@@ -19,6 +18,7 @@ import static com.microservice.workflows.JsonPayloadWorkflow.retrieveCountryByCo
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.Util.isContinentNull;
+import static java.util.stream.Collectors.toList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
@@ -107,7 +107,7 @@ public class TestCountriesByContinent extends SuperClass {
                 .map(country -> getJsonString(country, CONTINENT))
                 .distinct()
                 .sorted()
-                .collect(Collectors.toList());
+                .collect(toList());
         
         if (expectedContinentsList.isEmpty()) {
             Assert.fail();
@@ -116,7 +116,7 @@ public class TestCountriesByContinent extends SuperClass {
         List<String> actualContinentsList2 =
                 Stream.of("Africa", "Asia", "Europe", "Oceania", "Antarctica", "North America", "South America")
                         .sorted()
-                        .collect(Collectors.toList());
+                        .collect(toList());
         
         Assert.assertEquals(actualContinentsList2, expectedContinentsList);
     }

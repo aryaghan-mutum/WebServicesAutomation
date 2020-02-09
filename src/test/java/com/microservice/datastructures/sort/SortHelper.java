@@ -15,7 +15,6 @@ public class SortHelper {
             
                 return false;
             }
-        
         }
     
         return true;

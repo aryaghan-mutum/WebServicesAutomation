@@ -15,12 +15,7 @@ public class SelectionSort extends SuperClass {
     public void
     testBubbleSort() throws FileNotFoundException {
         
-        // int[] countryDensityFunctionalBubbleSortArray = functionalBubbleSort();
         int[] countryDensitySequentialSelectionSortArray = sequentialSelectionSort();
-        
-       // int[] countryDensityFunctionalSelectionArray = functionalSelectionSort();
-        
-       // Assert.assertArrayEquals(countryDensitySequentialSelectionSortArray, countryDensityFunctionalSelectionArray);
     }
     
     /**
