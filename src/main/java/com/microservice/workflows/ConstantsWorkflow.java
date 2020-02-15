@@ -3,9 +3,9 @@ package com.microservice.workflows;
 public class ConstantsWorkflow {
     
     // JSON PATH (Must be changed based on where the project is located)
-    public static final String MOVIE_SERVICE_PATH = "/Users/anuragmuthyam/Documents/dev/WebServicesAutomation/src/main/resources/data/json/movies_service.json";
-    public static final String COUNTRY_BY_POPULATION_DENSITY = "/Users/anuragmuthyam/Documents/dev/WebServicesAutomation/src/main/resources/data/json/country_by_population_density.json";
-    public static final String COUNTRY_BY_CONTINENT = "/Users/anuragmuthyam/Documents/dev/WebServicesAutomation/src/main/resources/data/json/country_by_continent.json";
+    public static final String MOVIE_SERVICE_PATH = "/Users/anuragmuthyam/Documents/dev/fun/my-projects/WebServicesAutomation/src/main/resources/data/json/movies_service.json";
+    public static final String COUNTRY_BY_POPULATION_DENSITY = "/Users/anuragmuthyam/Documents/dev/fun/my-projects/WebServicesAutomation/src/main/resources/data/json/country_by_population_density.json";
+    public static final String COUNTRY_BY_CONTINENT = "/Users/anuragmuthyam/Documents/dev/fun/my-projects/WebServicesAutomation/src/main/resources/data/json/country_by_continent.json";
     
     // MOVIES
     public static final String MOVIES = "payload.movies";
