@@ -3,6 +3,7 @@ package com.microservice.regression.countries;
 import base.BaseTest;
 import io.qameta.allure.Step;
 import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -110,7 +111,7 @@ public class TestCountriesByContinent extends BaseTest {
                 .collect(toList());
         
         if (expectedContinentsList.isEmpty()) {
-            Assert.fail();
+            Assertions.fail();
         }
         
         List<String> actualContinentsList2 =
