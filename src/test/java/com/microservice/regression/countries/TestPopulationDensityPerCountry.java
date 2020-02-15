@@ -1,6 +1,6 @@
 package com.microservice.regression.countries;
 
-import base.SuperClass;
+import base.BaseTest;
 import com.google.gson.JsonElement;
 import io.qameta.allure.Step;
 import org.junit.Assert;
@@ -15,7 +15,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.OptionalDouble;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static com.microservice.workflows.ConstantsWorkflow.COUNTRIES;
@@ -37,7 +36,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @author Anurag Muthyam
  */
 
-public class TestPopulationDensityPerCountry extends SuperClass {
+public class TestPopulationDensityPerCountry extends BaseTest {
     
     private static final double LOWEST_POPULATION_DENSITY = 0.0;
     private static final double HIGHEST_POPULATION_DENSITY = 661.96;
@@ -197,7 +196,7 @@ public class TestPopulationDensityPerCountry extends SuperClass {
      */
     @Test
     @DisplayName("func")
-    public void func() throws FileNotFoundException {
+    public void testCountFomTwoJsonFiles() throws FileNotFoundException {
         
         long countriesByContinentWithCount = getJsonStream(retrieveCountryByContinentServiceDoc(), COUNTRIES).count();
         long countriesByPopulationDensityCount  = getJsonStream(retrieveCountryByPopulationDensityServiceDoc(), COUNTRIES).count();

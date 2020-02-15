@@ -1,6 +1,6 @@
 package com.microservice.regression.movies;
 
-import base.SuperClass;
+import base.BaseTest;
 import com.google.gson.JsonElement;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.DisplayName;
@@ -25,7 +25,7 @@ import static org.junit.Assert.fail;
  * @author Anurag Muthyam
  */
 
-public class TestLeadActorIsNullForAMovie extends SuperClass {
+public class TestLeadActorIsNullForAMovie extends BaseTest {
     
     /**
      * The Test case checks if each actor1 (lead actor) under cast is null in movies_service.json

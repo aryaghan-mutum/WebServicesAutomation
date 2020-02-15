@@ -1,13 +1,11 @@
 package com.microservice.regression.movies;
 
-import base.SuperClass;
+import base.BaseTest;
 import com.google.gson.JsonElement;
-import io.netty.util.internal.StringUtil;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.platform.commons.util.StringUtils;
 
 import java.io.FileNotFoundException;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -20,6 +18,8 @@ import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.JsonWorkflow.isFieldUndefined;
 import static io.netty.util.internal.StringUtil.EMPTY_STRING;
+import static java.lang.String.format;
+import static java.util.Arrays.stream;
 import static org.jsoup.helper.StringUtil.isBlank;
 import static org.junit.Assert.fail;
 
@@ -27,7 +27,7 @@ import static org.junit.Assert.fail;
  * @author Anurag Muthyam
  */
 
-public class SectionName extends SuperClass {
+public class SectionName extends BaseTest {
     
     
     /**

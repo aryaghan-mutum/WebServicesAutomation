@@ -1,6 +1,6 @@
 package com.microservice.regression.countries;
 
-import base.SuperClass;
+import base.BaseTest;
 import org.junit.Assert;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 import static com.microservice.workflows.ConstantsWorkflow.COUNTRIES;
 import static com.microservice.workflows.ConstantsWorkflow.COUNTRY;
@@ -25,7 +24,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @author Anurag Muthyam
  */
 
-public class TestCountryNameStartsWithLetterZ extends SuperClass {
+public class TestCountryNameStartsWithLetterZ extends BaseTest {
     
     /**
      * Operations used: map(), filter() and count()

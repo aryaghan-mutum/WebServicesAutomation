@@ -1,6 +1,6 @@
 package com.microservice.regression.countries;
 
-import base.SuperClass;
+import base.BaseTest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -22,7 +22,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @author Anurag Muthyam
  */
 
-public class TestNullValuesForCountryNamesAndDensity extends SuperClass {
+public class TestNullValuesForCountryNamesAndDensity extends BaseTest {
     
     private static final int TOTAL_COUNTRIES_WITH_POPULATION_DENSITY_AS_NOT_NULL = 175;
     

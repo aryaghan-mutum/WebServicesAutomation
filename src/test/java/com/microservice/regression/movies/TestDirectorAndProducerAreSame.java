@@ -1,6 +1,6 @@
 package com.microservice.regression.movies;
 
-import base.SuperClass;
+import base.BaseTest;
 import com.google.gson.JsonElement;
 import io.qameta.allure.Step;
 import org.junit.Assert;
@@ -11,7 +11,6 @@ import java.io.FileNotFoundException;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 import static com.microservice.workflows.ConstantsWorkflow.DIRECTOR;
 import static com.microservice.workflows.ConstantsWorkflow.MOVIES;
@@ -27,7 +26,7 @@ import static java.util.stream.Collectors.toSet;
  * @author Anurag Muthyam
  */
 
-public class TestDirectorAndProducerAreSame extends SuperClass {
+public class TestDirectorAndProducerAreSame extends BaseTest {
     
     /**
      * The Test case validates if a director for a movie is also a producer.

@@ -1,6 +1,6 @@
 package com.microservice.regression.countries;
 
-import base.SuperClass;
+import base.BaseTest;
 import io.qameta.allure.Step;
 import org.junit.Assert;
 import org.junit.jupiter.api.DisplayName;
@@ -25,7 +25,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @author Anurag Muthyam
  */
 
-public class TestCountriesByContinent extends SuperClass {
+public class TestCountriesByContinent extends BaseTest {
     
     /**
      * 1. Exclude a list of countries who's continent is null by using filter()

@@ -1,10 +1,9 @@
 package com.microservice.regression.movies;
 
-import base.SuperClass;
+import base.BaseTest;
 import com.google.gson.JsonElement;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.platform.commons.util.StringUtils;
 
 import java.io.FileNotFoundException;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -24,7 +23,7 @@ import static org.junit.Assert.fail;
  * @author Anurag Muthyam
  */
 
-public class TestMovieBudgetAndBoxOffice extends SuperClass {
+public class TestMovieBudgetAndBoxOffice extends BaseTest {
     
     /**
      * Test budget and boxOffice of the movies

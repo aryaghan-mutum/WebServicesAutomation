@@ -1,12 +1,12 @@
 package com.microservice.datastructures.sort;
 
-import base.SuperClass;
+import base.BaseTest;
 import com.microservice.workflows.Util;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
 
-public class SelectionSort extends SuperClass {
+public class SelectionSort extends BaseTest {
     
     /**
      * Asserts functionalBubbleSort() and imperativeBubbleSort()

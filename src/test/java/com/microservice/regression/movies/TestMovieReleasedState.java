@@ -1,6 +1,6 @@
 package com.microservice.regression.movies;
 
-import base.SuperClass;
+import base.BaseTest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -24,7 +24,7 @@ import static org.junit.platform.commons.util.StringUtils.isBlank;
  * @author Anurag Muthyam
  */
 
-public class TestMovieReleasedState extends SuperClass {
+public class TestMovieReleasedState extends BaseTest {
     
     /**
      * Procedure 1 using isFieldUndefined():

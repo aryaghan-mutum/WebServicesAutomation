@@ -1,6 +1,6 @@
 package com.microservice.datastructures.sort;
 
-import base.SuperClass;
+import base.BaseTest;
 import com.microservice.workflows.Util;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
@@ -12,7 +12,7 @@ import java.util.stream.IntStream;
 
 import static com.microservice.datastructures.sort.SortHelper.isListSorted;
 
-public class BubbleSort extends SuperClass {
+public class BubbleSort extends BaseTest {
     
     /**
      * Asserts functionalBubbleSort() and sequentialBubbleSort()

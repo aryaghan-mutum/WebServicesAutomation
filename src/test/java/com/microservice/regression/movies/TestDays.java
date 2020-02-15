@@ -1,6 +1,6 @@
 package com.microservice.regression.movies;
 
-import base.SuperClass;
+import base.BaseTest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.fail;
  * @author Anurag Muthyam
  */
 
-public class TestDays extends SuperClass {
+public class TestDays extends BaseTest {
     
     /**
      * The Test case checks if each 'day' is null empty or missing to its associated 'menuTitle'

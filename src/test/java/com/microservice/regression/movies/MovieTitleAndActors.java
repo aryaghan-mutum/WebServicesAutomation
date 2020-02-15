@@ -1,6 +1,6 @@
 package com.microservice.regression.movies;
 
-import base.SuperClass;
+import base.BaseTest;
 import com.google.gson.JsonElement;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -27,7 +27,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @author Anurag Muthyam
  */
 
-public class MovieTitleAndActors extends SuperClass {
+public class MovieTitleAndActors extends BaseTest {
     
     /**
      * 1. Get actor1 and actor2 from movies.service.json

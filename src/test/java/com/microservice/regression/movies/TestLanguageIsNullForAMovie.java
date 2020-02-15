@@ -1,6 +1,6 @@
 package com.microservice.regression.movies;
 
-import base.SuperClass;
+import base.BaseTest;
 import com.google.gson.JsonElement;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.DisplayName;
@@ -27,7 +27,7 @@ import static org.junit.Assert.fail;
  * If the language != null then the test PASSES
  */
 
-public class TestLanguageIsNullForAMovie extends SuperClass {
+public class TestLanguageIsNullForAMovie extends BaseTest {
     
     /**
      * Approach 1 using filter(), peek(), findAny() and isPresent():

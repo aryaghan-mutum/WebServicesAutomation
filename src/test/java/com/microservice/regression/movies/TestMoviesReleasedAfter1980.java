@@ -1,6 +1,6 @@
 package com.microservice.regression.movies;
 
-import base.SuperClass;
+import base.BaseTest;
 import org.junit.Assert;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static com.microservice.workflows.ConstantsWorkflow.DATE_RELEASED;
 import static com.microservice.workflows.ConstantsWorkflow.MOVIES;
@@ -26,7 +25,7 @@ import static org.junit.Assert.fail;
  * @author Anurag Muthyam
  */
 
-public class TestMoviesReleasedAfter1980 extends SuperClass {
+public class TestMoviesReleasedAfter1980 extends BaseTest {
     
     /**
      * Operations used: foreach():
