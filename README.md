@@ -2,6 +2,11 @@
 
 The purpose of the suite is to test the content in the REST services (JSON files) using Functional Programming in Java Streams and Lambda Expressions.
 
+#### Useful Commands:
+```properties
+java -version
+```
+
 #### Run Tests using gradle commands:
 
 ##### Command to run a particular class:
@@ -18,7 +23,6 @@ The purpose of the suite is to test the content in the REST services (JSON files
 
 ##### Execute all tests
 - `./gradlew test`
-
 
 ### Notes:
 To be able to create tests cases to validate the content in the services, I created a JSON file from scratch. For example: `movies.service.json`.

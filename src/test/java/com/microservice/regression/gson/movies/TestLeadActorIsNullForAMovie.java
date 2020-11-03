@@ -36,15 +36,12 @@ public class TestLeadActorIsNullForAMovie {
     @Test
     @DisplayName("Find Actor1 That Has Null")
     public void findActor1ThatHasNull() throws FileNotFoundException {
-        
         Stream<JsonElement> movies = getJsonStream(retrieveMoviesServiceDoc(), MOVIES);
         
         AtomicBoolean isActorNullFound = new AtomicBoolean(false);
         
         movies.forEach(movie -> {
-            
             String movieTitle = getJsonString(movie, TITLE);
-            
             long actor1Count = getJsonStream(movie, CAST)
                     .filter(cast -> isActorNull(cast, ACTOR1))
                     .peek(venue -> log("actor1 is null for movieTitle: %s", movieTitle))
@@ -68,9 +65,8 @@ public class TestLeadActorIsNullForAMovie {
     @Test
     @DisplayName("Find Actor3 That Has Null")
     public void findActor3ThatHasNotNull() throws FileNotFoundException {
-        
         Stream<JsonElement> movies = getJsonStream(retrieveMoviesServiceDoc(), MOVIES);
-        
+
         AtomicBoolean isActor3NotNullFound = new AtomicBoolean(false);
         
         movies.forEach(movie -> {

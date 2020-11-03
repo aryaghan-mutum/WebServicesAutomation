@@ -29,7 +29,6 @@ public class TestDays {
     @Test
     @DisplayName("Test Day Is Null Or Empty Or Missing For Movies")
     public void testDayIsNullOrEmptyOrMissingForMovies() throws FileNotFoundException {
-        
         AtomicInteger invalidDayCount = new AtomicInteger();
         
         getJsonStream(retrieveMoviesServiceDoc(), MOVIES)

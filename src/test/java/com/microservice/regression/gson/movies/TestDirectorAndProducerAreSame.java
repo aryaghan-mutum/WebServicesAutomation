@@ -43,12 +43,11 @@ public class TestDirectorAndProducerAreSame {
     
     @Step("Approach 1 using foreach():")
     public static Set<Set<String>> checkIfDirectorAndProducerAreSameForAMovieProcedure1() throws FileNotFoundException {
-        
         Set<Set<String>> directorIsProducerForMovieSet = new HashSet<>();
         
         getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
                 .forEach(movie -> {
-                    
+
                     String movieTitle = getJsonString(movie, TITLE);
                     
                     // get a list of directors for a  movie
@@ -76,7 +75,6 @@ public class TestDirectorAndProducerAreSame {
   
     @Step("Approach 2 using forEach(), map(), filter() and collect()")
     public Set<Set<String>> checkIfDirectorAndProducerAreSameForAMovieProcedure2() throws FileNotFoundException {
-        
         Set<Set<String>> directorIsProducerForMovieSet = new HashSet<>();
         
         getJsonStream(retrieveMoviesServiceDoc(), MOVIES)

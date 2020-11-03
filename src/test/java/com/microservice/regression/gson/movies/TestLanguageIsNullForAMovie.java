@@ -37,7 +37,6 @@ public class TestLanguageIsNullForAMovie {
     @Test
     @DisplayName("Find language is null Procedure 1")
     public void findLanguageIsNullProcedure1() throws FileNotFoundException {
-        
         boolean isLanguageNullFound = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
                 .filter(this::isLanguageNullForProcedure1)
                 .peek(movie -> log("language is null for title: %s", getJsonString(movie, TITLE)))
@@ -67,7 +66,6 @@ public class TestLanguageIsNullForAMovie {
     @Test
     @DisplayName("Find language is null Procedure 2")
     public void findLanguageIsNullProcedure2() throws FileNotFoundException {
-        
         long languageCount = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
                 .filter(this::isLanguageNullForProcedure2)
                 .peek(movie -> log("language is null for title: %s", getJsonString(movie, TITLE)))

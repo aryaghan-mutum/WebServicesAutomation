@@ -20,6 +20,14 @@ repositories {
 }
 
 dependencies {
+
+    // Rest Assured
+    testImplementation 'io.rest-assured:rest-assured:4.3.1'
+    testImplementation 'io.rest-assured:json-path:4.3.1'
+    testImplementation 'io.rest-assured:xml-path:4.3.1'
+    testImplementation 'io.rest-assured:json-schema-validator:4.3.1'
+
+    // Junit
     testCompile group: 'junit', name: 'junit', version: '4.12'
     testImplementation("org.junit.jupiter:junit-jupiter:${junit_jupiter_version}")
     implementation("org.junit.jupiter:junit-jupiter-params:${junit_jupiter_params_version}")
@@ -27,13 +35,18 @@ dependencies {
     implementation("org.junit.jupiter:junit-jupiter-engine:${junit_jupiter_engine_version}")
     implementation "io.qameta.allure:allure-selenide:${allure_selenide_version}"
     implementation "io.qameta.allure:allure-junit5:${allure_junit_version}"
+
+    // Spring Framework
     compile "org.springframework:spring-core:${spring_core_version}"
     compile "org.springframework:spring-context:${spring_context_version}"
     compile "org.springframework:spring-test:${spring_test_version}"
     compile "org.springframework.boot:spring-boot-starter-webflux:${spring_webflux_version}"
+
+    // Gson
     compile "com.google.code.gson:gson:${gson_version}"  // Json parsing api
+
+    // Logger
     compile group: 'org.slf4j', name:'slf4j-api', version: '1.7.2'
-    
 }
 
 test {
