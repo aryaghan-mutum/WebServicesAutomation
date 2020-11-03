@@ -1,24 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountriesByContinent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountriesByContinent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountryAndPopulationDensityCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountryAndPopulationDensityCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountryNameStartsWithLetterZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountryNameStartsWithLetterZ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestNullValuesForCountryNamesAndDensity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestNullValuesForCountryNamesAndDensity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestPopulationDensityPerCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestPopulationDensityPerCountry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestDirectorAndProducerAreSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDirectorAndProducerAreSame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestLanguageIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLanguageIsNullForAMovie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestLeadActorIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieBudgetAndBoxOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieBudgetAndBoxOffice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieReleasedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieReleasedState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieReleasedStateAndMoviePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieReleasedStateAndMoviePrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieTitleAndActors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieTitleAndActors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMoviesReleasedAfter1980.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMoviesReleasedAfter1980.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMoviesReleasedLessThan40Years.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMoviesReleasedLessThan40Years.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestSectionName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestSectionName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/pojotest/MoviesPojoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/pojo/MoviesPojoTest.java" afterDir="false" />
+    <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="added Assertions">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/BaseResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/microservice/BaseResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/builder_pattern/HttpRequests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/builder_pattern/JsonGet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/factory_pattern/JsonGet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/factory_pattern/JsonPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/factory_pattern/jsonDelete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/pojo/services/BaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/microservice/pojo/services/BaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/pojo/services/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/microservice/pojo/services/MovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/workflows/ConstantsWorkflow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/microservice/workflows/ConstantsWorkflow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/workflows/JsonPayloadWorkflow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/microservice/workflows/JsonPayloadWorkflow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/workflows/JsonWorkflow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/microservice/workflows/JsonWorkflow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/workflows/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/microservice/workflows/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestCountriesByContinent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestCountryAndPopulationDensityCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestCountryNameStartsWithLetterZ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestNullValuesForCountryNamesAndDensity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestPopulationDensityPerCountry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/MovieTitleAndActors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/SectionName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestDays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestDirectorAndProducerAreSame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestLanguageIsNullForAMovie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestLeadActorIsNullForAMovie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMovieBudgetAndBoxOffice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMovieReleasedState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMovieReleasedStateAndMoviePrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMoviesReleasedAfter1980.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMoviesReleasedLessThan40Years.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/pojotest/MoviesPojoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.datastructures.sort.BubbleSort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.datastructures.sort.SelectionSort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.countries.TestCountriesByContinent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.countries.TestCountryAndPopulationDensityCount.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.countries.TestCountryNameStartsWithLetterZ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.countries.TestNullValuesForCountryNamesAndDensity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.countries.TestPopulationDensityPerCountry.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.movies.MovieTitleAndActors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.movies.SectionName.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.movies.TestDays.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.movies.TestDirectorAndProducerAreSame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.movies.TestLanguageIsNullForAMovie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.movies.TestLeadActorIsNullForAMovie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.movies.TestMovieBudgetAndBoxOffice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.movies.TestMovieReleasedState.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.movies.TestMovieReleasedStateAndMoviePrice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.movies.TestMoviesReleasedAfter1980.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.microservice.regression.movies.TestMoviesReleasedLessThan40Years.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.microservice.datastructures.sort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.microservice.regression.countries.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.microservice.regression.movies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.datastructures.sort.BubbleSort.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.datastructures.sort.SelectionSort.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.countries.TestCountriesByContinent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.countries.TestCountryAndPopulationDensityCount.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.countries.TestCountryNameStartsWithLetterZ.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.countries.TestNullValuesForCountryNamesAndDensity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.countries.TestPopulationDensityPerCountry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.movies.MovieTitleAndActors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.movies.SectionName.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.movies.TestDays.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.movies.TestDirectorAndProducerAreSame.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.movies.TestLanguageIsNullForAMovie.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.movies.TestLeadActorIsNullForAMovie.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.movies.TestMovieBudgetAndBoxOffice.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.movies.TestMovieReleasedState.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.movies.TestMovieReleasedStateAndMoviePrice.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.movies.TestMoviesReleasedAfter1980.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.microservice.regression.movies.TestMoviesReleasedLessThan40Years.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +117,23 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="WebServicesAutomation" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="WebServicesAutomation" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="WebServicesAutomation" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WebServicesAutomation" type="f1a62948:ProjectNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
@@ -129,7 +200,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'WebServicesAutomation.test'">
+  <component name="RunManager" selected="Gradle.TestCountriesByContinent.testCountriesCountForAlContinents">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -186,7 +257,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.countries.TestCountriesByContinent.testCountriesCountForAlContinents&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.gson.countries.TestCountriesByContinent.testCountriesCountForAlContinents&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -265,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestCountriesByContinent.testCountriesCountForAlContinents" />
         <item itemvalue="Gradle.Tests in 'WebServicesAutomation.test'" />
         <item itemvalue="Gradle.MovieTitleAndActors" />
         <item itemvalue="Gradle.TestCountryAndPopulationDensityCount.testTotalCountriesCountWithDensityAsNull" />
         <item itemvalue="Gradle.SelectionSort.testBubbleSort" />
-        <item itemvalue="Gradle.TestCountriesByContinent.testCountriesCountForAlContinents" />
       </list>
     </recent_temporary>
   </component>
@@ -399,22 +470,22 @@
       <screen x="0" y="23" width="1366" height="677" />
     </state>
     <state x="499" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1366.677@0.23.1366.677" timestamp="1604421314117" />
-    <state width="1324" height="214" key="GridCell.Tab.0.bottom" timestamp="1604420859871">
+    <state width="1324" height="156" key="GridCell.Tab.0.bottom" timestamp="1604422746821">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="214" key="GridCell.Tab.0.bottom/0.23.1366.677@0.23.1366.677" timestamp="1604420859871" />
-    <state width="1324" height="214" key="GridCell.Tab.0.center" timestamp="1604420859870">
+    <state width="1324" height="156" key="GridCell.Tab.0.bottom/0.23.1366.677@0.23.1366.677" timestamp="1604422746821" />
+    <state width="1324" height="156" key="GridCell.Tab.0.center" timestamp="1604422746820">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="214" key="GridCell.Tab.0.center/0.23.1366.677@0.23.1366.677" timestamp="1604420859870" />
-    <state width="1324" height="214" key="GridCell.Tab.0.left" timestamp="1604420859869">
+    <state width="1324" height="156" key="GridCell.Tab.0.center/0.23.1366.677@0.23.1366.677" timestamp="1604422746820" />
+    <state width="1324" height="156" key="GridCell.Tab.0.left" timestamp="1604422746819">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="214" key="GridCell.Tab.0.left/0.23.1366.677@0.23.1366.677" timestamp="1604420859869" />
-    <state width="1324" height="214" key="GridCell.Tab.0.right" timestamp="1604420859870">
+    <state width="1324" height="156" key="GridCell.Tab.0.left/0.23.1366.677@0.23.1366.677" timestamp="1604422746819" />
+    <state width="1324" height="156" key="GridCell.Tab.0.right" timestamp="1604422746821">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="214" key="GridCell.Tab.0.right/0.23.1366.677@0.23.1366.677" timestamp="1604420859870" />
+    <state width="1324" height="156" key="GridCell.Tab.0.right/0.23.1366.677@0.23.1366.677" timestamp="1604422746821" />
     <state width="1324" height="118" key="GridCell.Tab.1.bottom" timestamp="1604419534165">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
@@ -546,6 +617,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountryAndPopulationDensityCount.java</url>
           <line>32</line>
           <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/datastructures/sort/BubbleSort.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="241" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

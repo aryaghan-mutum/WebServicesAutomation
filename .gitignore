@@ -1,0 +1,43 @@
+### Java
+*.class
+
+### Gradle
+/build
+/gradle
+.gradle
+out/
+
+### OSX
+.DS_Store
+.DS_Store
+.env.local
+.en.development.local
+.env.test.local
+.env.production.local
+
+### Package Files #
+*.jar
+*.war
+*.ear
+
+### VS Code
+.vscode/
+
+### IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse files
+.project
+.classpath
+.settings
+
+### vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+Session.vim
+.netrwhist
+*~
+tags
