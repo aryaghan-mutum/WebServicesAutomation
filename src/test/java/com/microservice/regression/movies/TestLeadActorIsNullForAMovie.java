@@ -1,6 +1,5 @@
 package com.microservice.regression.movies;
 
-import base.BaseTest;
 import com.google.gson.JsonElement;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.DisplayName;
@@ -19,13 +18,14 @@ import static com.microservice.workflows.JsonPayloadWorkflow.retrieveMoviesServi
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.JsonWorkflow.isFieldUndefined;
+import static com.microservice.workflows.Util.log;
 import static org.junit.Assert.fail;
 
 /**
  * @author Anurag Muthyam
  */
 
-public class TestLeadActorIsNullForAMovie extends BaseTest {
+public class TestLeadActorIsNullForAMovie {
     
     /**
      * The Test case checks if each actor1 (lead actor) under cast is null in movies_service.json

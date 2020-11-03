@@ -1,6 +1,5 @@
 package com.microservice.regression.movies;
 
-import base.BaseTest;
 import io.qameta.allure.Step;
 import org.junit.Assert;
 import org.junit.jupiter.api.DisplayName;
@@ -18,12 +17,13 @@ import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.Util.convertStringToLocalDateFormat;
 import static com.microservice.workflows.Util.getCurrentYear;
+import static com.microservice.workflows.Util.log;
 
 /**
  * @author Anurag Muthyam
  */
 
-public class TestMoviesReleasedLessThan40Years extends BaseTest {
+public class TestMoviesReleasedLessThan40Years {
     
     /**
      * Approach 1 using forEach() :

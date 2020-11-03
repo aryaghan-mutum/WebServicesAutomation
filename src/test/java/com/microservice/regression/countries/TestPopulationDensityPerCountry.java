@@ -1,6 +1,5 @@
 package com.microservice.regression.countries;
 
-import base.BaseTest;
 import com.google.gson.JsonElement;
 import io.qameta.allure.Step;
 import org.junit.Assert;
@@ -36,7 +35,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @author Anurag Muthyam
  */
 
-public class TestPopulationDensityPerCountry extends BaseTest {
+public class TestPopulationDensityPerCountry {
     
     private static final double LOWEST_POPULATION_DENSITY = 0.0;
     private static final double HIGHEST_POPULATION_DENSITY = 661.96;

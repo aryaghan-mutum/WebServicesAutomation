@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.microservice.datastructures.sort.BubbleSort" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-03T16:20:14" hostname="anurags-MacBook-Air.local" time="0.023">
+  <properties/>
+  <testcase name="testBubbleSort()" classname="com.microservice.datastructures.sort.BubbleSort" time="0.023"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Elements: 101, 16 not in order at index=1 
+Elements: 101, 16 not in order at index=1 
+]]></system-err>
+</testsuite>

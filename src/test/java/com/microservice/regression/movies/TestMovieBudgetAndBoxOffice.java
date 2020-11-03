@@ -1,6 +1,5 @@
 package com.microservice.regression.movies;
 
-import base.BaseTest;
 import com.google.gson.JsonElement;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -16,6 +15,7 @@ import static com.microservice.workflows.ConstantsWorkflow.TITLE;
 import static com.microservice.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
+import static com.microservice.workflows.Util.log;
 import static org.jsoup.helper.StringUtil.isBlank;
 import static org.junit.Assert.fail;
 
@@ -23,7 +23,7 @@ import static org.junit.Assert.fail;
  * @author Anurag Muthyam
  */
 
-public class TestMovieBudgetAndBoxOffice extends BaseTest {
+public class TestMovieBudgetAndBoxOffice {
     
     /**
      * Test budget and boxOffice of the movies

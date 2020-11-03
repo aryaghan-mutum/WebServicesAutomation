@@ -1,6 +1,5 @@
 package com.microservice.regression.movies;
 
-import base.BaseTest;
 import com.google.gson.JsonElement;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.DisplayName;
@@ -15,6 +14,7 @@ import static com.microservice.workflows.JsonPayloadWorkflow.retrieveMoviesServi
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.JsonWorkflow.isFieldUndefined;
+import static com.microservice.workflows.Util.log;
 import static org.junit.Assert.fail;
 
 /**
@@ -27,7 +27,7 @@ import static org.junit.Assert.fail;
  * If the language != null then the test PASSES
  */
 
-public class TestLanguageIsNullForAMovie extends BaseTest {
+public class TestLanguageIsNullForAMovie {
     
     /**
      * Approach 1 using filter(), peek(), findAny() and isPresent():

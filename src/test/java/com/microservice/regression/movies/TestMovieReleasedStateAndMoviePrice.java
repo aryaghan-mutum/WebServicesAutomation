@@ -1,6 +1,5 @@
 package com.microservice.regression.movies;
 
-import base.BaseTest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -18,6 +17,7 @@ import static com.microservice.workflows.JsonPayloadWorkflow.retrieveMoviesServi
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.JsonWorkflow.isFieldUndefined;
+import static com.microservice.workflows.Util.log;
 import static org.junit.jupiter.api.Assertions.fail;
 import static org.junit.platform.commons.util.StringUtils.isBlank;
 
@@ -25,7 +25,7 @@ import static org.junit.platform.commons.util.StringUtils.isBlank;
  * @author Anurag Muthyam
  */
 
-public class TestMovieReleasedStateAndMoviePrice extends BaseTest {
+public class TestMovieReleasedStateAndMoviePrice {
     
     /**
      * The Test case validates 'movieReleasedState' & 'moveReleasedPrice' are both null/empty associated to each

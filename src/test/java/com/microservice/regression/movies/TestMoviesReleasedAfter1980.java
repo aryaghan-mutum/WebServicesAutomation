@@ -1,6 +1,5 @@
 package com.microservice.regression.movies;
 
-import base.BaseTest;
 import org.junit.Assert;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -25,7 +24,7 @@ import static org.junit.Assert.fail;
  * @author Anurag Muthyam
  */
 
-public class TestMoviesReleasedAfter1980 extends BaseTest {
+public class TestMoviesReleasedAfter1980 {
     
     /**
      * Operations used: foreach():

@@ -1,12 +1,15 @@
 package com.microservice.datastructures.sort;
 
-import base.BaseTest;
 import com.microservice.workflows.Util;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
 
-public class SelectionSort extends BaseTest {
+/**
+ * @author Anurag Muthyam
+ */
+
+public class SelectionSort {
     
     /**
      * Asserts functionalBubbleSort() and imperativeBubbleSort()
@@ -14,7 +17,6 @@ public class SelectionSort extends BaseTest {
     @Test
     public void
     testBubbleSort() throws FileNotFoundException {
-        
         int[] countryDensitySequentialSelectionSortArray = sequentialSelectionSort();
     }
     

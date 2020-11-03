@@ -12,26 +12,32 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
 
+/**
+ * @author Anurag Muthyam
+ * url: https://github.com/aryaghan-mutum
+ */
+
 public abstract class BaseResponse {
     
     private static final Logger LOGGER = LoggerFactory.getLogger(BaseResponse.class);
-    
+
     /**
      * Get the webClient object using builder pattern
+     * @param url
+     * @return
      */
     public static WebClient getWebClient(String url) {
         return WebClient.builder().baseUrl(url).build();
     }
-    
+
     /**
+     *
      * @param responseString response payload in string format
      * @return Converts the responseString into JsonElement and return the response
      */
     public static JsonElement getJsonResponse(String responseString) {
-        
         JsonParser parser = new JsonParser();
         JsonElement response = parser.parse(responseString);
-        
         return response;
     }
     

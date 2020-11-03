@@ -1,6 +1,5 @@
 package com.microservice.regression.movies;
 
-import base.BaseTest;
 import com.google.gson.JsonElement;
 import io.qameta.allure.Step;
 import org.junit.Assert;
@@ -19,6 +18,7 @@ import static com.microservice.workflows.ConstantsWorkflow.TITLE;
 import static com.microservice.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
+import static com.microservice.workflows.Util.log;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toSet;
 
@@ -26,7 +26,7 @@ import static java.util.stream.Collectors.toSet;
  * @author Anurag Muthyam
  */
 
-public class TestDirectorAndProducerAreSame extends BaseTest {
+public class TestDirectorAndProducerAreSame {
     
     /**
      * The Test case validates if a director for a movie is also a producer.

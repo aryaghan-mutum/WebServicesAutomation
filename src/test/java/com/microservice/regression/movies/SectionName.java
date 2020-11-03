@@ -1,6 +1,5 @@
 package com.microservice.regression.movies;
 
-import base.BaseTest;
 import com.google.gson.JsonElement;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
@@ -18,18 +17,16 @@ import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.JsonWorkflow.isFieldUndefined;
 import static io.netty.util.internal.StringUtil.EMPTY_STRING;
-import static java.lang.String.format;
-import static java.util.Arrays.stream;
 import static org.jsoup.helper.StringUtil.isBlank;
 import static org.junit.Assert.fail;
+import static com.microservice.workflows.Util.log;
 
 /**
  * @author Anurag Muthyam
  */
 
-public class SectionName extends BaseTest {
-    
-    
+public class SectionName {
+
     /**
      * Procedure 1: Test if the sectionName is null
      * If the sectionName == null, then the test FAILS

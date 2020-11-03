@@ -1,6 +1,5 @@
 package com.microservice.datastructures.sort;
 
-import base.BaseTest;
 import com.microservice.workflows.Util;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
@@ -12,7 +11,11 @@ import java.util.stream.IntStream;
 
 import static com.microservice.datastructures.sort.SortHelper.isListSorted;
 
-public class BubbleSort extends BaseTest {
+/**
+ * @author Anurag Muthyam
+ */
+
+public class BubbleSort {
     
     /**
      * Asserts functionalBubbleSort() and sequentialBubbleSort()
@@ -20,10 +23,8 @@ public class BubbleSort extends BaseTest {
     @Test
     public void
     testBubbleSort() throws FileNotFoundException {
-        
         int[] countryDensitySequentialBubbleSortArray = sequentialBubbleSort();
         int[] countryDensityFunctionalBubbleSortArray = functionalBubbleSort();
-        
         Assert.assertArrayEquals(countryDensitySequentialBubbleSortArray, countryDensityFunctionalBubbleSortArray);
     }
     

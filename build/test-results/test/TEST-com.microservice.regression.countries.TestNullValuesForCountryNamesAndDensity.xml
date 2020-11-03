@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.microservice.regression.countries.TestNullValuesForCountryNamesAndDensity" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-03T16:20:59" hostname="anurags-MacBook-Air.local" time="5.035">
+  <properties/>
+  <testcase name="testCountryNamesWithPopulationDensityAsNotNull()" classname="com.microservice.regression.countries.TestNullValuesForCountryNamesAndDensity" time="0.014"/>
+  <testcase name="testCountriesList()" classname="com.microservice.regression.countries.TestNullValuesForCountryNamesAndDensity" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

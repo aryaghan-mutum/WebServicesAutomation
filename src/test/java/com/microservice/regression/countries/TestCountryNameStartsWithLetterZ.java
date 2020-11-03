@@ -1,6 +1,5 @@
 package com.microservice.regression.countries;
 
-import base.BaseTest;
 import org.junit.Assert;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -24,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @author Anurag Muthyam
  */
 
-public class TestCountryNameStartsWithLetterZ extends BaseTest {
+public class TestCountryNameStartsWithLetterZ {
     
     /**
      * Operations used: map(), filter() and count()

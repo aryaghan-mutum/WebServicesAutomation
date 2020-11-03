@@ -1,6 +1,5 @@
 package com.microservice.regression.countries;
 
-import base.BaseTest;
 import io.qameta.allure.Step;
 import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
@@ -21,12 +20,13 @@ import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.Util.isContinentNull;
 import static java.util.stream.Collectors.toList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static com.microservice.workflows.Util.log;
 
 /**
  * @author Anurag Muthyam
  */
 
-public class TestCountriesByContinent extends BaseTest {
+public class TestCountriesByContinent {
     
     /**
      * 1. Exclude a list of countries who's continent is null by using filter()
