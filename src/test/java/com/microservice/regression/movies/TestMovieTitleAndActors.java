@@ -24,9 +24,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @author Anurag Muthyam
+ * url: https://github.com/aryaghan-mutum
  */
 
-public class MovieTitleAndActors {
+public class TestMovieTitleAndActors {
     
     /**
      * 1. Get actor1 and actor2 from movies.service.json

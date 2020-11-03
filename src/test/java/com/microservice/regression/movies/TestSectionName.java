@@ -23,9 +23,10 @@ import static com.microservice.workflows.Util.log;
 
 /**
  * @author Anurag Muthyam
+ * url: https://github.com/aryaghan-mutum
  */
 
-public class SectionName {
+public class TestSectionName {
 
     /**
      * Procedure 1: Test if the sectionName is null

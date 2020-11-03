@@ -9,7 +9,11 @@ import org.springframework.web.reactive.function.client.WebClient;
 @Service
 @NoArgsConstructor
 public abstract class BaseService {
-    
+
+    /**
+     * @param url
+     * @return
+     */
     public WebClient.Builder getWebClient(String url) {
         return WebClient.builder().baseUrl(url);
     }

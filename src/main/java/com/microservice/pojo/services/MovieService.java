@@ -9,9 +9,12 @@ import org.springframework.web.reactive.function.client.WebClient;
 @Service
 @NoArgsConstructor
 public class MovieService extends BaseService {
-    
+
+    /**
+     *
+     * @return
+     */
     public MovieResponse getMovieService() {
-        
         WebClient webClient = getWebClient("").build();
         
         return webClient.get()

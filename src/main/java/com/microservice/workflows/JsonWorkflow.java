@@ -31,7 +31,6 @@ public class JsonWorkflow {
      */
     public static JsonArray getJsonArray(JsonElement e, String path) {
         JsonElement target = getTargetElement(e, path);
-        
         return target.getAsJsonArray();
     }
 

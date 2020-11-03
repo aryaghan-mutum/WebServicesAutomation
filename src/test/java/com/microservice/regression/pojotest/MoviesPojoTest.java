@@ -6,15 +6,19 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
+/**
+ * @author Anurag Muthyam
+ * url: https://github.com/aryaghan-mutum
+ */
+
 public class MoviesPojoTest {
     
-//    @Test
-//    public void testMoviesPojo() {
-//        Arrays.asList(new MovieService().getMovieService())
-//                .forEach(movieResponse -> {
-//                    Payload p = movieResponse.getPayload();
-//                    System.out.println();
-//                });
-//    }
+    @Test
+    public void testMoviesPojo() {
+        Arrays.asList(new MovieService().getMovieService())
+                .forEach(movieResponse -> {
+                  System.out.println(movieResponse.toString());
+                });
+    }
     
 }

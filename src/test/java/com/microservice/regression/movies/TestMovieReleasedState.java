@@ -22,6 +22,7 @@ import static org.junit.platform.commons.util.StringUtils.isBlank;
 
 /**
  * @author Anurag Muthyam
+ * url: https://github.com/aryaghan-mutum
  */
 
 public class TestMovieReleasedState {
