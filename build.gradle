@@ -22,19 +22,22 @@ repositories {
 dependencies {
 
     // Rest Assured
-    testImplementation 'io.rest-assured:rest-assured:4.3.1'
-    testImplementation 'io.rest-assured:json-path:4.3.1'
-    testImplementation 'io.rest-assured:xml-path:4.3.1'
-    testImplementation 'io.rest-assured:json-schema-validator:4.3.1'
+    testImplementation("io.rest-assured:rest-assured:${rest_assured_version}")
+    testImplementation("io.rest-assured:json-path:${rest_assured_version}")
+    testImplementation("io.rest-assured:xml-path:${rest_assured_version}")
+    testImplementation("io.rest-assured:json-schema-validator:${rest_assured_version}")
 
+    // TestNG
+   // testCompile group: 'org.testng', name: 'testng', version: '7.3.0'
+    
     // Junit
     testCompile group: 'junit', name: 'junit', version: '4.12'
     testImplementation("org.junit.jupiter:junit-jupiter:${junit_jupiter_version}")
     implementation("org.junit.jupiter:junit-jupiter-params:${junit_jupiter_params_version}")
     implementation("org.junit.jupiter:junit-jupiter-api:${junit_jupiter_api_version}")
     implementation("org.junit.jupiter:junit-jupiter-engine:${junit_jupiter_engine_version}")
-    implementation "io.qameta.allure:allure-selenide:${allure_selenide_version}"
-    implementation "io.qameta.allure:allure-junit5:${allure_junit_version}"
+    implementation("io.qameta.allure:allure-selenide:${allure_selenide_version}")
+    implementation("io.qameta.allure:allure-junit5:${allure_junit_version}")
 
     // Spring Framework
     compile "org.springframework:spring-core:${spring_core_version}"

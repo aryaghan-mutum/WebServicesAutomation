@@ -2,25 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="added Assertions">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/TestRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/delete/RestAssuredDeleteTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/get/RestAssuredGetTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/get/SimpleRestAssuredTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/post/RestAssuredPostTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/resthelper/RestAssuredHttpRequests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDirectorAndProducerAreSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDirectorAndProducerAreSame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLanguageIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLanguageIsNullForAMovie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/ConstantsWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/ConstantsWorkflow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/TestRest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,12 +87,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1784" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
-  </component>
   <component name="ProjectId" id="1jmojbv6b5F80aEo2Yva29qzXmS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -122,6 +115,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.microservice.regression.restassured" />
       <recent name="com.microservice.service.factory_pattern" />
       <recent name="com.micro_service.datastructures.sort" />
       <recent name="com.micro_service.regression.movies" />
@@ -135,7 +129,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.WebServicesAutomation [build]">
+  <component name="RunManager" selected="Gradle.SimpleRestAssuredTests">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -148,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RestAssuredDeleteTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.TestRest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.delete.RestAssuredDeleteTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -167,12 +161,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'com.microservice.regression.gson.movies'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SimpleRestAssuredTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.gson.movies.*&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.get.SimpleRestAssuredTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -186,23 +180,42 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WebServicesAutomation [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'com.microservice.regression.restassured'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.*&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="buildDependents" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'com.microservice.regression.restassured.get'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.get.*&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="WebServicesAutomation [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -217,25 +230,6 @@
         <option name="taskNames">
           <list>
             <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="WebServicesAutomation [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -270,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestRest" />
+        <item itemvalue="Gradle.SimpleRestAssuredTests" />
+        <item itemvalue="Gradle.Tests in 'com.microservice.regression.restassured'" />
+        <item itemvalue="Gradle.RestAssuredDeleteTests" />
+        <item itemvalue="Gradle.Tests in 'com.microservice.regression.restassured.get'" />
         <item itemvalue="Gradle.WebServicesAutomation [build]" />
-        <item itemvalue="Gradle.Tests in 'com.microservice.regression.gson.movies'" />
-        <item itemvalue="Gradle.WebServicesAutomation [buildDependents]" />
-        <item itemvalue="Gradle.WebServicesAutomation [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -369,15 +363,6 @@
     <option name="localTasksCounter" value="12" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
       <list>
@@ -400,46 +385,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="added Assertions" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="147" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604439554925">
+      <screen x="0" y="23" width="1366" height="677" />
+    </state>
+    <state x="147" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1366.677@0.23.1366.677" timestamp="1604439554925" />
     <state x="499" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604421314117">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
     <state x="499" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1366.677@0.23.1366.677" timestamp="1604421314117" />
-    <state width="1324" height="159" key="GridCell.Tab.0.bottom" timestamp="1604424506897">
+    <state x="389" y="122" width="977" height="578" key="#xdebugger.evaluate" timestamp="1604428034966">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.bottom/0.23.1366.677@0.23.1366.677" timestamp="1604424506897" />
-    <state width="1324" height="159" key="GridCell.Tab.0.center" timestamp="1604424506896">
+    <state x="389" y="122" width="977" height="578" key="#xdebugger.evaluate/0.23.1366.677@0.23.1366.677" timestamp="1604428034966" />
+    <state width="1324" height="104" key="GridCell.Tab.0.bottom" timestamp="1604439565269">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.center/0.23.1366.677@0.23.1366.677" timestamp="1604424506896" />
-    <state width="1324" height="159" key="GridCell.Tab.0.left" timestamp="1604424506895">
+    <state width="1324" height="104" key="GridCell.Tab.0.bottom/0.23.1366.677@0.23.1366.677" timestamp="1604439565269" />
+    <state width="1324" height="104" key="GridCell.Tab.0.center" timestamp="1604439565262">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.left/0.23.1366.677@0.23.1366.677" timestamp="1604424506895" />
-    <state width="1324" height="159" key="GridCell.Tab.0.right" timestamp="1604424506896">
+    <state width="1324" height="104" key="GridCell.Tab.0.center/0.23.1366.677@0.23.1366.677" timestamp="1604439565262" />
+    <state width="1324" height="104" key="GridCell.Tab.0.left" timestamp="1604439565261">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.right/0.23.1366.677@0.23.1366.677" timestamp="1604424506896" />
-    <state width="1324" height="159" key="GridCell.Tab.1.bottom" timestamp="1604424506899">
+    <state width="1324" height="104" key="GridCell.Tab.0.left/0.23.1366.677@0.23.1366.677" timestamp="1604439565261" />
+    <state width="1324" height="104" key="GridCell.Tab.0.right" timestamp="1604439565268">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.1.bottom/0.23.1366.677@0.23.1366.677" timestamp="1604424506899" />
-    <state width="1324" height="159" key="GridCell.Tab.1.center" timestamp="1604424506898">
+    <state width="1324" height="104" key="GridCell.Tab.0.right/0.23.1366.677@0.23.1366.677" timestamp="1604439565268" />
+    <state width="1324" height="104" key="GridCell.Tab.1.bottom" timestamp="1604430139059">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.1.center/0.23.1366.677@0.23.1366.677" timestamp="1604424506898" />
-    <state width="1324" height="159" key="GridCell.Tab.1.left" timestamp="1604424506897">
+    <state width="1324" height="104" key="GridCell.Tab.1.bottom/0.23.1366.677@0.23.1366.677" timestamp="1604430139059" />
+    <state width="1324" height="104" key="GridCell.Tab.1.center" timestamp="1604430139058">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.1.left/0.23.1366.677@0.23.1366.677" timestamp="1604424506897" />
-    <state width="1324" height="159" key="GridCell.Tab.1.right" timestamp="1604424506898">
+    <state width="1324" height="104" key="GridCell.Tab.1.center/0.23.1366.677@0.23.1366.677" timestamp="1604430139058" />
+    <state width="1324" height="104" key="GridCell.Tab.1.left" timestamp="1604430139057">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.1.right/0.23.1366.677@0.23.1366.677" timestamp="1604424506898" />
+    <state width="1324" height="104" key="GridCell.Tab.1.left/0.23.1366.677@0.23.1366.677" timestamp="1604430139057" />
+    <state width="1324" height="104" key="GridCell.Tab.1.right" timestamp="1604430139058">
+      <screen x="0" y="23" width="1366" height="677" />
+    </state>
+    <state width="1324" height="104" key="GridCell.Tab.1.right/0.23.1366.677@0.23.1366.677" timestamp="1604430139058" />
     <state x="325" y="71" key="RollbackChangesDialog" timestamp="1604418864844">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
     <state x="325" y="71" key="RollbackChangesDialog/0.23.1366.677@0.23.1366.677" timestamp="1604418864844" />
+    <state x="305" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604427340774">
+      <screen x="0" y="23" width="1366" height="677" />
+    </state>
+    <state x="305" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1366.677@0.23.1366.677" timestamp="1604427340774" />
+    <state x="390" y="87" width="616" height="548" key="find.popup" timestamp="1604436420960">
+      <screen x="0" y="23" width="1366" height="677" />
+    </state>
+    <state x="390" y="87" width="616" height="548" key="find.popup/0.23.1366.677@0.23.1366.677" timestamp="1604436420960" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -448,11 +449,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java</url>
           <line>43</line>
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDirectorAndProducerAreSame.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMoviesReleasedAfter1980.java</url>
@@ -557,11 +553,6 @@
           <line>25</line>
           <option name="timeStamp" value="241" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/TestRest.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="242" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -571,82 +562,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WebServicesAutomation$TestMoviesReleasedAfter1980_get.ic" NAME="TestMoviesReleasedAfter1980.get Coverage Results" MODIFIED="1566683760860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateCodeFragment">
-      <expression>
-        <expression-string>getWebClient(&quot;&quot;).build();</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>isBlank(getJsonString(movieItem, MOVIE_RELEASED_STATE)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .map(movie -&gt; getJsonStream(movie, MOVIE_RELEASE)
-                        .flatMap(movieRelease -&gt; getJsonStream(movieRelease, &quot;movieItem&quot;))
-                        .map(movieItem -&gt; getJsonString(movieItem, &quot;movieReleasedState&quot;))
-                        .collect(Collectors.toList()));</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .map(movie -&gt; getJsonStream(movie, MOVIE_RELEASE)
-                        .map(movieRelease -&gt; getJsonStream(movieRelease, &quot;movieItem&quot;))
-                        .collect(Collectors.toList()));</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .map(movie -&gt; getJsonStream(movie, MOVIE_RELEASE)
-                        .map(movieRelease -&gt; getJsonStream(movieRelease, &quot;&quot;))
-                        .collect(Collectors.toList()));</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .map(movie -&gt; getJsonStream(movie, MOVIE_RELEASE)
-                        .map(x -&gt; getJsonString(x, &quot;&quot;))
-                        .collect(Collectors.toList()));</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .flatMap(movie -&gt; getJsonStream(movie, MOVIE_RELEASE))
-                .map(movieRelease -&gt; getJsonStream(movieRelease, &quot;movieItem&quot;))
-                .filter(movieItem -&gt; isFieldUndefined(movieItem, &quot;movieReleasedState&quot;))
-                .peek(movieItem -&gt; log(&quot;movieReleasedState is missing for movieTitle: %s&quot;, movieItem))
-                .collect(Collectors.toList());</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.stream.Collectors</custom-info>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .flatMap(movie -&gt; getJsonStream(movie, MOVIE_RELEASE))
-                .map(movieRelease -&gt; getJsonStream(movieRelease, &quot;movieItem&quot;))
-                .collect(Collectors.toList());</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.stream.Collectors</custom-info>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
-                .map(movie -&gt; getJsonStream(movie, MOVIE_RELEASE))
-                .flatMap(movieRelease -&gt; getJsonStream(movieRelease, &quot;movieItem&quot;))
-                .collect(Collectors.toList());</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.stream.Collectors</custom-info>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
   <component name="masterDetails">
     <states>

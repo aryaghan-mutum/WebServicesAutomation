@@ -7,6 +7,12 @@ The purpose of the suite is to test the content in the REST services (JSON files
 java -version
 ```
 
+#### Technologies Used:
+```properties
+Testing Framework: Junit 5, TestNG
+RESTful web services using REST Assured
+```
+
 #### Run Tests using gradle commands:
 
 ##### Command to run a particular class:
@@ -27,3 +33,6 @@ java -version
 ### Notes:
 To be able to create tests cases to validate the content in the services, I created a JSON file from scratch. For example: `movies.service.json`.
 However, creating a huge payload takes time, so I have taken already existing JSON files to test from: [samayo](https://github.com/samayo/country-json) Thanks to him!
+
+- Used `https://reqres.in/` to use dummy REST service Apis for testing
+- Create custom API: `https://github.com/typicode/json-server` or `https://www.mockapi.io/`
