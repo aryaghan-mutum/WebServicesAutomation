@@ -1,4 +1,4 @@
-package com.microservice.regression.countries;
+package com.microservice.regression.gson.countries;
 
 import io.qameta.allure.Step;
 import org.junit.Assert;

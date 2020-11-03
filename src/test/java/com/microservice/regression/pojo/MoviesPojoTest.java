@@ -1,6 +1,5 @@
-package com.microservice.regression.pojotest;
+package com.microservice.regression.pojo;
 
-import com.microservice.pojo.responses.Payload;
 import com.microservice.pojo.services.MovieService;
 import org.junit.jupiter.api.Test;
 

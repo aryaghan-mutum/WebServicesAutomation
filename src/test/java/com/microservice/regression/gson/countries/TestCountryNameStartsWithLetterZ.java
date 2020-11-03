@@ -1,4 +1,4 @@
-package com.microservice.regression.countries;
+package com.microservice.regression.gson.countries;
 
 import org.junit.Assert;
 import org.junit.jupiter.api.DisplayName;

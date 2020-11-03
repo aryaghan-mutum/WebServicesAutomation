@@ -2,80 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/WebServicesAutomation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/microservice/HttpRequestsBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/microservice/HttpRequestsFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/workflows/ConstantsWorkflow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/microservice/workflows/ConstantsWorkflow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/workflows/JsonPayloadWorkflow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/microservice/workflows/JsonPayloadWorkflow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/microservice/workflows/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/microservice/workflows/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/datastructures/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/datastructures/sort/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/datastructures/sort/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/datastructures/sort/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/datastructures/sort/SortHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/datastructures/sort/SortHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestCountriesByContinent.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestCountriesByContinent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestCountryAndPopulationDensityCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestCountryAndPopulationDensityCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestCountryNameStartsWithLetterZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestCountryNameStartsWithLetterZ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestNullValuesForCountryNamesAndDensity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestNullValuesForCountryNamesAndDensity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestPopulationDensityPerCountry.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/countries/TestPopulationDensityPerCountry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/MovieTitleAndActors.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/MovieTitleAndActors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/SectionName.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/SectionName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestDays.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestDays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestDirectorAndProducerAreSame.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestDirectorAndProducerAreSame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestLanguageIsNullForAMovie.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestLanguageIsNullForAMovie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestLeadActorIsNullForAMovie.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestLeadActorIsNullForAMovie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMovieBudgetAndBoxOffice.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMovieBudgetAndBoxOffice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMovieReleasedState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMovieReleasedState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMovieReleasedStateAndMoviePrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMovieReleasedStateAndMoviePrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMoviesReleasedAfter1980.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMoviesReleasedAfter1980.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMoviesReleasedLessThan40Years.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/microservice/regression/movies/TestMoviesReleasedLessThan40Years.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/BaseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/builder_pattern/JsonGet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/builder_pattern/JsonPost.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/builder_pattern/jsonDelete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/factory_pattern/JsonGet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/factory_pattern/JsonPost.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/factory_pattern/jsonDelete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/ConstantsWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/ConstantsWorkflow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/JsonPayloadWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/JsonPayloadWorkflow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/JsonWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/JsonWorkflow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/datastructures/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/datastructures/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/datastructures/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/datastructures/sort/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/datastructures/sort/SortHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/datastructures/sort/SortHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountriesByContinent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountriesByContinent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountryAndPopulationDensityCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountryAndPopulationDensityCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountryNameStartsWithLetterZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountryNameStartsWithLetterZ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestNullValuesForCountryNamesAndDensity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestNullValuesForCountryNamesAndDensity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestPopulationDensityPerCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestPopulationDensityPerCountry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/MovieTitleAndActors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/MovieTitleAndActors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/SectionName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/SectionName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestDays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestDirectorAndProducerAreSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestDirectorAndProducerAreSame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestLanguageIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestLanguageIsNullForAMovie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestLeadActorIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestLeadActorIsNullForAMovie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieBudgetAndBoxOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieBudgetAndBoxOffice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieReleasedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieReleasedState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieReleasedStateAndMoviePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieReleasedStateAndMoviePrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMoviesReleasedAfter1980.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMoviesReleasedAfter1980.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMoviesReleasedLessThan40Years.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMoviesReleasedLessThan40Years.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/pojotest/MoviesPojoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/pojotest/MoviesPojoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountriesByContinent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountriesByContinent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountryAndPopulationDensityCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountryAndPopulationDensityCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountryNameStartsWithLetterZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountryNameStartsWithLetterZ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestNullValuesForCountryNamesAndDensity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestNullValuesForCountryNamesAndDensity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestPopulationDensityPerCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestPopulationDensityPerCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestDirectorAndProducerAreSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDirectorAndProducerAreSame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestLanguageIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLanguageIsNullForAMovie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestLeadActorIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieBudgetAndBoxOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieBudgetAndBoxOffice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieReleasedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieReleasedState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieReleasedStateAndMoviePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieReleasedStateAndMoviePrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieTitleAndActors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieTitleAndActors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMoviesReleasedAfter1980.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMoviesReleasedAfter1980.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMoviesReleasedLessThan40Years.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMoviesReleasedLessThan40Years.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestSectionName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestSectionName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/pojotest/MoviesPojoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/pojo/MoviesPojoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -452,22 +395,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="added Assertions" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1324" height="47" key="GridCell.Tab.0.bottom" timestamp="1604420310192">
+    <state x="499" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604421314117">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="47" key="GridCell.Tab.0.bottom/0.23.1366.677@0.23.1366.677" timestamp="1604420310192" />
-    <state width="1324" height="47" key="GridCell.Tab.0.center" timestamp="1604420310191">
+    <state x="499" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1366.677@0.23.1366.677" timestamp="1604421314117" />
+    <state width="1324" height="214" key="GridCell.Tab.0.bottom" timestamp="1604420859871">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="47" key="GridCell.Tab.0.center/0.23.1366.677@0.23.1366.677" timestamp="1604420310191" />
-    <state width="1324" height="47" key="GridCell.Tab.0.left" timestamp="1604420310190">
+    <state width="1324" height="214" key="GridCell.Tab.0.bottom/0.23.1366.677@0.23.1366.677" timestamp="1604420859871" />
+    <state width="1324" height="214" key="GridCell.Tab.0.center" timestamp="1604420859870">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="47" key="GridCell.Tab.0.left/0.23.1366.677@0.23.1366.677" timestamp="1604420310190" />
-    <state width="1324" height="47" key="GridCell.Tab.0.right" timestamp="1604420310191">
+    <state width="1324" height="214" key="GridCell.Tab.0.center/0.23.1366.677@0.23.1366.677" timestamp="1604420859870" />
+    <state width="1324" height="214" key="GridCell.Tab.0.left" timestamp="1604420859869">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="47" key="GridCell.Tab.0.right/0.23.1366.677@0.23.1366.677" timestamp="1604420310191" />
+    <state width="1324" height="214" key="GridCell.Tab.0.left/0.23.1366.677@0.23.1366.677" timestamp="1604420859869" />
+    <state width="1324" height="214" key="GridCell.Tab.0.right" timestamp="1604420859870">
+      <screen x="0" y="23" width="1366" height="677" />
+    </state>
+    <state width="1324" height="214" key="GridCell.Tab.0.right/0.23.1366.677@0.23.1366.677" timestamp="1604420859870" />
     <state width="1324" height="118" key="GridCell.Tab.1.bottom" timestamp="1604419534165">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
@@ -493,48 +440,48 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestLeadActorIsNullForAMovie.java</url>
-          <line>44</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java</url>
+          <line>45</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestDirectorAndProducerAreSame.java</url>
-          <line>80</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDirectorAndProducerAreSame.java</url>
+          <line>81</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMoviesReleasedAfter1980.java</url>
-          <line>75</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMoviesReleasedAfter1980.java</url>
+          <line>76</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestLeadActorIsNullForAMovie.java</url>
-          <line>94</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java</url>
+          <line>95</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestPopulationDensityPerCountry.java</url>
-          <line>79</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestPopulationDensityPerCountry.java</url>
+          <line>80</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestPopulationDensityPerCountry.java</url>
-          <line>102</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestPopulationDensityPerCountry.java</url>
+          <line>103</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountryNameStartsWithLetterZ.java</url>
-          <line>51</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountryNameStartsWithLetterZ.java</url>
+          <line>52</line>
           <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountryNameStartsWithLetterZ.java</url>
-          <line>157</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountryNameStartsWithLetterZ.java</url>
+          <line>158</line>
           <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountryNameStartsWithLetterZ.java</url>
-          <line>81</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountryNameStartsWithLetterZ.java</url>
+          <line>82</line>
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -543,28 +490,28 @@
           <option name="timeStamp" value="213" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestDays.java</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDays.java</url>
+          <line>39</line>
           <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieReleasedState.java</url>
-          <line>49</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieReleasedState.java</url>
+          <line>50</line>
           <option name="timeStamp" value="223" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieReleasedStateAndMoviePrice.java</url>
-          <line>61</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieReleasedStateAndMoviePrice.java</url>
+          <line>62</line>
           <option name="timeStamp" value="229" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieReleasedStateAndMoviePrice.java</url>
-          <line>56</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieReleasedStateAndMoviePrice.java</url>
+          <line>57</line>
           <option name="timeStamp" value="230" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieReleasedStateAndMoviePrice.java</url>
-          <line>68</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieReleasedStateAndMoviePrice.java</url>
+          <line>69</line>
           <option name="timeStamp" value="231" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -573,31 +520,31 @@
           <option name="timeStamp" value="232" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMoviesReleasedAfter1980.java</url>
-          <line>72</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMoviesReleasedAfter1980.java</url>
+          <line>73</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="234" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/MovieTitleAndActors.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieTitleAndActors.java</url>
           <line>54</line>
           <option name="timeStamp" value="235" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/movies/TestMovieReleasedState.java</url>
-          <line>88</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieReleasedState.java</url>
+          <line>89</line>
           <option name="timeStamp" value="236" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/microservice/pojo/services/MovieService.java</url>
-          <line>14</line>
+          <line>17</line>
           <option name="timeStamp" value="239" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/countries/TestCountryAndPopulationDensityCount.java</url>
-          <line>31</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountryAndPopulationDensityCount.java</url>
+          <line>32</line>
           <option name="timeStamp" value="240" />
         </line-breakpoint>
       </breakpoints>

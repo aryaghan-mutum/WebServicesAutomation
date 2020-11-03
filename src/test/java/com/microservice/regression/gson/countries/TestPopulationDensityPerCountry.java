@@ -1,4 +1,4 @@
-package com.microservice.regression.countries;
+package com.microservice.regression.gson.countries;
 
 import com.google.gson.JsonElement;
 import io.qameta.allure.Step;

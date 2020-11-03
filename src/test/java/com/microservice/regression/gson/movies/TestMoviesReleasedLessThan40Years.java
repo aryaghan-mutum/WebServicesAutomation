@@ -1,4 +1,4 @@
-package com.microservice.regression.movies;
+package com.microservice.regression.gson.movies;
 
 import io.qameta.allure.Step;
 import org.junit.Assert;
