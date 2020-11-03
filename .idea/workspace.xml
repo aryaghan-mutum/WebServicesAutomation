@@ -200,7 +200,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestCountriesByContinent.testCountriesCountForAlContinents">
+  <component name="RunManager" selected="Gradle.TestDays">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -224,26 +224,6 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SelectionSort.testBubbleSort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.microservice.datastructures.sort.SelectionSort.testBubbleSort&quot; --stacktrace" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
             <option value=":test" />
           </list>
         </option>
@@ -277,6 +257,25 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.microservice.regression.countries.TestCountryAndPopulationDensityCount.testTotalCountriesCountWithDensityAsNull&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestDays" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.gson.movies.TestDays&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -336,11 +335,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestDays" />
         <item itemvalue="Gradle.TestCountriesByContinent.testCountriesCountForAlContinents" />
         <item itemvalue="Gradle.Tests in 'WebServicesAutomation.test'" />
         <item itemvalue="Gradle.MovieTitleAndActors" />
         <item itemvalue="Gradle.TestCountryAndPopulationDensityCount.testTotalCountriesCountWithDensityAsNull" />
-        <item itemvalue="Gradle.SelectionSort.testBubbleSort" />
       </list>
     </recent_temporary>
   </component>
