@@ -4,6 +4,11 @@ import io.restassured.response.ValidatableResponse;
 
 import static com.microservice.regression.restassured.resthelper.RestAssuredHttpRequests.getHttp;
 
+/**
+ * @author Anurag Muthyam
+ * url: https://github.com/aryaghan-mutum
+ */
+
 public class RestAssuredTestAssist {
 
     /**
@@ -16,6 +21,7 @@ public class RestAssuredTestAssist {
         ValidatableResponse validatableResponse = getHttp(serviceUrl)
                 .then()
                 .assertThat()
+                .statusLine("HTTP/1.1 200 OK")
                 .statusCode(statusCode);
 
         return validatableResponse;

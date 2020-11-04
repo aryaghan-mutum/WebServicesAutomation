@@ -29,21 +29,33 @@ public class RestAssuredGetTests {
     @Test
     @DisplayName("test first ID")
     public void testFirstID() {
-        validateStatusCode(SERVICE_ENDPOINT, 200)
+        getHttp(SERVICE_ENDPOINT)
+                .then()
+                .assertThat()
+                .statusLine("HTTP/1.1 200 OK")
+                .statusCode(200)
                 .body("data.id[0]", equalTo(7)); //note: can also be used is(7)
     }
 
     @Test
     @DisplayName("test first Email")
     public void testFirstEmail() {
-        validateStatusCode(SERVICE_ENDPOINT, 200)
+        getHttp(SERVICE_ENDPOINT)
+                .then()
+                .assertThat()
+                .statusLine("HTTP/1.1 200 OK")
+                .statusCode(200)
                 .body("data.email[0]", equalTo("michael.lawson@reqres.in"));
     }
 
     @Test
     @DisplayName("test all the values in the first object in an array")
     public void testAllValuesInFirstObject() {
-        validateStatusCode(SERVICE_ENDPOINT, 200)
+        getHttp(SERVICE_ENDPOINT)
+                .then()
+                .assertThat()
+                .statusLine("HTTP/1.1 200 OK")
+                .statusCode(200)
                 .body("data.id[0]", equalTo(7))
                 .body("data.email[0]", equalTo("michael.lawson@reqres.in"))
                 .body("data.first_name[0]", equalTo("Michael"))
@@ -53,14 +65,22 @@ public class RestAssuredGetTests {
     @Test
     @DisplayName("test all the last names")
     public void testAllLastNames() {
-        validateStatusCode(SERVICE_ENDPOINT, 200)
+        getHttp(SERVICE_ENDPOINT)
+                .then()
+                .assertThat()
+                .statusLine("HTTP/1.1 200 OK")
+                .statusCode(200)
                 .body("data.last_name", hasItems("Lawson", "Ferguson", "Funke", "Fields", "Edwards", "Howell"));
     }
 
     @Test
     @DisplayName("test the total length9size of the objects")
     public void testTotalLengthOfObjects() {
-        validateStatusCode(SERVICE_ENDPOINT, 200)
+        getHttp(SERVICE_ENDPOINT)
+                .then()
+                .assertThat()
+                .statusLine("HTTP/1.1 200 OK")
+                .statusCode(200)
                 .body("size()", is(6));
     }
 

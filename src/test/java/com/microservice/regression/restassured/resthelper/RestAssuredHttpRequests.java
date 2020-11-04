@@ -4,6 +4,11 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
 
+/**
+ * @author Anurag Muthyam
+ * url: https://github.com/aryaghan-mutum
+ */
+
 public class RestAssuredHttpRequests {
 
     /**
@@ -13,6 +18,7 @@ public class RestAssuredHttpRequests {
      */
     public static Response getHttp(String serviceUrl) {
         Response response = given()
+                .when()
                 .header("Content-Type", "application/json")
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
@@ -31,6 +37,7 @@ public class RestAssuredHttpRequests {
                 .header("Content-Type", "application/json")
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
+                .when()
                 .post(serviceUrl);
 
         return response;

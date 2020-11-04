@@ -5,6 +5,8 @@ import io.restassured.response.Response;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.HashMap;
+
 import static com.microservice.regression.restassured.resthelper.RestAssuredHttpRequests.getHttp;
 import static com.microservice.regression.restassured.resthelper.RestAssuredTestAssist.validateStatusCode;
 import static io.restassured.RestAssured.given;
@@ -19,16 +21,28 @@ import static com.microservice.regression.restassured.resthelper.RestAssuredHttp
 
 public class RestAssuredPostTests {
 
-    private static final String SERVICE_ENDPOINT = "https://reqres.in/api/users?page=2";
-
+    private static final String SERVICE_ENDPOINT = "https://reqres.in/api/users";
 
     @Test
     @DisplayName("test all the last names")
     public void testAllLastNames() {
-        postHttp(SERVICE_ENDPOINT)
+
+        HashMap<String, String> map = new HashMap<>();
+        map.put("email", "x.com");
+        map.put("first_name", "anu");
+        map.put("last_name", "rag");
+
+        given()
+                .contentType("application/json")
+                .body(map)
                 .then()
-                .assertThat()
-                .statusCode(201).log().all();
+                .statusCode(201)
+                .body("data.id[0]", equalTo(1))
+                .body("data.email[0]", equalTo("george.bluth@reqres.in"))
+                .body("data.first_name[0]", equalTo("George"))
+                .body("data.last_name[0]", equalTo("Bluth"));
+
+
     }
 
 
