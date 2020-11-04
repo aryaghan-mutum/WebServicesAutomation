@@ -3,9 +3,9 @@ package com.microservice.regression.restassured.get;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.hasItems;
 import static com.microservice.regression.restassured.resthelper.RestAssuredHttpRequests.getHttp;
+import static com.microservice.regression.restassured.resthelper.RestAssuredTestAssist.validateStatusCode;
+import static org.hamcrest.Matchers.*;
 
 /**
  * @author Anurag Muthyam
@@ -20,28 +20,30 @@ public class RestAssuredGetTests {
     @DisplayName("print respons body")
     public void printResponseBody() {
         getHttp(SERVICE_ENDPOINT)
-                .then().statusCode(200)
-                .log().all();
+                .then()
+                .log().all()
+                .assertThat()
+                .statusCode(200);
     }
 
     @Test
     @DisplayName("test first ID")
     public void testFirstID() {
-        getHttp(SERVICE_ENDPOINT).then().statusCode(200)
-                .body("data.id[0]", equalTo(7));
+        validateStatusCode(SERVICE_ENDPOINT, 200)
+                .body("data.id[0]", equalTo(7)); //note: can also be used is(7)
     }
 
     @Test
     @DisplayName("test first Email")
     public void testFirstEmail() {
-        getHttp(SERVICE_ENDPOINT).then().statusCode(200)
+        validateStatusCode(SERVICE_ENDPOINT, 200)
                 .body("data.email[0]", equalTo("michael.lawson@reqres.in"));
     }
 
     @Test
     @DisplayName("test all the values in the first object in an array")
     public void testAllValuesInFirstObject() {
-        getHttp(SERVICE_ENDPOINT).then().statusCode(200)
+        validateStatusCode(SERVICE_ENDPOINT, 200)
                 .body("data.id[0]", equalTo(7))
                 .body("data.email[0]", equalTo("michael.lawson@reqres.in"))
                 .body("data.first_name[0]", equalTo("Michael"))
@@ -51,8 +53,15 @@ public class RestAssuredGetTests {
     @Test
     @DisplayName("test all the last names")
     public void testAllLastNames() {
-        getHttp(SERVICE_ENDPOINT).then().statusCode(200)
+        validateStatusCode(SERVICE_ENDPOINT, 200)
                 .body("data.last_name", hasItems("Lawson", "Ferguson", "Funke", "Fields", "Edwards", "Howell"));
+    }
+
+    @Test
+    @DisplayName("test the total length9size of the objects")
+    public void testTotalLengthOfObjects() {
+        validateStatusCode(SERVICE_ENDPOINT, 200)
+                .body("size()", is(6));
     }
 
 }

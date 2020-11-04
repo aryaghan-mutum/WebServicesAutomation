@@ -26,7 +26,7 @@ public class RestAssuredHttpRequests {
      * @param serviceUrl
      * @return
      */
-    public Response postHttp(String serviceUrl) {
+    public static Response postHttp(String serviceUrl) {
         Response response = given()
                 .header("Content-Type", "application/json")
                 .contentType(ContentType.JSON)
@@ -34,6 +34,13 @@ public class RestAssuredHttpRequests {
                 .post(serviceUrl);
 
         return response;
+    }
+
+    public Response deleteHttp(String serviceUrl) {
+        given().delete(serviceUrl)
+                .then();
+
+        return null;
     }
 
 

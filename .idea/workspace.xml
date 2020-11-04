@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="added Assertions">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/delete/RestAssuredDeleteTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/get/RestAssuredGetTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/get/SimpleRestAssuredTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/post/RestAssuredPostTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/resthelper/RestAssuredHttpRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/resthelper/RestAssuredTestAssist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -15,11 +11,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/ConstantsWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/ConstantsWorkflow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/TestRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/delete/RestAssuredDeleteTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/delete/RestAssuredDeleteTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/get/RestAssuredGetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/get/RestAssuredGetTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/post/RestAssuredPostTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/post/RestAssuredPostTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/resthelper/RestAssuredHttpRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/resthelper/RestAssuredHttpRequests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +124,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SimpleRestAssuredTests">
+  <component name="RunManager" selected="Gradle.RestAssuredPostTests.testAllLastNames">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -142,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestAssuredDeleteTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RestAssuredDeleteTests.testDelete" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.delete.RestAssuredDeleteTests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.delete.RestAssuredDeleteTests.testDelete&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -161,12 +156,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SimpleRestAssuredTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RestAssuredGetTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.get.SimpleRestAssuredTests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.get.RestAssuredGetTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -180,12 +175,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'com.microservice.regression.restassured'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RestAssuredGetTests.testFirstID" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.*&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.get.RestAssuredGetTests.testFirstID&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -199,12 +194,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'com.microservice.regression.restassured.get'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RestAssuredGetTests.testFirstIDApproach2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.get.*&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.get.RestAssuredGetTests.testFirstIDApproach2&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -218,23 +213,23 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WebServicesAutomation [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RestAssuredPostTests.testAllLastNames" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.post.RestAssuredPostTests.testAllLastNames&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -264,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SimpleRestAssuredTests" />
-        <item itemvalue="Gradle.Tests in 'com.microservice.regression.restassured'" />
-        <item itemvalue="Gradle.RestAssuredDeleteTests" />
-        <item itemvalue="Gradle.Tests in 'com.microservice.regression.restassured.get'" />
-        <item itemvalue="Gradle.WebServicesAutomation [build]" />
+        <item itemvalue="Gradle.RestAssuredPostTests.testAllLastNames" />
+        <item itemvalue="Gradle.RestAssuredDeleteTests.testDelete" />
+        <item itemvalue="Gradle.RestAssuredGetTests" />
+        <item itemvalue="Gradle.RestAssuredGetTests.testFirstID" />
+        <item itemvalue="Gradle.RestAssuredGetTests.testFirstIDApproach2" />
       </list>
     </recent_temporary>
   </component>
@@ -385,50 +380,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="added Assertions" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="147" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604439554925">
+    <state x="147" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604439649876">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state x="147" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1366.677@0.23.1366.677" timestamp="1604439554925" />
+    <state x="147" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1366.677@0.23.1366.677" timestamp="1604439649876" />
     <state x="499" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604421314117">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
     <state x="499" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1366.677@0.23.1366.677" timestamp="1604421314117" />
-    <state x="389" y="122" width="977" height="578" key="#xdebugger.evaluate" timestamp="1604428034966">
+    <state x="389" y="122" width="977" height="578" key="#xdebugger.evaluate" timestamp="1604441462338">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state x="389" y="122" width="977" height="578" key="#xdebugger.evaluate/0.23.1366.677@0.23.1366.677" timestamp="1604428034966" />
-    <state width="1324" height="104" key="GridCell.Tab.0.bottom" timestamp="1604439565269">
+    <state x="389" y="122" width="977" height="578" key="#xdebugger.evaluate/0.23.1366.677@0.23.1366.677" timestamp="1604441462338" />
+    <state width="1324" height="162" key="GridCell.Tab.0.bottom" timestamp="1604442975499">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="104" key="GridCell.Tab.0.bottom/0.23.1366.677@0.23.1366.677" timestamp="1604439565269" />
-    <state width="1324" height="104" key="GridCell.Tab.0.center" timestamp="1604439565262">
+    <state width="1324" height="162" key="GridCell.Tab.0.bottom/0.23.1366.677@0.23.1366.677" timestamp="1604442975499" />
+    <state width="1324" height="162" key="GridCell.Tab.0.center" timestamp="1604442975498">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="104" key="GridCell.Tab.0.center/0.23.1366.677@0.23.1366.677" timestamp="1604439565262" />
-    <state width="1324" height="104" key="GridCell.Tab.0.left" timestamp="1604439565261">
+    <state width="1324" height="162" key="GridCell.Tab.0.center/0.23.1366.677@0.23.1366.677" timestamp="1604442975498" />
+    <state width="1324" height="162" key="GridCell.Tab.0.left" timestamp="1604442975498">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="104" key="GridCell.Tab.0.left/0.23.1366.677@0.23.1366.677" timestamp="1604439565261" />
-    <state width="1324" height="104" key="GridCell.Tab.0.right" timestamp="1604439565268">
+    <state width="1324" height="162" key="GridCell.Tab.0.left/0.23.1366.677@0.23.1366.677" timestamp="1604442975498" />
+    <state width="1324" height="162" key="GridCell.Tab.0.right" timestamp="1604442975499">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="104" key="GridCell.Tab.0.right/0.23.1366.677@0.23.1366.677" timestamp="1604439565268" />
-    <state width="1324" height="104" key="GridCell.Tab.1.bottom" timestamp="1604430139059">
+    <state width="1324" height="162" key="GridCell.Tab.0.right/0.23.1366.677@0.23.1366.677" timestamp="1604442975499" />
+    <state width="1324" height="110" key="GridCell.Tab.1.bottom" timestamp="1604441790336">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="104" key="GridCell.Tab.1.bottom/0.23.1366.677@0.23.1366.677" timestamp="1604430139059" />
-    <state width="1324" height="104" key="GridCell.Tab.1.center" timestamp="1604430139058">
+    <state width="1324" height="110" key="GridCell.Tab.1.bottom/0.23.1366.677@0.23.1366.677" timestamp="1604441790336" />
+    <state width="1324" height="110" key="GridCell.Tab.1.center" timestamp="1604441790333">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="104" key="GridCell.Tab.1.center/0.23.1366.677@0.23.1366.677" timestamp="1604430139058" />
-    <state width="1324" height="104" key="GridCell.Tab.1.left" timestamp="1604430139057">
+    <state width="1324" height="110" key="GridCell.Tab.1.center/0.23.1366.677@0.23.1366.677" timestamp="1604441790333" />
+    <state width="1324" height="110" key="GridCell.Tab.1.left" timestamp="1604441790332">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="104" key="GridCell.Tab.1.left/0.23.1366.677@0.23.1366.677" timestamp="1604430139057" />
-    <state width="1324" height="104" key="GridCell.Tab.1.right" timestamp="1604430139058">
+    <state width="1324" height="110" key="GridCell.Tab.1.left/0.23.1366.677@0.23.1366.677" timestamp="1604441790332" />
+    <state width="1324" height="110" key="GridCell.Tab.1.right" timestamp="1604441790336">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="104" key="GridCell.Tab.1.right/0.23.1366.677@0.23.1366.677" timestamp="1604430139058" />
+    <state width="1324" height="110" key="GridCell.Tab.1.right/0.23.1366.677@0.23.1366.677" timestamp="1604441790336" />
     <state x="325" y="71" key="RollbackChangesDialog" timestamp="1604418864844">
       <screen x="0" y="23" width="1366" height="677" />
     </state>

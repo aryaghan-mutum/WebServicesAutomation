@@ -3,7 +3,7 @@ package com.microservice.regression.restassured.delete;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static io.restassured.RestAssured.given;
+import static com.microservice.regression.restassured.resthelper.RestAssuredTestAssist.validateStatusCode;
 
 /**
  * @author Anurag Muthyam
@@ -21,7 +21,7 @@ public class RestAssuredDeleteTests {
     @Test
     @DisplayName("test delete")
     public void testDelete() {
-        given().delete(SERVICE_ENDPOINT).then().statusCode(204).log().all();
+        validateStatusCode(SERVICE_ENDPOINT, 200).log().all();
     }
 
 }
