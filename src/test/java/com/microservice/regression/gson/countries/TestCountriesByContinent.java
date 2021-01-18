@@ -1,11 +1,16 @@
 package com.microservice.regression.gson.countries;
 
+import com.google.common.net.HttpHeaders;
+import com.google.gson.JsonElement;
+import com.microservice.HttpRequestsFactory;
 import io.qameta.allure.Step;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.springframework.http.MediaType;
+import org.springframework.web.reactive.function.client.WebClient;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -123,6 +128,5 @@ public class TestCountriesByContinent {
         
         Assert.assertEquals(actualContinentsList2, expectedContinentsList);
     }
-    
-    
+
 }

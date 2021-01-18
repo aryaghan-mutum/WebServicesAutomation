@@ -16,7 +16,7 @@ public class RestAssuredGetTests {
     private static final String SERVICE_ENDPOINT = "https://reqres.in/api/users?page=2";
 
     @Test
-    @DisplayName("print respons body")
+    @DisplayName("print response body")
     public void printResponseBody() {
         getHttp(SERVICE_ENDPOINT)
                 .then()

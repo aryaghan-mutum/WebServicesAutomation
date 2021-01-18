@@ -1,8 +1,13 @@
 package com.microservice.regression.restassured.post;
 
+import io.restassured.RestAssured;
+import io.restassured.http.Header;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.HashMap;
 
 import static io.restassured.RestAssured.given;
@@ -35,8 +40,19 @@ public class RestAssuredPostTests {
                 .body("data.email[0]", equalTo("george.bluth@reqres.in"))
                 .body("data.first_name[0]", equalTo("George"))
                 .body("data.last_name[0]", equalTo("Bluth"));
+    }
 
+    @Test
+    public void testRequestUsingGraphQL() throws MalformedURLException {
+        final String graphQlQuery = "{\"query\":\"{\\n Country(id: \\\"us\\\") {\\n name\\n situation\\n }\\n}\\n \"}";
+        final String endpoint = "https://portal.ehri-project.eu/api/graphql";
 
+        String response = RestAssured.given()
+                .header(new Header("Content-type", "application/json"))
+                .body(graphQlQuery)
+                .post(new URL(endpoint))
+                .jsonPath().getString("data.Country.name");
+        Assertions.assertEquals(response, "United States");
     }
 
 

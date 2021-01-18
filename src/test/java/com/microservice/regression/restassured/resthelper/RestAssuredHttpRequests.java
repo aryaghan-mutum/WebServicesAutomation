@@ -1,6 +1,8 @@
 package com.microservice.regression.restassured.resthelper;
 
+import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.parsing.Parser;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
 
@@ -20,6 +22,18 @@ public class RestAssuredHttpRequests {
                 .get(serviceUrl);
 
         return response;
+    }
+
+    public static Response getHttp2(String serviceUrl) {
+        RestAssured.defaultParser = Parser.JSON;
+        return given()
+                .when()
+                .headers("Content-Type", ContentType.JSON, "Accept", ContentType.JSON)
+                .get(serviceUrl)
+                .then()
+                .contentType(ContentType.JSON)
+                .extract()
+                .response();
     }
 
     public static Response postHttp(String serviceUrl) {
