@@ -2,6 +2,7 @@ package com.microservice.regression.gson.movies;
 
 import com.google.gson.JsonElement;
 import io.qameta.allure.Step;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -18,7 +19,6 @@ import static com.microservice.workflows.JsonPayloadWorkflow.retrieveMoviesServi
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.JsonWorkflow.isFieldUndefined;
-import static com.microservice.workflows.Util.log;
 import static org.junit.Assert.fail;
 
 /**
@@ -26,6 +26,7 @@ import static org.junit.Assert.fail;
  * url: https://github.com/aryaghan-mutum
  */
 
+@Slf4j
 public class TestLeadActorIsNullForAMovie {
     
     /**
@@ -44,7 +45,7 @@ public class TestLeadActorIsNullForAMovie {
             String movieTitle = getJsonString(movie, TITLE);
             long actor1Count = getJsonStream(movie, CAST)
                     .filter(cast -> isActorNull(cast, ACTOR1))
-                    .peek(venue -> log("actor1 is null for movieTitle: %s", movieTitle))
+                    .peek(venue -> log.info("actor1 is null for movieTitle: {}", movieTitle))
                     .count();
             
             if (actor1Count > 0) {
@@ -81,7 +82,7 @@ public class TestLeadActorIsNullForAMovie {
     
                 long actor3Count = getJsonStream(movie, CAST)
                         .filter(cast -> !isActorNull(cast, ACTOR3))
-                        .peek(venue -> log("actor3 is %s for movieTitle: %s", actor3, movieTitle))
+                        .peek(venue -> log.info("actor3 is %s for movieTitle: {}", actor3, movieTitle))
                         .count();
     
     
@@ -89,7 +90,7 @@ public class TestLeadActorIsNullForAMovie {
                     isActor3NotNullFound.set(true);
                 }
             }catch (Exception e) {
-                log("actor3 is null for movieTitle: %s", movieTitle);
+                log.info("actor3 is null for movieTitle: {}", movieTitle);
             }
             
         });

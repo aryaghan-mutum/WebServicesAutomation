@@ -4,7 +4,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.microservice.regression.restassured.resthelper.RestAssuredHttpRequests.getHttp;
-import static com.microservice.regression.restassured.resthelper.RestAssuredTestAssist.validateStatusCode;
 import static org.hamcrest.Matchers.*;
 
 /**

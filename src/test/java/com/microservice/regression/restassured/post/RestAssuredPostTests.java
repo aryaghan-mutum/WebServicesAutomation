@@ -1,18 +1,12 @@
 package com.microservice.regression.restassured.post;
 
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 
-import static com.microservice.regression.restassured.resthelper.RestAssuredHttpRequests.getHttp;
-import static com.microservice.regression.restassured.resthelper.RestAssuredTestAssist.validateStatusCode;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.hasItems;
-import static com.microservice.regression.restassured.resthelper.RestAssuredHttpRequests.postHttp;
 
 /**
  * @author Anurag Muthyam

@@ -11,11 +11,6 @@ import static io.restassured.RestAssured.given;
 
 public class RestAssuredHttpRequests {
 
-    /**
-     *
-     * @param serviceUrl
-     * @return
-     */
     public static Response getHttp(String serviceUrl) {
         Response response = given()
                 .when()
@@ -27,11 +22,6 @@ public class RestAssuredHttpRequests {
         return response;
     }
 
-    /**
-     *
-     * @param serviceUrl
-     * @return
-     */
     public static Response postHttp(String serviceUrl) {
         Response response = given()
                 .header("Content-Type", "application/json")

@@ -8,12 +8,8 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 @Service
 @NoArgsConstructor
-public class MovieService extends BaseService {
+public class MovieService {
 
-    /**
-     *
-     * @return
-     */
     public MovieResponse getMovieService() {
         WebClient webClient = getWebClient("").build();
         
@@ -22,6 +18,10 @@ public class MovieService extends BaseService {
                 .retrieve()
                 .bodyToMono(MovieResponse.class)
                 .block();
+    }
+
+    public WebClient.Builder getWebClient(String url) {
+        return WebClient.builder().baseUrl(url);
     }
     
 }

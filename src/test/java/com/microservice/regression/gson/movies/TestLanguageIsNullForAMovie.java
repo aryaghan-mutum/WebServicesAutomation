@@ -2,6 +2,7 @@ package com.microservice.regression.gson.movies;
 
 import com.google.gson.JsonElement;
 import io.qameta.allure.Step;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +15,6 @@ import static com.microservice.workflows.JsonPayloadWorkflow.retrieveMoviesServi
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.JsonWorkflow.isFieldUndefined;
-import static com.microservice.workflows.Util.log;
 import static org.junit.Assert.fail;
 
 /**
@@ -28,6 +28,7 @@ import static org.junit.Assert.fail;
  * If the language != null then the test PASSES
  */
 
+@Slf4j
 public class TestLanguageIsNullForAMovie {
     
     /**
@@ -39,7 +40,7 @@ public class TestLanguageIsNullForAMovie {
     public void findLanguageIsNullProcedure1() throws FileNotFoundException {
         boolean isLanguageNullFound = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
                 .filter(this::isLanguageNullForProcedure1)
-                .peek(movie -> log("language is null for title: %s", getJsonString(movie, TITLE)))
+                .peek(movie -> log.info("language is null for title: {}", getJsonString(movie, TITLE)))
                 .findAny()
                 .isPresent();
         
@@ -53,8 +54,8 @@ public class TestLanguageIsNullForAMovie {
         try {
             return getJsonString(movie, LANGUAGE) == null;
         } catch (Exception ex) {
-            log("Exception: %s" + ex.getMessage());
-            log("jsonString method throws exception when the tag is not present, make sure that is also treated as null");
+            log.info("Exception: {}" + ex.getMessage());
+            log.info("jsonString method throws exception when the tag is not present, make sure that is also treated as null");
             return true;
         }
     }
@@ -68,7 +69,7 @@ public class TestLanguageIsNullForAMovie {
     public void findLanguageIsNullProcedure2() throws FileNotFoundException {
         long languageCount = getJsonStream(retrieveMoviesServiceDoc(), MOVIES)
                 .filter(this::isLanguageNullForProcedure2)
-                .peek(movie -> log("language is null for title: %s", getJsonString(movie, TITLE)))
+                .peek(movie -> log.info("language is null for title: {}", getJsonString(movie, TITLE)))
                 .count();
         
         if (languageCount > 0) {

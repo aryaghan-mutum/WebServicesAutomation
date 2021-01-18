@@ -1,5 +1,6 @@
 package com.microservice.regression.gson.movies;
 
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -13,7 +14,6 @@ import static com.microservice.workflows.JsonPayloadWorkflow.retrieveMoviesServi
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.JsonWorkflow.isFieldUndefined;
-import static com.microservice.workflows.Util.log;
 import static org.junit.jupiter.api.Assertions.fail;
 
 /**
@@ -21,6 +21,7 @@ import static org.junit.jupiter.api.Assertions.fail;
  * url: https://github.com/aryaghan-mutum
  */
 
+@Slf4j
 public class TestDays {
     
     /**
@@ -40,14 +41,14 @@ public class TestDays {
                     try {
                         if (!isDayFieldMissing && getJsonStream(movie, DAYS).count() == 0) {
                             invalidDayCount.incrementAndGet();
-                            log("ERROR: day is empty for movieTitle: %s", movieTitle);
+                            log.error("ERROR: day is empty for movieTitle: {}", movieTitle);
                         } else if (isDayFieldMissing) {
-                            log("WARN: day field is missing for movieTitle: %s", movieTitle);
+                            log.warn("WARN: day field is missing for movieTitle: {}", movieTitle);
                         }
                     } catch (Exception e) {
                         invalidDayCount.incrementAndGet();
-                        log("ERROR: day is null for movieTitle: %s", movieTitle);
-                        log("Exception: %s", e);
+                        log.info("ERROR: day is null for movieTitle: {}", movieTitle);
+                        log.info("Exception: {}", e);
                     }
                 });
         

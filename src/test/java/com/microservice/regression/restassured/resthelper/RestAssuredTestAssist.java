@@ -13,9 +13,6 @@ public class RestAssuredTestAssist {
 
     /**
      * Validate the status code of a response is 200
-     * @param serviceUrl
-     * @param statusCode
-     * @return
      */
     public static ValidatableResponse validateStatusCode(String serviceUrl, Integer statusCode) {
         ValidatableResponse validatableResponse = getHttp(serviceUrl)

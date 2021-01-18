@@ -1,6 +1,7 @@
 package com.microservice.regression.gson.countries;
 
 import io.qameta.allure.Step;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -20,13 +21,13 @@ import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.Util.isContinentNull;
 import static java.util.stream.Collectors.toList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static com.microservice.workflows.Util.log;
 
 /**
  * @author Anurag Muthyam
  * url: https://github.com/aryaghan-mutum
  */
 
+@Slf4j
 public class TestCountriesByContinent {
     
     /**
@@ -82,7 +83,7 @@ public class TestCountriesByContinent {
                 asiaCountriesList.size() + europeCountriesList.size() + oceaniaCountriesList.size() +
                         africaCountriesList.size() + northAmericaCountriesList.size() + southAmericaCountriesList.size();
         
-        log("Total Countries: %s ", totalCountries);
+        log.info("Total Countries: {} ", totalCountries);
         assertEquals(totalCountries, 228);
         
         assertEquals(asiaCountriesList.size(), 48);
@@ -97,7 +98,7 @@ public class TestCountriesByContinent {
      * Operations used: filer(), map(), distinct(), sorted() and collect()
      * 1. Exclude a list of countries who's continent is null by using filter()
      * 2. Get all the unique continentName and sort and store them in a list
-     * 3. Assert: If the list if empty then the test FAILS
+     * 3. Assert: If the list is empty then the test FAILS
      * 4. Assert: Compare two lists are equal
      */
     @Test

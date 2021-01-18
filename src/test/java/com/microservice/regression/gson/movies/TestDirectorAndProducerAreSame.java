@@ -2,6 +2,7 @@ package com.microservice.regression.gson.movies;
 
 import com.google.gson.JsonElement;
 import io.qameta.allure.Step;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -18,7 +19,6 @@ import static com.microservice.workflows.ConstantsWorkflow.TITLE;
 import static com.microservice.workflows.JsonPayloadWorkflow.retrieveMoviesServiceDoc;
 import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
-import static com.microservice.workflows.Util.log;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toSet;
 
@@ -27,6 +27,7 @@ import static java.util.stream.Collectors.toSet;
  * url: https://github.com/aryaghan-mutum
  */
 
+@Slf4j
 public class TestDirectorAndProducerAreSame {
     
     /**
@@ -64,7 +65,7 @@ public class TestDirectorAndProducerAreSame {
                             .add(directorList
                                     .stream()
                                     .filter(director -> producerList.contains(director))
-                                    .peek(director -> log("Director: %s is also a Producer for a movie: %s", director, movieTitle))
+                                    .peek(director -> log.info("Director: %s is also a Producer for a movie: {}", director, movieTitle))
                                     .map(mT -> movieTitle)
                                     .collect(toSet()));
                     
@@ -82,7 +83,7 @@ public class TestDirectorAndProducerAreSame {
                         .add(getJsonStream(movie, DIRECTOR)
                                 .map(JsonElement::getAsString)
                                 .filter(director -> getListOfProducersForAMovie(movie).contains(director))
-                                .peek(director -> log("Director: %s is also a Producer for a movie: %s", director, getJsonString(movie, TITLE)))
+                                .peek(director -> log.info("Director: %s is also a Producer for a movie: {}", director, getJsonString(movie, TITLE)))
                                 .map(mT -> getJsonString(movie, TITLE))
                                 .collect(toSet())));
         

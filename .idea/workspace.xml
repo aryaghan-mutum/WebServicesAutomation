@@ -2,21 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/get/SimpleRestAssuredTests2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/PostResponseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/delete/RestAssuredDeleteTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/delete/RestAssuredDeleteTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/get/RestAssuredGetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/get/RestAssuredGetTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/post/RestAssuredPostTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/post/RestAssuredPostTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/resthelper/RestAssuredHttpRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/resthelper/RestAssuredHttpRequests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/resthelper/RestAssuredTestAssist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/resthelper/RestAssuredTestAssist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/pojo/services/BaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/pojo/services/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/pojo/services/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/JsonPayloadWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/JsonPayloadWorkflow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/JsonWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/JsonWorkflow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountriesByContinent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountriesByContinent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDirectorAndProducerAreSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDirectorAndProducerAreSame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLanguageIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLanguageIsNullForAMovie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMoviesReleasedLessThan40Years.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMoviesReleasedLessThan40Years.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,34 +50,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="WebServicesAutomation" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="WebServicesAutomation" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="WebServicesAutomation" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="WebServicesAutomation" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build setup" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="WebServicesAutomation" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -95,6 +78,8 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="extract.method.default.visibility" value="private" />
@@ -102,15 +87,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/microservice/pojo/services" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/microservice/service/pojo/responses/movieservice" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/microservice/service/builder_pattern" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/microservice/service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/data/csv" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data/json" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.microservice.regression.restassured.get" />
@@ -119,14 +104,15 @@
       <recent name="com.micro_service.datastructures.sort" />
       <recent name="com.micro_service.regression.movies" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/data/csv" />
-      <recent name="$PROJECT_DIR$/src/main/resources/data/json" />
-      <recent name="$PROJECT_DIR$/src/main/resources/data" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/micro_service/regression/movies" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/microservice/pojo/services" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/microservice/service/pojo/responses/movieservice" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/microservice/service/builder_pattern" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/microservice/service" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'com.microservice.regression.restassured'">
+  <component name="RunManager" selected="Gradle.TestDays.testDayIsNullOrEmptyOrMissingForMovies">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -139,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestAssuredDeleteTests.testDelete" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostResponseTest.testPostResponse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.delete.RestAssuredDeleteTests.testDelete&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.gson.PostResponseTest.testPostResponse&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -177,12 +163,31 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SimpleRestAssuredTests2.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestCountriesByContinent.testCountriesCountForAlContinents" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.get.SimpleRestAssuredTests2.test&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.gson.countries.TestCountriesByContinent.testCountriesCountForAlContinents&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestDays.testDayIsNullOrEmptyOrMissingForMovies" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.gson.movies.TestDays.testDayIsNullOrEmptyOrMissingForMovies&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -202,25 +207,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.*&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'com.microservice.regression.restassured.get'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.get.*&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -261,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestDays.testDayIsNullOrEmptyOrMissingForMovies" />
+        <item itemvalue="Gradle.TestCountriesByContinent.testCountriesCountForAlContinents" />
+        <item itemvalue="Gradle.PostResponseTest.testPostResponse" />
         <item itemvalue="Gradle.Tests in 'com.microservice.regression.restassured'" />
         <item itemvalue="Gradle.RestAssuredPostTests.testAllLastNames" />
-        <item itemvalue="Gradle.SimpleRestAssuredTests2.test" />
-        <item itemvalue="Gradle.Tests in 'com.microservice.regression.restassured.get'" />
-        <item itemvalue="Gradle.RestAssuredDeleteTests.testDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -398,10 +384,18 @@
       <screen x="0" y="23" width="1366" height="677" />
     </state>
     <state x="499" y="293" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1366.677@0.23.1366.677" timestamp="1604421314117" />
-    <state x="389" y="122" width="977" height="578" key="#xdebugger.evaluate" timestamp="1604458152717">
+    <state x="421" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610937368248">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state x="389" y="122" width="977" height="578" key="#xdebugger.evaluate/0.23.1366.677@0.23.1366.677" timestamp="1604458152717" />
+    <state x="421" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1366.677@0.23.1366.677" timestamp="1610937368248" />
+    <state x="389" y="122" width="977" height="578" key="#xdebugger.evaluate" timestamp="1610937800444">
+      <screen x="0" y="23" width="1366" height="677" />
+    </state>
+    <state x="389" y="122" width="977" height="578" key="#xdebugger.evaluate/0.23.1366.677@0.23.1366.677" timestamp="1610937800444" />
+    <state x="434" y="203" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607604507841">
+      <screen x="0" y="23" width="1366" height="677" />
+    </state>
+    <state x="434" y="203" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1366.677@0.23.1366.677" timestamp="1607604507841" />
     <state x="314" y="23" key="CommitChangelistDialog2" timestamp="1604448564440">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
@@ -410,61 +404,65 @@
       <screen x="0" y="23" width="1366" height="677" />
     </state>
     <state x="241" y="80" key="DiffContextDialog/0.23.1366.677@0.23.1366.677" timestamp="1604448562351" />
-    <state width="1324" height="102" key="GridCell.Tab.0.bottom" timestamp="1604458741376">
+    <state width="1324" height="239" key="GridCell.Tab.0.bottom" timestamp="1610937812691">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="102" key="GridCell.Tab.0.bottom/0.23.1366.677@0.23.1366.677" timestamp="1604458741376" />
-    <state width="1324" height="102" key="GridCell.Tab.0.center" timestamp="1604458741375">
+    <state width="1324" height="239" key="GridCell.Tab.0.bottom/0.23.1366.677@0.23.1366.677" timestamp="1610937812691" />
+    <state width="1324" height="239" key="GridCell.Tab.0.center" timestamp="1610937812689">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="102" key="GridCell.Tab.0.center/0.23.1366.677@0.23.1366.677" timestamp="1604458741375" />
-    <state width="1324" height="102" key="GridCell.Tab.0.left" timestamp="1604458741374">
+    <state width="1324" height="239" key="GridCell.Tab.0.center/0.23.1366.677@0.23.1366.677" timestamp="1610937812689" />
+    <state width="1324" height="239" key="GridCell.Tab.0.left" timestamp="1610937812689">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="102" key="GridCell.Tab.0.left/0.23.1366.677@0.23.1366.677" timestamp="1604458741374" />
-    <state width="1324" height="102" key="GridCell.Tab.0.right" timestamp="1604458741376">
+    <state width="1324" height="239" key="GridCell.Tab.0.left/0.23.1366.677@0.23.1366.677" timestamp="1610937812689" />
+    <state width="1324" height="239" key="GridCell.Tab.0.right" timestamp="1610937812690">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="102" key="GridCell.Tab.0.right/0.23.1366.677@0.23.1366.677" timestamp="1604458741376" />
-    <state width="1324" height="144" key="GridCell.Tab.1.bottom" timestamp="1604458167107">
+    <state width="1324" height="239" key="GridCell.Tab.0.right/0.23.1366.677@0.23.1366.677" timestamp="1610937812690" />
+    <state width="1324" height="239" key="GridCell.Tab.1.bottom" timestamp="1610937812693">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="144" key="GridCell.Tab.1.bottom/0.23.1366.677@0.23.1366.677" timestamp="1604458167107" />
-    <state width="1324" height="144" key="GridCell.Tab.1.center" timestamp="1604458167106">
+    <state width="1324" height="239" key="GridCell.Tab.1.bottom/0.23.1366.677@0.23.1366.677" timestamp="1610937812693" />
+    <state width="1324" height="239" key="GridCell.Tab.1.center" timestamp="1610937812692">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="144" key="GridCell.Tab.1.center/0.23.1366.677@0.23.1366.677" timestamp="1604458167106" />
-    <state width="1324" height="144" key="GridCell.Tab.1.left" timestamp="1604458167105">
+    <state width="1324" height="239" key="GridCell.Tab.1.center/0.23.1366.677@0.23.1366.677" timestamp="1610937812692" />
+    <state width="1324" height="239" key="GridCell.Tab.1.left" timestamp="1610937812691">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="144" key="GridCell.Tab.1.left/0.23.1366.677@0.23.1366.677" timestamp="1604458167105" />
-    <state width="1324" height="144" key="GridCell.Tab.1.right" timestamp="1604458167106">
+    <state width="1324" height="239" key="GridCell.Tab.1.left/0.23.1366.677@0.23.1366.677" timestamp="1610937812691" />
+    <state width="1324" height="239" key="GridCell.Tab.1.right" timestamp="1610937812693">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="144" key="GridCell.Tab.1.right/0.23.1366.677@0.23.1366.677" timestamp="1604458167106" />
-    <state x="325" y="71" key="RollbackChangesDialog" timestamp="1604418864844">
+    <state width="1324" height="239" key="GridCell.Tab.1.right/0.23.1366.677@0.23.1366.677" timestamp="1610937812693" />
+    <state x="325" y="71" key="RollbackChangesDialog" timestamp="1604459510491">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state x="325" y="71" key="RollbackChangesDialog/0.23.1366.677@0.23.1366.677" timestamp="1604418864844" />
+    <state x="325" y="71" key="RollbackChangesDialog/0.23.1366.677@0.23.1366.677" timestamp="1604459510491" />
     <state x="387" y="103" key="Vcs.Push.Dialog.v2" timestamp="1604448570567">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
     <state x="387" y="103" key="Vcs.Push.Dialog.v2/0.23.1366.677@0.23.1366.677" timestamp="1604448570567" />
+    <state width="683" height="338" key="XDebugger.FullValuePopup" timestamp="1610937800322">
+      <screen x="0" y="23" width="1366" height="677" />
+    </state>
+    <state width="683" height="338" key="XDebugger.FullValuePopup/0.23.1366.677@0.23.1366.677" timestamp="1610937800322" />
     <state x="305" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604427340774">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
     <state x="305" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1366.677@0.23.1366.677" timestamp="1604427340774" />
-    <state x="390" y="87" width="616" height="548" key="find.popup" timestamp="1604458688183">
+    <state x="390" y="87" width="616" height="548" key="find.popup" timestamp="1610937822575">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state x="390" y="87" width="616" height="548" key="find.popup/0.23.1366.677@0.23.1366.677" timestamp="1604458688183" />
+    <state x="390" y="87" width="616" height="548" key="find.popup/0.23.1366.677@0.23.1366.677" timestamp="1610937822575" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java</url>
-          <line>43</line>
+          <line>45</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -474,7 +472,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java</url>
-          <line>91</line>
+          <line>93</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -509,7 +507,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDays.java</url>
-          <line>38</line>
+          <line>39</line>
           <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -556,11 +554,6 @@
           <option name="timeStamp" value="236" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/microservice/pojo/services/MovieService.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="239" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountryAndPopulationDensityCount.java</url>
           <line>32</line>
           <option name="timeStamp" value="240" />
@@ -574,6 +567,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/post/RestAssuredPostTests.java</url>
           <line>34</line>
           <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDays.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="259" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

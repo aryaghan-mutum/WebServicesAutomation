@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -17,14 +18,11 @@ import java.io.Writer;
  * url: https://github.com/aryaghan-mutum
  */
 
+@Slf4j
 public abstract class BaseResponse {
-    
-    private static final Logger LOGGER = LoggerFactory.getLogger(BaseResponse.class);
 
     /**
      * Get the webClient object using builder pattern
-     * @param url
-     * @return
      */
     public static WebClient getWebClient(String url) {
         return WebClient.builder().baseUrl(url).build();

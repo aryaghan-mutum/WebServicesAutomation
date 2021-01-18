@@ -2,6 +2,7 @@ package com.microservice.regression.gson.movies;
 
 import com.google.gson.JsonElement;
 import io.qameta.allure.Step;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -19,13 +20,13 @@ import static com.microservice.workflows.JsonWorkflow.isFieldUndefined;
 import static io.netty.util.internal.StringUtil.EMPTY_STRING;
 import static org.jsoup.helper.StringUtil.isBlank;
 import static org.junit.Assert.fail;
-import static com.microservice.workflows.Util.log;
 
 /**
  * @author Anurag Muthyam
  * url: https://github.com/aryaghan-mutum
  */
 
+@Slf4j
 public class TestSectionName {
 
     /**
@@ -75,7 +76,7 @@ public class TestSectionName {
                     
                     long actorsCount = getJsonStream(menuID, "cast")
                             .filter(this::areAllActorsNull)
-                            .peek(menuSection -> log("All actors are null for title: %s", getJsonString(menuID, TITLE)))
+                            .peek(menuSection -> log.info("All actors are null for title: {}", getJsonString(menuID, TITLE)))
                             .count();
                     
                     if (actorsCount > 0) {
@@ -118,13 +119,13 @@ public class TestSectionName {
                         getJsonStream(venueArray, EMPTY_STRING)
                                 .forEach(media -> {
                                     if (isFileReferenceNullInDispatcher(media)) {
-                                        log("fileReference is null/empty for venueCode: {} in dispatcher", venueCode);
+                                        log.info("fileReference is null/empty for venueCode: {} in dispatcher", venueCode);
                                         invalidFileReferenceCount.incrementAndGet();
                                     }
                                 });
                     } catch (Exception e) {
-                        log("Exception: %s" + e);
-                        log("media field is missing for venueCode: {} in dispatcher", venueCode);
+                        log.error("Exception: {}" + e);
+                        log.error("media field is missing for venueCode: {} in dispatcher", venueCode);
                     }
                 });
         

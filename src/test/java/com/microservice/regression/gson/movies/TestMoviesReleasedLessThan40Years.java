@@ -1,6 +1,7 @@
 package com.microservice.regression.gson.movies;
 
 import io.qameta.allure.Step;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -17,13 +18,13 @@ import static com.microservice.workflows.JsonWorkflow.getJsonStream;
 import static com.microservice.workflows.JsonWorkflow.getJsonString;
 import static com.microservice.workflows.Util.convertStringToLocalDateFormat;
 import static com.microservice.workflows.Util.getCurrentYear;
-import static com.microservice.workflows.Util.log;
 
 /**
  * @author Anurag Muthyam
  * url: https://github.com/aryaghan-mutum
  */
 
+@Slf4j
 public class TestMoviesReleasedLessThan40Years {
     
     /**
@@ -58,7 +59,7 @@ public class TestMoviesReleasedLessThan40Years {
                     int yearDifference = getCurrentYear() - yearReleased;
                     
                     if (yearDifference < 40) {
-                        log("movieTitle: %s was released %s year ago", movieTitle, yearDifference);
+                        log.info("movieTitle: {} was released {} year ago", movieTitle, yearDifference);
                         moviesReleasedLessThan40YearsFromTodayList.add(movieTitle);
                     }
                     
@@ -77,7 +78,7 @@ public class TestMoviesReleasedLessThan40Years {
                 .filter(yearDifference -> yearDifference < 40)
                 .count();
         
-        log("There are %s movies released 40 years ago", moviesReleasedLessThan40YearsFromTodayCount);
+        log.info("There are {} movies released 40 years ago", moviesReleasedLessThan40YearsFromTodayCount);
         
         return (int) moviesReleasedLessThan40YearsFromTodayCount;
     }
