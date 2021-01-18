@@ -65,7 +65,7 @@ public class TestDirectorAndProducerAreSame {
                             .add(directorList
                                     .stream()
                                     .filter(director -> producerList.contains(director))
-                                    .peek(director -> log.info("Director: %s is also a Producer for a movie: {}", director, movieTitle))
+                                    .peek(director -> log.info("Director: {} is also a Producer for a movie: {}", director, movieTitle))
                                     .map(mT -> movieTitle)
                                     .collect(toSet()));
                     
@@ -83,7 +83,7 @@ public class TestDirectorAndProducerAreSame {
                         .add(getJsonStream(movie, DIRECTOR)
                                 .map(JsonElement::getAsString)
                                 .filter(director -> getListOfProducersForAMovie(movie).contains(director))
-                                .peek(director -> log.info("Director: %s is also a Producer for a movie: {}", director, getJsonString(movie, TITLE)))
+                                .peek(director -> log.info("Director: {} is also a Producer for a movie: {}", director, getJsonString(movie, TITLE)))
                                 .map(mT -> getJsonString(movie, TITLE))
                                 .collect(toSet())));
         

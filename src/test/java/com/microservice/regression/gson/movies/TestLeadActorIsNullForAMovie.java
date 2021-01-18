@@ -82,7 +82,7 @@ public class TestLeadActorIsNullForAMovie {
     
                 long actor3Count = getJsonStream(movie, CAST)
                         .filter(cast -> !isActorNull(cast, ACTOR3))
-                        .peek(venue -> log.info("actor3 is %s for movieTitle: {}", actor3, movieTitle))
+                        .peek(venue -> log.info("actor3 is {} for movieTitle: {}", actor3, movieTitle))
                         .count();
     
     

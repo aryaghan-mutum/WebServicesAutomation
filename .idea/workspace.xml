@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1993f491-8c89-4875-8b35-9fa2a99541d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/PostResponseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/BaseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/pojo/services/BaseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/pojo/services/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/pojo/services/MovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/JsonPayloadWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/JsonPayloadWorkflow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/JsonWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/JsonWorkflow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microservice/workflows/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountriesByContinent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/countries/TestCountriesByContinent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDirectorAndProducerAreSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDirectorAndProducerAreSame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLanguageIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLanguageIsNullForAMovie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMoviesReleasedLessThan40Years.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMoviesReleasedLessThan40Years.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/PostResponseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/PostResponseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +34,17 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WebServicesAutomation" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WebServicesAutomation" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -112,7 +106,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/microservice/service" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestDays.testDayIsNullOrEmptyOrMissingForMovies">
+  <component name="RunManager" selected="Gradle.PostResponseTest.testPostResponse">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -125,50 +119,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoviesPojoTest.testMoviesPojo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.pojo.MoviesPojoTest.testMoviesPojo&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="PostResponseTest.testPostResponse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.microservice.regression.gson.PostResponseTest.testPostResponse&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RestAssuredPostTests.testAllLastNames" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.post.RestAssuredPostTests.testAllLastNames&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCountriesByContinent.testCountriesCountForAlContinents" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.gson.countries.TestCountriesByContinent.testCountriesCountForAlContinents&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -201,12 +176,31 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'com.microservice.regression.restassured'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestDirectorAndProducerAreSame.testDirectorAndProducerAreSameForAMovie" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.restassured.*&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.gson.movies.TestDirectorAndProducerAreSame.testDirectorAndProducerAreSameForAMovie&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestNullValuesForCountryNamesAndDensity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.microservice.regression.gson.countries.TestNullValuesForCountryNamesAndDensity&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -247,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestDays.testDayIsNullOrEmptyOrMissingForMovies" />
-        <item itemvalue="Gradle.TestCountriesByContinent.testCountriesCountForAlContinents" />
         <item itemvalue="Gradle.PostResponseTest.testPostResponse" />
-        <item itemvalue="Gradle.Tests in 'com.microservice.regression.restassured'" />
-        <item itemvalue="Gradle.RestAssuredPostTests.testAllLastNames" />
+        <item itemvalue="Gradle.TestDirectorAndProducerAreSame.testDirectorAndProducerAreSameForAMovie" />
+        <item itemvalue="Gradle.TestDays.testDayIsNullOrEmptyOrMissingForMovies" />
+        <item itemvalue="Gradle.MoviesPojoTest.testMoviesPojo" />
+        <item itemvalue="Gradle.TestNullValuesForCountryNamesAndDensity" />
       </list>
     </recent_temporary>
   </component>
@@ -404,38 +398,38 @@
       <screen x="0" y="23" width="1366" height="677" />
     </state>
     <state x="241" y="80" key="DiffContextDialog/0.23.1366.677@0.23.1366.677" timestamp="1604448562351" />
-    <state width="1324" height="239" key="GridCell.Tab.0.bottom" timestamp="1610937812691">
+    <state width="1324" height="222" key="GridCell.Tab.0.bottom" timestamp="1610939036427">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="239" key="GridCell.Tab.0.bottom/0.23.1366.677@0.23.1366.677" timestamp="1610937812691" />
-    <state width="1324" height="239" key="GridCell.Tab.0.center" timestamp="1610937812689">
+    <state width="1324" height="222" key="GridCell.Tab.0.bottom/0.23.1366.677@0.23.1366.677" timestamp="1610939036427" />
+    <state width="1324" height="222" key="GridCell.Tab.0.center" timestamp="1610939036426">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="239" key="GridCell.Tab.0.center/0.23.1366.677@0.23.1366.677" timestamp="1610937812689" />
-    <state width="1324" height="239" key="GridCell.Tab.0.left" timestamp="1610937812689">
+    <state width="1324" height="222" key="GridCell.Tab.0.center/0.23.1366.677@0.23.1366.677" timestamp="1610939036426" />
+    <state width="1324" height="222" key="GridCell.Tab.0.left" timestamp="1610939036425">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="239" key="GridCell.Tab.0.left/0.23.1366.677@0.23.1366.677" timestamp="1610937812689" />
-    <state width="1324" height="239" key="GridCell.Tab.0.right" timestamp="1610937812690">
+    <state width="1324" height="222" key="GridCell.Tab.0.left/0.23.1366.677@0.23.1366.677" timestamp="1610939036425" />
+    <state width="1324" height="222" key="GridCell.Tab.0.right" timestamp="1610939036427">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="239" key="GridCell.Tab.0.right/0.23.1366.677@0.23.1366.677" timestamp="1610937812690" />
-    <state width="1324" height="239" key="GridCell.Tab.1.bottom" timestamp="1610937812693">
+    <state width="1324" height="222" key="GridCell.Tab.0.right/0.23.1366.677@0.23.1366.677" timestamp="1610939036427" />
+    <state width="1324" height="222" key="GridCell.Tab.1.bottom" timestamp="1610939036217">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="239" key="GridCell.Tab.1.bottom/0.23.1366.677@0.23.1366.677" timestamp="1610937812693" />
-    <state width="1324" height="239" key="GridCell.Tab.1.center" timestamp="1610937812692">
+    <state width="1324" height="222" key="GridCell.Tab.1.bottom/0.23.1366.677@0.23.1366.677" timestamp="1610939036217" />
+    <state width="1324" height="222" key="GridCell.Tab.1.center" timestamp="1610939036216">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="239" key="GridCell.Tab.1.center/0.23.1366.677@0.23.1366.677" timestamp="1610937812692" />
-    <state width="1324" height="239" key="GridCell.Tab.1.left" timestamp="1610937812691">
+    <state width="1324" height="222" key="GridCell.Tab.1.center/0.23.1366.677@0.23.1366.677" timestamp="1610939036216" />
+    <state width="1324" height="222" key="GridCell.Tab.1.left" timestamp="1610939036215">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="239" key="GridCell.Tab.1.left/0.23.1366.677@0.23.1366.677" timestamp="1610937812691" />
-    <state width="1324" height="239" key="GridCell.Tab.1.right" timestamp="1610937812693">
+    <state width="1324" height="222" key="GridCell.Tab.1.left/0.23.1366.677@0.23.1366.677" timestamp="1610939036215" />
+    <state width="1324" height="222" key="GridCell.Tab.1.right" timestamp="1610939036216">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="239" key="GridCell.Tab.1.right/0.23.1366.677@0.23.1366.677" timestamp="1610937812693" />
+    <state width="1324" height="222" key="GridCell.Tab.1.right/0.23.1366.677@0.23.1366.677" timestamp="1610939036216" />
     <state x="325" y="71" key="RollbackChangesDialog" timestamp="1604459510491">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
@@ -452,17 +446,17 @@
       <screen x="0" y="23" width="1366" height="677" />
     </state>
     <state x="305" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1366.677@0.23.1366.677" timestamp="1604427340774" />
-    <state x="390" y="87" width="616" height="548" key="find.popup" timestamp="1610937822575">
+    <state x="390" y="87" width="616" height="548" key="find.popup" timestamp="1610938835664">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state x="390" y="87" width="616" height="548" key="find.popup/0.23.1366.677@0.23.1366.677" timestamp="1610937822575" />
+    <state x="390" y="87" width="616" height="548" key="find.popup/0.23.1366.677@0.23.1366.677" timestamp="1610938835664" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java</url>
-          <line>45</line>
+          <line>44</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -472,7 +466,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestLeadActorIsNullForAMovie.java</url>
-          <line>93</line>
+          <line>92</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -506,28 +500,23 @@
           <option name="timeStamp" value="213" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDays.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="214" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieReleasedState.java</url>
-          <line>50</line>
+          <line>51</line>
           <option name="timeStamp" value="223" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieReleasedStateAndMoviePrice.java</url>
-          <line>62</line>
+          <line>63</line>
           <option name="timeStamp" value="229" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieReleasedStateAndMoviePrice.java</url>
-          <line>57</line>
+          <line>58</line>
           <option name="timeStamp" value="230" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieReleasedStateAndMoviePrice.java</url>
-          <line>69</line>
+          <line>70</line>
           <option name="timeStamp" value="231" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -550,7 +539,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestMovieReleasedState.java</url>
-          <line>89</line>
+          <line>90</line>
           <option name="timeStamp" value="236" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -565,13 +554,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/restassured/post/RestAssuredPostTests.java</url>
-          <line>34</line>
+          <line>28</line>
           <option name="timeStamp" value="252" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/movies/TestDays.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="259" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/PostResponseTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/microservice/regression/gson/PostResponseTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="263" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
